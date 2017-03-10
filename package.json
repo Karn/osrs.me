@@ -1,12 +1,26 @@
 {
   "name": "osrs-api",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "A opensource application geared to providing tools for the OSRS community.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "engines": {
+    "node": ">= 4.4.5",
+    "npm": ">= 1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karn/osrs-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Karn/osrs-tools/issues"
+  },
+  "homepage": "https://github.com/Karn/osrs-tools#readme",
+  "author": "Karn Saheb",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.6",
