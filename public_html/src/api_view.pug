@@ -1,0 +1,21 @@
+doctype html
+html
+    include ./includes/header.pug
+
+    body
+        section
+            article
+                header(id="api-endpoint") Endpoint
+                
+                code #{api_endpoint}
+
+            article
+                header(id="api-query") GraphQL Schema
+                
+                code #{api_query}
+
+            article
+                header(id="api-response") Response
+                
+                code #{api_response}
+                    

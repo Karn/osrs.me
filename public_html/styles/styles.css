@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+}
+
+:focus { outline: 0; }
+
+body {
+    font-family: 'Roboto Mono', serif;
+    color: #919191;
+    background: #fff;
+    padding: 4em;
+    width: auto;
+    max-width: 968px; }
+
+a { color: lightslategray; text-decoration: none;}
+    
+a:hover { color: dimgray }
+            
+h1, h2, h3, h4, h5, h6, header {
+    margin: 0 0 0.5rem 0;
+    color: #555;
+}
+
+header {
+    font-size: 1.5em;
+    margin: 0 0 1rem 0;
+}
+
+p {
+    font-size: .75em;
+}
+
+/* 	CONTENT */
+section, article {
+    margin-bottom: 2em;
+}
+
+code {
+    color: #555;
+    background-color: #efefef;
+    border-radius: 2px;
+    margin: 0.5em 0;
+    overflow: hidden;
+    white-space: pre;
+    padding: 0.5em;
+    display: block;
+    white-space: pre;
+}
+
+/* TABLE */
+table {
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 75%;
+}
+
+th {
+    font-weight: bold;
+    background-color: #efefef;
+    color: #555;
+}
+
+th, td {
+    padding: 0.5em !important;
+    border: 1px #ddd solid;
+}

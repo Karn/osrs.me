@@ -1,0 +1,92 @@
+doctype html
+html
+    include ./includes/header.pug
+
+    body
+        section
+            article
+                header(id="introduction") Introduction
+
+                p Welcome to the unofficial OSRS API! Below you will find endpoints which provide all sorts of data.
+
+            article
+                header(id="api") API
+
+                p Complete raw Graph request.
+                code /api/item?g=[raw_QL]
+
+                p Complete raw graph request with a preset
+                code /api/item?id=[item_id]&amp;preset=[preset]
+
+                h5 Query Presets
+                table
+                    tr
+                        th Preset
+                        th Response
+                    tr
+                        td default
+                        td id, name, description
+                    tr
+                        td extended
+                        td id, name, description, type, members, quest_item, tradeable, stackable, weight
+                    tr
+                        td full
+                        td id, name, description, type, members, quest_item, tradeable, stackable, weight, stats
+
+                h5 Response fields
+                table
+                    tr
+                        th Field
+                        th Type
+                        th Description
+                        th Notes
+                    tr
+                        td id
+                        td Integer
+                        td
+                        td
+                    tr
+                        td name
+                        td String
+                        td
+                        td
+                    tr
+                        td description
+                        td String
+                        td
+                        td
+                    tr
+                        td type
+                        td String
+                        td
+                        td
+                    tr
+                        td members
+                        td Boolean
+                        td
+                        td
+                    tr
+                        td quest_item
+                        td Boolean
+                        td
+                        td
+                    tr
+                        td tradeable
+                        td Boolean
+                        td
+                        td
+                    tr
+                        td stackable
+                        td Boolean
+                        td
+                        td
+                    tr
+                        td weight
+                        td Integer
+                        td
+                        td
+
+            article
+                header(id="contribute") Contribute
+
+                           

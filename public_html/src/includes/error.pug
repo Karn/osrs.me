@@ -1,0 +1,9 @@
+doctype html
+html
+    include header.pug
+		
+    body
+        section
+            h1 #{code ? code : 500}
+            h6 #{message ? message : 'Internal server error.'}
+            a(href='/') Take me home.
