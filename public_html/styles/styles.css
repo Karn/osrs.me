@@ -26,6 +26,10 @@ body {
     width: auto;
     max-width: 968px; }
 
+.flex {
+    display: flex;
+}
+
 a { color: lightslategray; text-decoration: none;}
     
 a:hover { color: dimgray }
@@ -59,6 +63,7 @@ code {
     padding: 0.5em;
     display: block;
     white-space: pre;
+    width: 100%;
 }
 
 /* TABLE */
@@ -78,4 +83,24 @@ th {
 th, td {
     padding: 0.5em !important;
     border: 1px #ddd solid;
+}
+
+/* BUTTON */
+button, input[type="submit"], input[type="reset"], input[type="button"] {
+    display: inline-block;
+    margin: 0.5em 0;
+    width: 10em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #555;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+button:hover, input[type="submit"]:hover , input[type="reset"]:hover , input[type="button"]:hover {
+    background-color: #444;
 }

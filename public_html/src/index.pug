@@ -10,13 +10,24 @@ html
                 p Welcome to the unofficial OSRS API! Below you will find endpoints which provide all sorts of data.
 
             article
-                header(id="api") API
+                header(id="getting-started") Getting started
 
+                p The API requires that to recieve raw data, one must include the following request header.
+                code X-REQUEST-RAW: [timestamp (ms)]
+
+            article
+                header(id="api-items") API: Items
+
+                h5 Endpoint(s)
                 p Complete raw Graph request.
-                code /api/item?g=[raw_QL]
+                .flex
+                    code /api/item?g=[raw_QL] 
+                    button(onclick="window.location.href='/api/items?g={item(ids: [0]){id name description}}'") Try it!
 
                 p Complete raw graph request with a preset
-                code /api/item?id=[item_id]&amp;preset=[preset]
+                .flex
+                    code /api/item?id=[item_id]&amp;preset=[preset]
+                    button(onclick="window.location.href='/api/items?ids=0&preset=extended'") Try it!
 
                 h5 Query Presets
                 table
@@ -39,52 +50,42 @@ html
                         th Field
                         th Type
                         th Description
-                        th Notes
                     tr
                         td id
                         td Integer
-                        td
-                        td
+                        td The unique id of the item as an Integer.
                     tr
                         td name
                         td String
-                        td
-                        td
+                        td Name of the item.
                     tr
                         td description
                         td String
-                        td
-                        td
+                        td Description of item as seen with the 'Examine' action in-game.
                     tr
                         td type
                         td String
-                        td
-                        td
+                        td The equipment slot in which the item goes into or just 'item' if not equippable.
                     tr
                         td members
                         td Boolean
-                        td
-                        td
+                        td True if the item is members only.
                     tr
                         td quest_item
                         td Boolean
-                        td
-                        td
+                        td Indicates that the item is part of a quest.
                     tr
                         td tradeable
                         td Boolean
-                        td
-                        td
+                        td True if item is tradeable between players.
                     tr
                         td stackable
                         td Boolean
-                        td
-                        td
+                        td Indicates that the item can be represented in 'noted' form.
                     tr
                         td weight
                         td Integer
-                        td
-                        td
+                        td The weight of the item as seen in the equipment interface.
 
             article
                 header(id="contribute") Contribute

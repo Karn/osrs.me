@@ -113,6 +113,12 @@ app.get('/api/items', (req, res) => {
   }
 
   graphql(schema, query, root).then((response) => {
+
+    if (req.get("X-REQUEST-RAW")) {
+      res.send(response.data);
+      return;
+    }
+
     res.render('public_html/src/api_view.pug', {
       'page_title': 'Request browser',
       'api_endpoint': req.path,
