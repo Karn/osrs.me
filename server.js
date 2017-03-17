@@ -1,51 +1,24 @@
+'use strict';
+
+/**
+ * External imports
+ */
 var express = require('express');
 var { parse, print, graphql, buildSchema } = require('graphql');
-
 var pug = require('pug');
 
+/**
+ * Internal imports
+ */
+var SchemaFactory = require('./src/gql/schema');
+
+/**
+ * Data imports
+ */
 var dataItems = require('./data/items.json');
 
 // Construct a schema, using GraphQL schema language
-var schema = buildSchema(`
-  type Stats {
-    stab: Int
-    slash: Int
-    crush: Int
-    magic: Int
-    range: Int
-  }
-
-  type Bonus {
-    strength: Int
-    range_strength: Int
-    magic_strength: Int
-    prayer: Int
-  }
-
-  type CombinedStats {
-    attack: Stats
-    defence: Stats
-    bonus: Bonus
-  }
-
-  type Item {
-    id: Int
-    type: String
-    name: String
-    description: String
-    members: Boolean
-    quest_item: Boolean
-    tradeable: Boolean
-    stackable: Boolean
-    weight: Int
-    stats: CombinedStats
-  }
-
-  type Query {
-    item(ids: [Int]!): [Item]
-    npc: String
-  }
-`);
+var schema = buildSchema(SchemaFactory.getDefaultSchema());
 
 // The root provides a resolver function for each API endpoint
 var root = {
@@ -113,10 +86,9 @@ app.get('/api/items', (req, res) => {
   }
 
   graphql(schema, query, root).then((response) => {
-
-    if (req.get("X-REQUEST-RAW")) {
+    if (req.get("X-REQUEST-RAW") === true) {
       res.send(response.data);
-      return;
+      return; 
     }
 
     res.render('public_html/src/api_view.pug', {

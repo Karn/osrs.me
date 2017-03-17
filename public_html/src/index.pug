@@ -8,18 +8,33 @@ html
                 header(id="introduction") Introduction
 
                 p Welcome to the unofficial OSRS API! Below you will find endpoints which provide all sorts of data.
+                p The API functions using the 
+                    a(href="http://graphql.org/learn/") Graph Query Language (GraphQL) 
+                    | which allows flexibility in what data is requested/recieved with each api request.
+                p The API is 
+                    a(href="#contribute") available on GitHub 
+                    | and can be forked and deployed locally or to a server.
 
             article
                 header(id="getting-started") Getting started
 
-                p The API requires that to recieve raw data, one must include the following request header.
-                code X-REQUEST-RAW: [timestamp (ms)]
+                p You can use a tool such as 
+                    a(href="https://www.getpostman.com/") Postman 
+                    | to play around with the API. Remember to use the requests sparingly as the API server is running on limited resources.
+
+                br
+
+                p API base url
+                code http://osrs.me/api/
+
+                p To recieve raw data, a request must include the following request header.
+                code X-REQUEST-RAW: true
 
             article
                 header(id="api-items") API: Items
 
                 h5 Endpoint(s)
-                p Complete raw Graph request.
+                p Complete raw graph request.
                 .flex
                     code /api/item?g=[raw_QL] 
                     button(onclick="window.location.href='/api/items?g={item(ids: [0]){id name description}}'") Try it!
@@ -89,5 +104,21 @@ html
 
             article
                 header(id="contribute") Contribute
+
+                p Visit the 
+                    a(href="https://github.com/Karn/OSRS.API/") GitHub Repositiory 
+                    | to get started contributing, or 
+                    a(href="https://github.com/Karn/OSRS.API/issues") submit bugs 
+                    | and help improve the performance/dataset.
+
+            article
+                header(id="acknowledgements") Acknowledgements
+
+                ul
+                    li
+                        a(href="http://services.runescape.com/m=itemdb_oldschool/") OldSchool RuneScape: Items/icons
+                    li
+                        a(href="https://2007.runescape.wikia.com") 2007Scape Wiki: Extended item data
+
 
                            

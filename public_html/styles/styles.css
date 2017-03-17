@@ -30,9 +30,9 @@ body {
     display: flex;
 }
 
-a { color: lightslategray; text-decoration: none;}
+a { color: #F15847; text-decoration: none;}
     
-a:hover { color: dimgray }
+a:hover { color: #A61413; }
             
 h1, h2, h3, h4, h5, h6, header {
     margin: 0 0 0.5rem 0;
@@ -64,6 +64,13 @@ code {
     display: block;
     white-space: pre;
     width: 100%;
+}
+
+/* LISTS */
+ul {
+    list-style-position: inside;
+    font-size: .75em;
+    margin: 0.5rem;
 }
 
 /* TABLE */
