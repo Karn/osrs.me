@@ -14,7 +14,7 @@ var APIRouter = require('./src/routes/router')
 /**
  * Pseudo-class container.
  */
-var _Server = _Server = {};
+var _Server = _Server || {};
 
 // Setup express
 _Server.ExpressRouter = express();
