@@ -65,6 +65,7 @@ _APIRouter.itemsRoute = {
         }
 
         graphql(schema, query, GQLRouter.getRoot()).then((response) => {
+            // Only return raw data if the correct header is present.
             if (req.get("X-REQUEST-RAW") === 'true') {
                 res.send(response.data);
                 return;
@@ -82,10 +83,16 @@ _APIRouter.itemsRoute = {
 
 
 module.exports = {
+    /**
+     * Exposes generic routes.
+     */
     getGeneric: () => {
         return _APIRouter.generic;
     },
 
+    /**
+     * Exposes routes specific to item data.
+     */
     getItems: () => {
         return _APIRouter.itemsRoute;
     }
