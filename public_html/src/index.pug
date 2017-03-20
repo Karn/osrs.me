@@ -11,7 +11,7 @@ html
                 p The API functions using the 
                     a(href="http://graphql.org/learn/") Graph Query Language (GraphQL) 
                     | which allows flexibility in what data is requested/recieved with each api request.
-                p The API is built with JavaScript (Node) and is
+                p The API is built with JavaScript (Node) and is 
                     a(href="#contribute") available on GitHub 
                     | and can be forked and deployed locally or to a server.
 
@@ -33,18 +33,18 @@ html
             article
                 header(id="api-items") API: Items
 
-                h5 Endpoint(s)
+                h4 Endpoint(s)
                 p Complete raw graph request.
                 .flex
-                    code /api/item?g=[raw_QL] 
+                    code /item?g=[raw_QL] 
                     button(onclick="window.location.href='/api/items?g={item(ids: [0]){id name description}}'") Try it!
 
                 p Complete graph request with a preset.
                 .flex
-                    code /api/item?id=[item_id]&amp;preset=[preset]
+                    code /item?id=[item_id]&amp;preset=[preset]
                     button(onclick="window.location.href='/api/items?ids=0&preset=extended'") Try it!
 
-                h5 Query Presets
+                h4 Query Presets
                 table
                     tr
                         th Preset
@@ -59,7 +59,7 @@ html
                         td full
                         td id, name, description, type, members, quest_item, tradeable, stackable, weight, stats
 
-                h5 Response fields
+                h4 Response fields
                 table
                     tr
                         th Field
