@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Raleway:400,700');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -7,7 +7,7 @@ del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td, :focus {
     margin: 0;
     padding: 0;
     border: 0;
@@ -16,29 +16,62 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
 }
 
-:focus { outline: 0; }
+html {
+    min-height: 100%;
+    background-color: #292F3D;
+}
 
 body {
-    font-family: 'Roboto Mono', serif;
-    color: #919191;
-    background: #fff;
-    padding: 4em;
-    width: auto;
-    max-width: 968px; 
-    font-size: 1em;
+    position: relative;
+    padding-top: 59px;
+    min-height: 100%;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #0F0F0F;
+    background: url(./../img/bottom.png) center bottom repeat-x,
+                url(./../img/repeat.jpg);
 }
 
 .flex {
     display: flex;
 }
 
-a { color: #F15847; text-decoration: none;}
+a { color: #897441; font-weight: bold; text-decoration: none;}
     
-a:hover { color: #A61413; }
+a:hover { color: #A68B4E; }
             
 h1, h2, h3, h4, h5, h6, header {
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-weight: bold;
     margin: 1rem 0 0.5rem 0;
-    color: #555;
+    color: #897441;
+}
+
+.py6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.content {
+    padding: 0 4em;
+    width: auto;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 59px;
+    background-color: #25231C;
+    background: url('./../img/header.png') no-repeat left top,
+        url('./../img/header.png') no-repeat right center,
+        url('./../img/header.png') repeat-x center bottom;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 header {
@@ -47,6 +80,17 @@ header {
 }
 
 /* 	CONTENT */
+.hero {
+    background: url() center;
+    height: 0rem;
+    box-shadow: inset 0 -30px 50px -30px black;
+}
+
+.card {
+    padding: 2rem;
+    box-shadow: 0 4px -8px 0 rgba(0, 0, 0, 0.2);
+}
+
 section, article {
     margin-bottom: 2em;
 }
@@ -81,13 +125,13 @@ table {
 
 th {
     font-weight: bold;
-    background-color: #efefef;
-    color: #555;
+    background-color: #222836;
+    color: #F0F0F0;
 }
 
 th, td {
     padding: 0.5em !important;
-    border: 1px #ddd solid;
+    border: 1px #222836 solid;
 }
 
 /* BUTTON */

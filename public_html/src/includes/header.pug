@@ -1,11 +1,9 @@
 head
-    title= 'OSRS API' + (page_title ? ' | ' + page_title : '')
+    title= 'OSRS.me' + (page_title ? ' | ' + page_title : '')
 
     link(rel='stylesheet' href='/styles/styles.css')
 
-body
-    header
-        section
-            h2
-                a(href='/') OSRS API
-                h6(onclick="window.location.reload()")= page_title ? '↳' + page_title : ''
+nav
+    .content
+        h2
+            img(src='/img/osrs.png' height='30px' width='auto')
