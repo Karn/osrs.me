@@ -4,31 +4,36 @@ html
 
     body
         .hero
+        
+        .cap-stone
 
-        .content
-            section.py6
-                article
-                    header(id='main-nav') API
+        .content-bg
+            .content
+                section.py6
+                    article
+                        header(id='main-nav') API
 
-                    .tiles
-                        .half.tile(onclick='window.location.href = "/items"')
-                            img(src='./../img/repeat.jpg')
-                            .caption
-                                h3.title Item API
-                                p.description A fully featured item API powered by GraphQL.
-                        .half.tile
-                            img(src='./../img/repeat.jpg')
-                            .caption
-                                h3.title NPC API
-                                p.description NPC data at your figertips; powered by GraphQL.
-                    .tiles
-                        .half.tile
-                            img(src='./../img/repeat.jpg')
-                            .caption
-                                h3.title NPC API
-                                p.description NPC data at your figertips; powered by GraphQL.
-                        .half.tile
-                            img(src='./../img/repeat.jpg')
-                            .caption
-                                h3.title NPC API
-                                p.description NPC data at your figertips; powered by GraphQL.
+                        .tiles
+                            .half.tile(onclick='window.location.href = "/items"')
+                                .img
+                                .caption
+                                    h3.title Item API
+                                    p.description A fully featured item API powered by GraphQL.
+                            .half.tile
+                                .img
+                                .caption
+                                    h3.title NPC API
+                                    p.description NPC data at your figertips; powered by GraphQL.
+                        .tiles
+                            .half.tile
+                                .img
+                                .caption
+                                    h3.title NPC API
+                                    p.description NPC data at your figertips; powered by GraphQL.
+                            .half.tile
+                                .img
+                                .caption
+                                    h3.title NPC API
+                                    p.description NPC data at your figertips; powered by GraphQL.
+
+    include ./includes/footer.pug

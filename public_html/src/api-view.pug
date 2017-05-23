@@ -3,20 +3,22 @@ html
     include ./includes/header.pug
 
     body
-        .content
-            section.py6
-                article
-                    header(id="api-endpoint") Endpoint
-                    
-                    code #{api_endpoint}
+        .content-bg
+            .content
+                section.py6
+                    article
+                        header(id="api-endpoint") Endpoint
+                        
+                        code #{api_endpoint}
 
-                article
-                    header(id="api-query") GraphQL Schema
-                    
-                    code #{api_query}
+                    article
+                        header(id="api-query") GraphQL Schema
+                        
+                        code #{api_query}
 
-                article
-                    header(id="api-response") Response
-                    
-                    code #{api_response}
-                    
+                    article
+                        header(id="api-response") Response
+                        
+                        code #{api_response}
+
+    include ./includes/footer.pug

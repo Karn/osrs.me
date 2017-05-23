@@ -29,8 +29,6 @@ body {
     font-size: 1rem;
     line-height: 1.25rem;
     color: #0F0F0F;
-    background: url(./../img/bottom.png) center bottom repeat-x,
-                url(./../img/repeat.jpg);
 }
 
 .flex {
@@ -52,6 +50,11 @@ h1, h2, h3, h4, h5, h6, header {
     color: #897441;
 }
 
+.py2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .pt6 {
     padding-top: 6rem;
 }
@@ -63,6 +66,12 @@ h1, h2, h3, h4, h5, h6, header {
 .py6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+}
+
+.content-bg {
+    min-height: 100%;
+    background: url(./../img/bottom.png) center bottom repeat-x,
+                url(./../img/repeat.jpg);
 }
 
 .content {
@@ -79,7 +88,8 @@ nav {
     right: 0;
     top: 0;
     z-index: 100;
-    height: 59px;
+    height: 58px;
+    color: white;
     background-color: #222836;
     background: url(./../img/header.png) no-repeat left top,
         url(./../img/header.png) no-repeat right center,
@@ -87,9 +97,26 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
+footer {
+    color: white;
+}
+
+.cap-stone {
+    margin-top: -58px;
+    width: 100%;
+    background-color: transparent;
+    height: 58px;
+    background: url(./../img/capstone.png) no-repeat left top,
+        url(./../img/capstone.png) no-repeat right center,
+        url(./../img/capstone.png) repeat-x center bottom;
+}
+
 header {
-    font-size: 1.5em;
+    text-align: center;
+    font-size: 3em;
     margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted darkgray;
 }
 
 /* 	CONTENT */
@@ -114,8 +141,17 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
-.tile img {
-    min-height: 10rem;
+.tile .img {
+    background: url(./../img/tile-bg-default.png);
+    background-size: cover;
+    opacity: 0.85;
+    width: 100%;
+    height: 10rem;
+    box-shadow: inset 0 -30px 50px -30px rgba(0, 0, 0, 0.1);
+}
+
+.tile:hover .img {
+    opacity: 1;
 }
 
 .tile .caption {
