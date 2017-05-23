@@ -26,8 +26,8 @@ body {
     padding-top: 59px;
     min-height: 100%;
     font-family: 'Raleway', Arial, sans-serif;
-    font-size: 1.25rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
     color: #0F0F0F;
     background: url(./../img/bottom.png) center bottom repeat-x,
                 url(./../img/repeat.jpg);
@@ -41,11 +41,23 @@ a { color: #897441; font-weight: bold; text-decoration: none;}
     
 a:hover { color: #A68B4E; }
             
+[onclick] {
+    cursor: pointer;
+}
+
 h1, h2, h3, h4, h5, h6, header {
     font-family: 'Cinzel', 'Times New Roman', serif;
     font-weight: bold;
     margin: 1rem 0 0.5rem 0;
     color: #897441;
+}
+
+.pt6 {
+    padding-top: 6rem;
+}
+
+.pb6 {
+    padding-bottom: 6rem;
 }
 
 .py6 {
@@ -66,11 +78,12 @@ nav {
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 100;
     height: 59px;
-    background-color: #25231C;
-    background: url('./../img/header.png') no-repeat left top,
-        url('./../img/header.png') no-repeat right center,
-        url('./../img/header.png') repeat-x center bottom;
+    background-color: #222836;
+    background: url(./../img/header.png) no-repeat left top,
+        url(./../img/header.png) no-repeat right center,
+        url(./../img/header.png) repeat-x center bottom;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -81,14 +94,40 @@ header {
 
 /* 	CONTENT */
 .hero {
-    background: url() center;
-    height: 0rem;
+    background: url(./../img/hero.jpg) top left fixed no-repeat;
+    background-size: contain;
+    height: 30rem;
     box-shadow: inset 0 -30px 50px -30px black;
 }
 
-.card {
-    padding: 2rem;
-    box-shadow: 0 4px -8px 0 rgba(0, 0, 0, 0.2);
+/* Switch to scroll */
+.tiles {
+    display: flex;
+}
+
+.tile {
+    border: 1px solid #A68B4E;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tile:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tile img {
+    min-height: 10rem;
+}
+
+.tile .caption {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+}
+
+/* TODO: responsive */
+.half {
+    margin: 0.5rem;
+    position: relative;
+    width: 50%;
 }
 
 section, article {

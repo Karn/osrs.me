@@ -33,9 +33,14 @@ var schema = SchemaFactory.getDefaultSchema();
 
 _APIRouter.generic = {
     getDefault: (req, res) => {
-        res.render('public_html/src/index.pug', {
+        res.render('./public_html/src/index.pug', {
             'page_title': ''
         });
+    },
+    getItemAPI: (req, res) => {
+        res.render('./public_html/src/item-api.pug'), {
+            'page_title': 'Item API'
+        }
     }
 }
 
@@ -71,7 +76,7 @@ _APIRouter.itemsRoute = {
                 return;
             }
 
-            res.render('public_html/src/api_view.pug', {
+            res.render('public_html/src/api-view.pug', {
                 'page_title': 'Request browser',
                 'api_endpoint': req.path,
                 'api_query': print(parse(query)),

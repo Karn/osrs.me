@@ -1,0 +1,125 @@
+doctype html
+html
+    include ./includes/header.pug
+
+    body
+        .content
+            section.py6
+                article
+                    header(id="introduction") Introduction
+
+                    p Welcome to the unofficial OSRS API! Below you will find endpoints which provide all sorts of data.
+                    p The API functions using the 
+                        a(href="http://graphql.org/learn/") Graph Query Language (GraphQL) 
+                        | which allows flexibility in what data is requested/recieved with each api request.
+                    p The API is built with JavaScript (Node) and is 
+                        a(href="#contribute") available on GitHub 
+                        | and can be forked and deployed locally or to a server.
+
+                article
+                    header(id="getting-started") Getting started
+
+                    p You can use a tool such as 
+                        a(href="https://www.getpostman.com/") Postman 
+                        | to play around with the API. Remember to use the requests sparingly as the API server is running on limited resources.
+
+                    br
+
+                    p API base url
+                    code http://osrs.me/api/
+
+                    p To recieve raw data, a request must include the following request header.
+                    code X-REQUEST-RAW: true
+
+                article
+                    header(id="api-items") API: Items
+
+                    h4 Endpoint(s)
+                    p Complete raw graph request.
+                    .flex
+                        code /item?g=[raw_QL] 
+                        button(onclick="window.location.href='/api/items?g={item(ids: [0]){id name description}}'") Try it!
+
+                    p Complete graph request with a preset.
+                    .flex
+                        code /item?id=[item_id]&amp;preset=[preset]
+                        button(onclick="window.location.href='/api/items?ids=0&preset=extended'") Try it!
+
+                    h4 Query Presets
+                    table
+                        tr
+                            th Preset
+                            th Response
+                        tr
+                            td default
+                            td id, name, description
+                        tr
+                            td extended
+                            td id, name, description, type, members, quest_item, tradeable, stackable, weight
+                        tr
+                            td full
+                            td id, name, description, type, members, quest_item, tradeable, stackable, weight, stats
+
+                    h4 Response fields
+                    table
+                        tr
+                            th Field
+                            th Type
+                            th Description
+                        tr
+                            td id
+                            td Integer
+                            td The unique id of the item as an Integer.
+                        tr
+                            td name
+                            td String
+                            td Name of the item.
+                        tr
+                            td description
+                            td String
+                            td Description of item as seen with the 'Examine' action in-game.
+                        tr
+                            td type
+                            td String
+                            td The equipment slot in which the item goes into or just 'item' if not equippable.
+                        tr
+                            td members
+                            td Boolean
+                            td True if the item is members only.
+                        tr
+                            td quest_item
+                            td Boolean
+                            td Indicates that the item is part of a quest.
+                        tr
+                            td tradeable
+                            td Boolean
+                            td True if item is tradeable between players.
+                        tr
+                            td stackable
+                            td Boolean
+                            td Indicates that the item can be represented in 'noted' form.
+                        tr
+                            td weight
+                            td Integer
+                            td The weight of the item as seen in the equipment interface.
+
+                article
+                    header(id="contribute") Contribute
+
+                    p Visit the 
+                        a(href="https://github.com/Karn/OSRS.API/") GitHub Repositiory 
+                        | to get started contributing, or 
+                        a(href="https://github.com/Karn/OSRS.API/issues") submit bugs 
+                        | and help improve the performance/dataset.
+
+                article
+                    header(id="acknowledgements") Acknowledgements
+
+                    ul
+                        li
+                            a(href="http://services.runescape.com/m=itemdb_oldschool/") OldSchool RuneScape: Items/icons
+                        li
+                            a(href="https://2007.runescape.wikia.com") 2007Scape Wiki: Extended item data
+
+
+                            
