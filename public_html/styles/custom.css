@@ -1,0 +1,205 @@
+html {
+    min-height: 100%;
+    background-color: #2A2A2A;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding-top: 58px;
+    font-size: 1rem;
+    color: #0F0F0F;
+}
+
+.flex {
+    display: flex;
+}
+
+[onclick] {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, header {
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-weight: bold;
+    margin: 0.5em 0;
+    color: #897441;
+    line-height: initial;
+}
+
+.py6 {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.content-bg {
+    min-height: 100%;
+    background: url(./../img/bottom.png) center bottom repeat-x,
+                url(./../img/repeat.jpg);
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 58px;
+    color: white;
+    background-color: #222836;
+    background: url(./../img/header.png) no-repeat left top,
+        url(./../img/header.png) no-repeat right center,
+        url(./../img/header.png) repeat-x center bottom;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    vertical-align: middle;
+    margin: 0;
+    height: 58px;
+}
+nav ul li {
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    float: left;
+    line-height: 57px;
+    padding: 0 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+nav ul li:first-child {
+    border: none;
+}
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+footer {
+    color: white;
+}
+
+.cap-stone {
+    margin-top: -58px;
+    width: 100%;
+    background-color: transparent;
+    height: 58px;
+    background: url(./../img/capstone.png) no-repeat left top,
+        url(./../img/capstone.png) no-repeat right center,
+        url(./../img/capstone.png) repeat-x center bottom;
+}
+
+header {
+    text-align: center;
+    font-size: 4em;
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted darkgray;
+}
+
+/* 	CONTENT */
+.hero {
+    background: url(./../img/hero.jpg) top center fixed no-repeat;
+    background-size: cover;
+    height: 30rem;
+    box-shadow: inset 0 -30px 50px -30px black;
+}
+
+/* Switch to scroll */
+.tile {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(42, 42, 42, 0.15);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.tile:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tile .img {
+    display: flex;
+    background: url(./../img/tile-bg-default.png);
+    background-size: cover;
+    opacity: 0.85;
+    width: 100%;
+    height: 10rem;
+    box-shadow: inset 0 -30px 50px -30px rgba(0, 0, 0, 0.1);
+}
+.tile:hover .img {
+    opacity: 1;
+}
+.tile .img img {
+    margin: auto;
+}
+
+.tile .caption {
+    padding: 1rem;
+}
+.tile .caption .title {
+    padding-bottom: 0.15rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px dotted darkgray;
+}
+
+section, article {
+    margin-bottom: 2em;
+}
+
+code {
+    color: #555;
+    background-color: #efefef;
+    border-radius: 2px;
+    margin: 0.5em 0;
+    overflow: hidden;
+    white-space: pre;
+    padding: 0.5em;
+    display: block;
+    white-space: pre;
+    width: 100%;
+}
+
+/* LISTS */
+ul {
+    list-style-position: inside;
+    margin: 0.5rem;
+}
+
+/* TABLE */
+table {
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 75%;
+    margin: 0.5rem 0;
+}
+
+th {
+    font-weight: bold;
+    background-color: #222836;
+    color: #F0F0F0;
+}
+
+th, td {
+    padding: 0.5em !important;
+    border: 1px #222836 solid;
+}
+
+/* BUTTON */
+button, input[type="submit"], input[type="reset"], input[type="button"] {
+    display: inline-block;
+    margin: 0.5em 0;
+    width: 10em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #555;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+button:hover, input[type="submit"]:hover , input[type="reset"]:hover , input[type="button"]:hover {
+    background-color: #444;
+}

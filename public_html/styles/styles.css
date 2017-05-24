@@ -1,230 +1,205 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Raleway:400,700');
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, :focus {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-weight: inherit;
-    vertical-align: baseline;
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
 }
 
+/* For devices larger than 550px */
+@media (min-width: 960px) {
+  .container {
+    width: 80%; }
+  .column,
+  .columns {
+    padding: 0.5rem; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 25%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 50%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+}
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-    min-height: 100%;
-    background-color: #292F3D;
-}
-
+  font-size: 100%; }
 body {
-    position: relative;
-    padding-top: 59px;
-    min-height: 100%;
-    font-family: 'Raleway', Arial, sans-serif;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    color: #0F0F0F;
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-weight: 400;
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #222; }
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
 }
 
-.flex {
-    display: flex;
-}
+p { margin-top: 0; }
 
-a { color: #897441; font-weight: bold; text-decoration: none;}
-    
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a { color: #897441; }
 a:hover { color: #A68B4E; }
-            
-[onclick] {
-    cursor: pointer;
-}
 
-h1, h2, h3, h4, h5, h6, header {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-weight: bold;
-    margin: 1rem 0 0.5rem 0;
-    color: #897441;
-}
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul { list-style: circle inside; }
+ol { list-style: decimal inside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
 
-.py2 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
 
-.pt6 {
-    padding-top: 6rem;
-}
-
-.pb6 {
-    padding-bottom: 6rem;
-}
-
-.py6 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
-
-.content-bg {
-    min-height: 100%;
-    background: url(./../img/bottom.png) center bottom repeat-x,
-                url(./../img/repeat.jpg);
-}
-
-.content {
-    padding: 0 4em;
-    width: auto;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    width: 100%;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 100;
-    height: 58px;
-    color: white;
-    background-color: #222836;
-    background: url(./../img/header.png) no-repeat left top,
-        url(./../img/header.png) no-repeat right center,
-        url(./../img/header.png) repeat-x center bottom;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
-}
-
-footer {
-    color: white;
-}
-
-.cap-stone {
-    margin-top: -58px;
-    width: 100%;
-    background-color: transparent;
-    height: 58px;
-    background: url(./../img/capstone.png) no-repeat left top,
-        url(./../img/capstone.png) no-repeat right center,
-        url(./../img/capstone.png) repeat-x center bottom;
-}
-
-header {
-    text-align: center;
-    font-size: 3em;
-    margin: 0 0 1rem 0;
-    padding-bottom: 1rem;
-    border-bottom: 1px dotted darkgray;
-}
-
-/* 	CONTENT */
-.hero {
-    background: url(./../img/hero.jpg) top left fixed no-repeat;
-    background-size: contain;
-    height: 30rem;
-    box-shadow: inset 0 -30px 50px -30px black;
-}
-
-/* Switch to scroll */
-.tiles {
-    display: flex;
-}
-
-.tile {
-    border: 1px solid #A68B4E;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-}
-
-.tile:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
-}
-
-.tile .img {
-    background: url(./../img/tile-bg-default.png);
-    background-size: cover;
-    opacity: 0.85;
-    width: 100%;
-    height: 10rem;
-    box-shadow: inset 0 -30px 50px -30px rgba(0, 0, 0, 0.1);
-}
-
-.tile:hover .img {
-    opacity: 1;
-}
-
-.tile .caption {
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 1rem;
-}
-
-/* TODO: responsive */
-.half {
-    margin: 0.5rem;
-    position: relative;
-    width: 50%;
-}
-
-section, article {
-    margin-bottom: 2em;
-}
-
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
-    color: #555;
-    background-color: #efefef;
-    border-radius: 2px;
-    margin: 0.5em 0;
-    overflow: hidden;
-    white-space: pre;
-    padding: 0.5em;
-    display: block;
-    white-space: pre;
-    width: 100%;
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+.flex {
+  display: flex;
 }
 
-/* LISTS */
-ul {
-    list-style-position: inside;
-    margin: 0.5rem;
-}
 
-/* TABLE */
-table {
-    text-align: left;
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 75%;
-    margin: 0.5rem 0;
-}
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
 
-th {
-    font-weight: bold;
-    background-color: #222836;
-    color: #F0F0F0;
-}
 
-th, td {
-    padding: 0.5em !important;
-    border: 1px #222836 solid;
-}
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* BUTTON */
-button, input[type="submit"], input[type="reset"], input[type="button"] {
-    display: inline-block;
-    margin: 0.5em 0;
-    width: 10em;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    background-color: #555;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    font-family: inherit;
-    box-sizing: border-box;
-}
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
 
-button:hover, input[type="submit"]:hover , input[type="reset"]:hover , input[type="button"]:hover {
-    background-color: #444;
-}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

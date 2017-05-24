@@ -4,36 +4,30 @@ html
 
     body
         .hero
+            .container
         
-        .cap-stone
+        //.cap-stone
 
         .content-bg
-            .content
+            .container
                 section.py6
                     article
-                        header(id='main-nav') API
+                        header(id='main-nav') Tools
 
-                        .tiles
-                            .half.tile(onclick='window.location.href = "/items"')
-                                .img
-                                .caption
-                                    h3.title Item API
-                                    p.description A fully featured item API powered by GraphQL.
-                            .half.tile
-                                .img
-                                .caption
-                                    h3.title NPC API
-                                    p.description NPC data at your figertips; powered by GraphQL.
-                        .tiles
-                            .half.tile
-                                .img
-                                .caption
-                                    h3.title NPC API
-                                    p.description NPC data at your figertips; powered by GraphQL.
-                            .half.tile
-                                .img
-                                .caption
-                                    h3.title NPC API
-                                    p.description NPC data at your figertips; powered by GraphQL.
+                        .tiles.row
+                            .six.columns
+                                .tile(onclick='window.location.href = "/items"')
+                                    .img
+                                        img(src='./../img/coins.png')
+                                    .caption
+                                        h6.title Item API
+                                        p.description A fully featured item API powered by GraphQL.
+                            .six.columns
+                                .tile
+                                    .img
+                                        img(src='./../img/itemscore.gif')
+                                    .caption
+                                        h6.title Itemscore
+                                        p.description If you're stuck wondering what you need to equip.
 
     include ./includes/footer.pug

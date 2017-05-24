@@ -1,9 +1,19 @@
 head
     title= 'OSRS.me' + (page_title ? ' | ' + page_title : '')
 
+    link(rel='stylesheet' href='/styles/normalize.css')
     link(rel='stylesheet' href='/styles/styles.css')
+    link(rel='stylesheet' href='/styles/custom.css')
 
 nav
-    .content
-        h2
-            img(src='/img/osrs.png' height='30px' width='auto')
+    .container
+        .flex
+            // TODO: Reduce size when user scrolls down
+            img(src='/img/osrs.png' height='60px' width='auto')
+
+            div(style='width: 100%;')
+
+            ul
+                li(onclick='window.location.href = "/"') Home
+                li(onclick='window.location.href = "/items"') API
+                li(onclick='window.location.href = "http://osrshelper.com/achievement_diaries"') Diaries
