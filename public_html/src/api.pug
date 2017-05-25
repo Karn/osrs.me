@@ -7,7 +7,7 @@ html
             .container
                 section.py6
                     article
-                        header(id="introduction") Introduction
+                        h5(id="introduction") Introduction
 
                         p Welcome to the unofficial OSRS API! Below you will find endpoints which provide all sorts of data.
                         p The API functions using the 
@@ -18,7 +18,7 @@ html
                             | and can be forked and deployed locally or to a server.
 
                     article
-                        header(id="getting-started") Getting started
+                        h5(id="getting-started") Getting started
 
                         p You can use a tool such as 
                             a(href="https://www.getpostman.com/") Postman 
@@ -33,9 +33,9 @@ html
                         code X-REQUEST-RAW: true
 
                     article
-                        header(id="api-items") API: Items
+                        h5(id="api-items") API: Items
 
-                        h4 Endpoint(s)
+                        h6 Endpoint(s)
                         p Complete raw graph request.
                         .flex
                             code /item?g=[raw_QL] 
@@ -46,7 +46,7 @@ html
                             code /item?id=[item_id]&amp;preset=[preset]
                             button(onclick="window.location.href='/api/items?ids=0&preset=extended'") Try it!
 
-                        h4 Query Presets
+                        h6 Query Presets
                         table
                             tr
                                 th Preset
@@ -61,7 +61,7 @@ html
                                 td full
                                 td id, name, description, type, members, quest_item, tradeable, stackable, weight, stats
 
-                        h4 Response fields
+                        h6 Response fields
                         table
                             tr
                                 th Field
@@ -105,7 +105,7 @@ html
                                 td The weight of the item as seen in the equipment interface.
 
                     article
-                        header(id="contribute") Contribute
+                        h5(id="contribute") Contribute
 
                         p Visit the 
                             a(href="https://github.com/Karn/OSRS.API/") GitHub Repositiory 
@@ -114,7 +114,7 @@ html
                             | and help improve the performance/dataset.
 
                     article
-                        header(id="acknowledgements") Acknowledgements
+                        h5(id="acknowledgements") Acknowledgements
 
                         ul
                             li

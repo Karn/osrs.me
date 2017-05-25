@@ -38,7 +38,7 @@ _APIRouter.generic = {
         });
     },
     getItemAPI: (req, res) => {
-        res.render('./public_html/src/item-api.pug'), {
+        res.render('./public_html/src/api.pug'), {
             'page_title': 'Item API'
         }
     }

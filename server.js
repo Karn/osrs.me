@@ -25,7 +25,7 @@ _Server.ExpressRouter.set('view engine', 'pug');
 
 // Routes
 _Server.ExpressRouter.get('/', APIRouter.getGeneric().getDefault);
-_Server.ExpressRouter.get('/items', APIRouter.getGeneric().getItemAPI);
+_Server.ExpressRouter.get('/api', APIRouter.getGeneric().getItemAPI);
 _Server.ExpressRouter.get('/api/items', APIRouter.getItems().getDefault);
 
 // Error handling middleware leave at the bottom.

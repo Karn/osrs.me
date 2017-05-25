@@ -3,8 +3,10 @@ html
     include header.pug
 		
     body
-        section
-            h1 #{code ? code : 500}
-            h4 #{message ? message : 'Internal server error.'}
-            p
-                a(href='/') Take me home.
+        .content-bg
+            .container
+                section.py6
+                    h1 #{code ? code : 500}
+                    h4 #{message ? message : 'Internal server error.'}
+                    p
+                        a(href='/') Take me home.

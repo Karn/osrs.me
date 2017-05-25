@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, h6, header {
     padding-top: 6em;
     padding-bottom: 6em;
 }
+.pb6 {
+    padding-bottom: 6em;
+}
 
 .content-bg {
     min-height: 100%;
@@ -68,6 +71,7 @@ nav ul li {
     padding: 0 1em;
     text-align: center;
     vertical-align: middle;
+    width: 7em;
 }
 nav ul li:first-child {
     border: none;
@@ -77,7 +81,16 @@ nav ul li:hover {
 }
 
 footer {
-    color: white;
+    color: rgba(255, 255, 255, 0.75);
+}
+footer ul {
+    margin: 1em 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+}
+footer ul li {
+    margin-right: 1em;
 }
 
 .cap-stone {
@@ -92,7 +105,6 @@ footer {
 
 header {
     text-align: center;
-    font-size: 4em;
     margin: 0 0 1rem 0;
     padding-bottom: 1rem;
     border-bottom: 1px dotted darkgray;
@@ -102,36 +114,40 @@ header {
 .hero {
     background: url(./../img/hero.jpg) top center fixed no-repeat;
     background-size: cover;
+    opacity: 1;
     height: 30rem;
     box-shadow: inset 0 -30px 50px -30px black;
+    transition: all 2s;
 }
 
 /* Switch to scroll */
-.tile {
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(42, 42, 42, 0.15);
+.tiles {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
+.tile {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(42, 42, 42, 0.15);
+}
 .tile:hover {
+    z-index: 100;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
-
-.tile .img {
+.tile header {
     display: flex;
     background: url(./../img/tile-bg-default.png);
     background-size: cover;
-    opacity: 0.85;
     width: 100%;
-    height: 10rem;
+    height: 20em;
     box-shadow: inset 0 -30px 50px -30px rgba(0, 0, 0, 0.1);
+    transition: all 1.5s;
 }
-.tile:hover .img {
-    opacity: 1;
+.tile:hover header {
+    transform: scale(1.015);
 }
-.tile .img img {
+.tile header img {
     margin: auto;
 }
-
 .tile .caption {
     padding: 1rem;
 }
@@ -140,6 +156,21 @@ header {
     margin-bottom: 0.75rem;
     border-bottom: 1px dotted darkgray;
 }
+.tile .tags {
+    display: inline-flex;
+    list-style: none;
+    margin: 1em;
+    margin-top: 0;
+}
+.tile .tags li {
+    background: rgba(0, 0, 0, .1);
+    padding: 0.5em;
+    margin-right: 1em;
+}
+.tile .tags li:hover {
+    background: rgba(0, 0, 0, .15);
+}
+
 
 section, article {
     margin-bottom: 2em;

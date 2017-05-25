@@ -5,29 +5,31 @@ html
     body
         .hero
             .container
+                section.py6
         
         //.cap-stone
 
         .content-bg
             .container
                 section.py6
-                    article
-                        header(id='main-nav') Tools
-
-                        .tiles.row
-                            .six.columns
-                                .tile(onclick='window.location.href = "/items"')
-                                    .img
-                                        img(src='./../img/coins.png')
-                                    .caption
-                                        h6.title Item API
-                                        p.description A fully featured item API powered by GraphQL.
-                            .six.columns
-                                .tile
-                                    .img
-                                        img(src='./../img/itemscore.gif')
-                                    .caption
-                                        h6.title Itemscore
-                                        p.description If you're stuck wondering what you need to equip.
+                    article.tiles
+                        .tile(onclick='window.location.href = "/api"')
+                            header
+                                img(src='./../img/coins.png')
+                            .caption
+                                h6.title Item API
+                                p.description A fully featured item API powered by GraphQL.
+                            ul.tags
+                                li new
+                                li guides
+                                li bossing
+                        .tile
+                            .caption
+                                h6.title Itemscore
+                                p.description If you're stuck wondering what you need to equip.
+                        .tile
+                            .caption
+                                h6.title Itemscore
+                                p.description If you're stuck wondering what you need to equip.
 
     include ./includes/footer.pug
