@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6, header {
 }
 
 nav {
+    opacity: 0.9;
     width: 100%;
     position: fixed;
     top: 0;
@@ -45,7 +46,11 @@ nav {
     background: url(./../img/header.png) no-repeat left top,
         url(./../img/header.png) no-repeat right center,
         url(./../img/header.png) repeat-x center bottom;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+    transition: all 1s;
+}
+nav:hover {
+    opacity: 1;
 }
 
 nav ul {
@@ -194,9 +199,6 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin: 0.5rem 0;
-}
-tr {
-    border-image: url(./../img/tr.png) 30 round;
 }
 th, td {
     padding: 0.5em !important;
