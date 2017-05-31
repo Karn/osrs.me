@@ -33,9 +33,32 @@ var schema = SchemaFactory.getDefaultSchema();
 
 _APIRouter.generic = {
     getDefault: (req, res) => {
-        res.render('./public_html/src/index.pug', {
-            'page_title': ''
-        });
+        res.redirect('/api');
+
+        /*res.render('./public_html/src/index.pug', {
+            'page_title': '',
+            'feed': [
+                {
+                    'title': 'Best in slot',
+                    'description': 'Find the best gear for you.',
+                    'icon': './../img/coins.png',
+                    'tags': [],
+                    'url': ''
+                },
+                {
+                    'title': 'Item API',
+                    'description': 'A fully featured item API powered by GraphQL.',
+                    'tags': [],
+                    'url': '/api'
+                },
+                {
+                    'title': 'Itemscore',
+                    'description': 'If you\'re stuck wondering what you need to equip.',
+                    'tags': ['items'],
+                    'url': ''
+                }
+            ]
+        });*/
     },
     getItemAPI: (req, res) => {
         res.render('./public_html/src/api.pug'), {

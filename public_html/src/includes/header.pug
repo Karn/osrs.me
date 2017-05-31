@@ -7,13 +7,14 @@ head
 
 nav
     .container
-        .flex
+        .flex(style='height: 58px;')
             // TODO: Reduce size when user scrolls down
-            img(src='/img/osrs.png' height='60px' width='auto')
+            img(src='/img/osrs.png' height='50px' width='auto' style='margin: auto;')
 
             div(style='width: 100%;')
 
-            ul
+            //ul
                 li(onclick='window.location.href = "/"') Home
                 li(onclick='window.location.href = "/api"') API
+                li(onclick='window.location.href = "/"') Meta
                 li(onclick='window.location.href = "http://osrshelper.com/achievement_diaries"') Diaries

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Lato:400,700');
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -59,10 +59,10 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 100%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1em; /* currently ems cause chrome bug misinterpreting rems on body element */
   font-weight: 400;
-  font-family: 'Raleway', Arial, sans-serif;
-  color: #222; }
+  font-family: 'Lato', Arial, sans-serif;
+  color: #555555; }
 
 
 /* Typography

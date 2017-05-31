@@ -1,14 +1,13 @@
 html {
     min-height: 100%;
-    background-color: #2A2A2A;
 }
 
 body {
     position: relative;
     min-height: 100%;
     padding-top: 58px;
-    font-size: 1rem;
-    color: #0F0F0F;
+    background: url(./../img/bottom.png) center bottom repeat-x,
+                url(./../img/repeat.jpg);
 }
 
 .flex {
@@ -20,10 +19,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, header {
-    font-family: 'Cinzel', 'Times New Roman', serif;
-    font-weight: bold;
+    font-family: 'IM Fell English SC', 'Times New Roman', serif;
+    text-transform: lowercase;
     margin: 0.5em 0;
-    color: #897441;
+    color: #333333;
     line-height: initial;
 }
 
@@ -33,12 +32,6 @@ h1, h2, h3, h4, h5, h6, header {
 }
 .pb6 {
     padding-bottom: 6em;
-}
-
-.content-bg {
-    min-height: 100%;
-    background: url(./../img/bottom.png) center bottom repeat-x,
-                url(./../img/repeat.jpg);
 }
 
 nav {
@@ -63,7 +56,7 @@ nav ul {
     height: 58px;
 }
 nav ul li {
-    font-family: 'Cinzel', 'Times New Roman', serif;
+    font-family: 'IM Fell English SC', 'Times New Roman', serif;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     box-sizing: border-box;
     float: left;
@@ -81,7 +74,7 @@ nav ul li:hover {
 }
 
 footer {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0, 0.75);
 }
 footer ul {
     margin: 1em 0;
@@ -200,20 +193,20 @@ table {
     text-align: left;
     border-collapse: collapse;
     width: 100%;
-    font-size: 75%;
     margin: 0.5rem 0;
 }
-
-th {
-    font-weight: bold;
-    background-color: #222836;
-    color: #F0F0F0;
+tr {
+    border-image: url(./../img/tr.png) 30 round;
 }
-
 th, td {
     padding: 0.5em !important;
-    border: 1px #222836 solid;
 }
+th {
+    font-weight: bold;
+    color: #F0F0F0;
+    background-image: url(./../img/th-bg.png);
+}
+
 
 /* BUTTON */
 button, input[type="submit"], input[type="reset"], input[type="button"] {
@@ -233,4 +226,12 @@ button, input[type="submit"], input[type="reset"], input[type="button"] {
 
 button:hover, input[type="submit"]:hover , input[type="reset"]:hover , input[type="button"]:hover {
     background-color: #444;
+}
+
+hr {
+    display: block;
+    border: 0;
+    height: 1px;
+    padding: 0;
+    background-image: url(./../img/hr.jpg);
 }

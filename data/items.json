@@ -5,10 +5,10 @@
         "type": "item",
         "name": "Dwarf remains",
         "description": "The body of a Dwarf savaged by Goblins.",
-        "members": false,
+        "members": true,
         "quest_item": false,
-        "tradeable": true,
-        "stackable": true,
+        "tradeable": false,
+        "stackable": false,
         "weight": 0
     },
     "2": {
@@ -28,10 +28,10 @@
         "name": "Cannon base",
         "description": "The cannon is built on this.",
         "members": true,
-        "quest_item": false,
+        "quest_item": true,
         "tradeable": true,
-        "stackable": true,
-        "weight": 0
+        "stackable": false,
+        "weight": 10
     },
     "8": {
         "id": 8,
@@ -39,10 +39,10 @@
         "name": "Cannon stand",
         "description": "The mounting for the multicannon.",
         "members": true,
-        "quest_item": false,
+        "quest_item": true,
         "tradeable": true,
-        "stackable": true,
-        "weight": 0
+        "stackable": false,
+        "weight": 0.9
     },
     "10": {
         "id": 10,
@@ -50,10 +50,10 @@
         "name": "Cannon barrels",
         "description": "The barrels of the multicannon.",
         "members": true,
-        "quest_item": false,
+        "quest_item": true,
         "tradeable": true,
-        "stackable": true,
-        "weight": 0
+        "stackable": false,
+        "weight": 15
     },
     "12": {
         "id": 12,
@@ -61,10 +61,10 @@
         "name": "Cannon furnace",
         "description": "This powers the multicannon.",
         "members": true,
-        "quest_item": false,
+        "quest_item": true,
         "tradeable": true,
-        "stackable": true,
-        "weight": 0
+        "stackable": false,
+        "weight": 5
     },
     "28": {
         "id": 28,
@@ -73,8 +73,8 @@
         "description": "Drives away all known 6 legged creatures.",
         "members": true,
         "quest_item": false,
-        "tradeable": true,
-        "stackable": true,
+        "tradeable": false,
+        "stackable": false,
         "weight": 0
     },
     "30": {
@@ -83,10 +83,10 @@
         "name": "Bucket of wax",
         "description": "It's a bucket of wax.",
         "members": true,
-        "quest_item": false,
+        "quest_item": true,
         "tradeable": true,
-        "stackable": true,
-        "weight": 0
+        "stackable": false,
+        "weight": 2.5
     },
     "36": {
         "id": 36,
@@ -96,7 +96,7 @@
         "members": true,
         "quest_item": false,
         "tradeable": true,
-        "stackable": true,
+        "stackable": false,
         "weight": 0
     },
     "39": {

@@ -13,23 +13,17 @@ html
             .container
                 section.py6
                     article.tiles
-                        .tile(onclick='window.location.href = "/api"')
-                            header
-                                img(src='./../img/coins.png')
-                            .caption
-                                h6.title Item API
-                                p.description A fully featured item API powered by GraphQL.
-                            ul.tags
-                                li new
-                                li guides
-                                li bossing
-                        .tile
-                            .caption
-                                h6.title Itemscore
-                                p.description If you're stuck wondering what you need to equip.
-                        .tile
-                            .caption
-                                h6.title Itemscore
-                                p.description If you're stuck wondering what you need to equip.
+                        each val, index in feed
+                            .tile(onclick=(val.url ? 'window.location.href="' + val.url + '"' : fals))
+                                if index == 0
+                                    header
+                                        img(src='' + val.icon)
+                                .caption
+                                    h6.title= val.title
+                                    p.description= val.description
+                                if val.tags && val.tags.length > 0
+                                    ul.tags
+                                        each v, i in val.tags
+                                            li= v
 
     include ./includes/footer.pug
