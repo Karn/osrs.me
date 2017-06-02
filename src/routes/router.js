@@ -101,7 +101,7 @@ _APIRouter.itemsRoute = {
 
             res.render('public_html/src/api-view.pug', {
                 'page_title': 'Request browser',
-                'api_endpoint': req.path,
+                'api_endpoint': req.originalUrl,
                 'api_query': print(parse(query)),
                 'api_response': JSON.stringify(response.data, null, 4)
             });

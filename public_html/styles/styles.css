@@ -98,7 +98,7 @@ a:hover { color: #A68B4E; }
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul { list-style: circle inside; }
+ul { list-style: none; }
 ol { list-style: decimal inside; }
 ol, ul {
   padding-left: 0;

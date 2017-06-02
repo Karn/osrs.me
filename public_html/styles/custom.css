@@ -52,6 +52,9 @@ nav {
 nav:hover {
     opacity: 1;
 }
+nav h4 {
+    margin: 0;
+}
 
 nav ul {
     display: inline-flex;
@@ -182,7 +185,7 @@ code {
     overflow: hidden;
     white-space: pre;
     padding: 0.5em;
-    display: block;
+    display: flex;
     white-space: pre;
     width: 100%;
 }

@@ -9,46 +9,35 @@ html
                     .seven.columns
                         h5(id="introduction") Introduction
 
-                        p A GraphQL OSRS API - Below you will find endpoints which provide all sorts of data.
-                        p The API functions using the 
-                            a(href="http://graphql.org/learn/") Graph Query Language (GraphQL) 
-                            | which allows flexibility in what data is requested/recieved with each api request.
-                        p The API is built with JavaScript (Node) and is 
-                            a(href="#contribute") available on GitHub 
-                            | and can be forked and deployed locally or to a server.
-                    .five.columns
-                        img(src='./../img/skotos.png', width='100%', height='auto')
-                hr
-
-                article.row
-                    .five.columns
-                        img(src='./../img/parchment.png', width='100%', height='auto')
-
-                    .seven.columns
-                        h5(id="getting-started") Getting started
+                        p An open source 
+                            a(href="http://graphql.org/learn/") GraphQL
+                            |  API built with JavaScript (Node) and is 
+                            a(href="#contribute") available on GitHub
+                            |  and can be forked and deployed locally or to a server.
+                        
+                        h6(id="getting-started") Getting started
 
                         p You can use a tool such as 
                             a(href="https://www.getpostman.com/") Postman 
                             | to play around with the API. Remember to use the requests sparingly as the API server is running on limited resources.
-
-                        br
 
                         p API base url
                         code http://osrs.me/api/
 
                         p To recieve raw data, a request must include the following request header.
                         code X-REQUEST-RAW: true
-
+                    .five.columns
+                        img(src='./../img/skotos.png', width='100%', height='auto')
                 hr
 
                 article
-                    h5(id="api-items") API: Items
+                    h5(id="api-items") Item API
 
                     h6 Endpoint(s)
                     p Complete raw graph request.
                     .flex
                         code /item?g=[raw_QL] 
-                        button(onclick="window.location.href='/api/items?g={item(ids: [0]){id name description}}'") Try it!
+                        button(onclick="window.location.href='/api/items?g={item(ids:[4151,20997]){id,name,description}}'") Try it!
 
                     p Complete graph request with a preset.
                     .flex
@@ -121,7 +110,7 @@ html
                         h5(id="contribute") Contribute
 
                         p Visit the 
-                            a(href="https://github.com/Karn/OSRS.API/") GitHub Repositiory 
+                            a(href="https://github.com/Karn/OSRS.API/") GitHub Repository 
                             | to get started contributing, or 
                             a(href="https://github.com/Karn/OSRS.API/issues") submit bugs 
                             | and help improve the performance/dataset.

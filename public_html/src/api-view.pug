@@ -6,18 +6,21 @@ html
         .content-bg
             .container
                 section.py6
+
+                    h5(id="introduction") API browser
+
                     article
-                        header(id="api-endpoint") Endpoint
+                        h6(id="api-endpoint") Endpoint
                         
                         code #{api_endpoint}
 
                     article
-                        header(id="api-query") GraphQL Schema
+                        h6(id="api-query") Corresponding GraphQL schema
                         
                         code #{api_query}
 
                     article
-                        header(id="api-response") Response
+                        h6(id="api-response") Resulting JSON response
                         
                         code #{api_response}
 
