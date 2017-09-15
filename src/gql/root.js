@@ -3,7 +3,7 @@
 /**
  * Data imports
  */
-var dataItems = require('../../data/items.json');
+var dataItems = require('../../data/raw/items.json');
 
 /**
  * Pseudo-class container.
