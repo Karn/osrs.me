@@ -9,7 +9,7 @@ with open(this_dir + '/../raw/itemlist.txt') as f:
     lines = f.readlines()
 
 item_data = {
-    'items': {}
+    'item': {}
 }
 
 # Iterate through all the lines
@@ -23,12 +23,12 @@ for line in lines:
 
     # Construct what will be the structure of the item.
     item_json = {
-        'id': item_id,
+        'id': int(item_id),
         'name': item_name
     }
 
     print json.dumps(item_json)
-    item_data['items'][item_id] = item_json
+    item_data['item'][item_id] = item_json
 
-with open(this_dir + '/../raw/item-ids_129.json', 'w') as f:
+with open(this_dir + '/../raw/item-ids_131.json', 'w') as f:
     f.write(json.dumps(item_data, sort_keys=True))
