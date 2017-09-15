@@ -54,7 +54,7 @@ class FileManager(object):
     def write_item_data(self, path, json_data):
 
         with open(path, 'w') as item_data_file:    
-            item_data_file.write(json.dumps(json_data, sort_keys=True))
+            item_data_file.write(json.dumps(json_data, indent=4, sort_keys=True))
 
 
 _FileManager = FileManager()
