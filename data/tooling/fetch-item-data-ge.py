@@ -70,13 +70,10 @@ try:
         if 'is_in_exchange' in item_list['item'][item_id]:
             continue
 
-        print 'Fetching data for item with id', item_id
-
         item_data = _RequestService.fetch_data_for_item(item_id)
 
         # Skip to next item.
         if item_data is None:
-            print 'Cannot fetch data for item. Perhaps it has not public key.'
             item_list['item'][item_id]['is_in_exchange'] = False
             continue
 
