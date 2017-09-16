@@ -28629,7 +28629,10 @@
             "name": "Instruction manual"
         }, 
         "50": {
+            "description": "I need to find a string for this.", 
             "id": 50, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Shortbow (u)"
         }, 
         "500": {
@@ -29005,7 +29008,10 @@
             "name": "Adamant axe head"
         }, 
         "52": {
+            "description": "A wooden arrow shaft.", 
             "id": 52, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Arrow shaft"
         }, 
         "520": {
@@ -29147,7 +29153,10 @@
             "name": "Kwuarm seed"
         }, 
         "53": {
+            "description": "A wooden arrow shaft with flights attached.", 
             "id": 53, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Headless arrow"
         }, 
         "530": {
@@ -29506,7 +29515,10 @@
             "name": "Strawberries(1)"
         }, 
         "54": {
+            "description": "An unstrung oak shortbow; I need a bowstring for this.", 
             "id": 54, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Oak shortbow (u)"
         }, 
         "540": {
@@ -30230,7 +30242,10 @@
             "name": "Tin"
         }, 
         "56": {
+            "description": "An unstrung oak longbow; I need a bowstring for this.", 
             "id": 56, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Oak longbow (u)"
         }, 
         "560": {
@@ -30926,7 +30941,10 @@
             "name": "Mind bomb(3)"
         }, 
         "58": {
+            "description": "An unstrung willow longbow; I need a bowstring for this.", 
             "id": 58, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Willow longbow (u)"
         }, 
         "5801": {
@@ -31470,7 +31488,10 @@
             "name": "Cannon base"
         }, 
         "60": {
+            "description": "An unstrung willow shortbow; I need a bowstring for this.", 
             "id": 60, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Willow shortbow (u)"
         }, 
         "600": {
@@ -32113,7 +32134,10 @@
             "name": "Mystery box"
         }, 
         "62": {
+            "description": "An unstrung maple longbow; I need a bowstring for this.", 
             "id": 62, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Maple longbow (u)"
         }, 
         "620": {
@@ -32656,7 +32680,10 @@
             "name": "Menaphite purple kilt"
         }, 
         "64": {
+            "description": "An unstrung maple shortbow; I need a bowstring for this.", 
             "id": 64, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Maple shortbow (u)"
         }, 
         "640": {
@@ -33189,7 +33216,10 @@
             "name": "White halberd"
         }, 
         "66": {
+            "description": "An unstrung yew longbow; I need a bowstring for this.", 
             "id": 66, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Yew longbow (u)"
         }, 
         "660": {
@@ -33949,7 +33979,10 @@
             "name": "Champion scroll"
         }, 
         "68": {
+            "description": "An unstrung yew shortbow; I need a bowstring for this.", 
             "id": 68, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Yew shortbow (u)"
         }, 
         "680": {
@@ -34731,7 +34764,10 @@
             "name": "Stone left leg"
         }, 
         "70": {
+            "description": "An unstrung magic longbow; I need a bowstring for this.", 
             "id": 70, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Magic longbow (u)"
         }, 
         "700": {
@@ -35285,7 +35321,10 @@
             "name": "Admiral pie"
         }, 
         "72": {
+            "description": "An unstrung magic shortbow; I need a bowstring for this.", 
             "id": 72, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Magic shortbow (u)"
         }, 
         "720": {
@@ -35993,6 +36032,7 @@
         }, 
         "74": {
             "id": 74, 
+            "is_in_exchange": false, 
             "name": "Khazard helmet"
         }, 
         "740": {
@@ -36371,6 +36411,7 @@
         }, 
         "75": {
             "id": 75, 
+            "is_in_exchange": false, 
             "name": "Khazard armour"
         }, 
         "750": {
@@ -36782,6 +36823,7 @@
         }, 
         "76": {
             "id": 76, 
+            "is_in_exchange": false, 
             "name": "Khazard cell keys"
         }, 
         "7600": {
@@ -37127,6 +37169,7 @@
         }, 
         "77": {
             "id": 77, 
+            "is_in_exchange": false, 
             "name": "Khali brew"
         }, 
         "770": {
@@ -37471,6 +37514,7 @@
         }, 
         "78": {
             "id": 78, 
+            "is_in_exchange": false, 
             "name": "Ice arrows"
         }, 
         "780": {
@@ -39813,6 +39857,7 @@
         }, 
         "83": {
             "id": 83, 
+            "is_in_exchange": false, 
             "name": "Lever"
         }, 
         "830": {
@@ -40311,6 +40356,7 @@
         }, 
         "84": {
             "id": 84, 
+            "is_in_exchange": false, 
             "name": "Staff of armadyl"
         }, 
         "8400": {
