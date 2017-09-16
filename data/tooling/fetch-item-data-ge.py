@@ -65,7 +65,12 @@ item_list = _FileManager.load_item_data(RequestService.ITEM_DATA_FILE)
 print 'Attempting to fetch data for', len(item_list['item']), 'items...'
 
 try:
-    for item_id in item_list['item']:
+    for i in range(0, 21049):
+
+        item_id = str(i)
+
+        if item_id not in item_list['item']:
+            continue
 
         if 'is_in_exchange' in item_list['item'][item_id]:
             continue
@@ -80,6 +85,23 @@ try:
         item_list['item'][item_id]['is_in_exchange'] = True
         item_list['item'][item_id]['description'] = item_data['item']['description']
         item_list['item'][item_id]['members'] = item_data['item']['members'] == "true"
+
+
+    # for item_id in item_list['item']:
+
+    #     if 'is_in_exchange' in item_list['item'][item_id]:
+    #         continue
+
+    #     item_data = _RequestService.fetch_data_for_item(item_id)
+
+    #     # Skip to next item.
+    #     if item_data is None:
+    #         item_list['item'][item_id]['is_in_exchange'] = False
+    #         continue
+
+    #     item_list['item'][item_id]['is_in_exchange'] = True
+    #     item_list['item'][item_id]['description'] = item_data['item']['description']
+    #     item_list['item'][item_id]['members'] = item_data['item']['members'] == "true"
             
 except Exception as e:
     print 'Error in process. Writing current data to file.'
