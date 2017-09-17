@@ -3,7 +3,107 @@
 
 import re
 
-regex = r"{{Infobox (Item|Bonuses)\n(\|(.)*\n)*}}"
+
+class WikiParser(object):
+
+    REGEX = r"{{Infobox (Item|Bonuses)\n(\|(.)*\n)*}}"
+
+    def __init__(self):
+        pass
+
+    def fetch_item(self):
+        pass
+
+    def parse_item_data(self, group):
+        item_data = group.split('\n|')
+
+        item_data_json = {}
+
+        for value in item_data:
+            key_val = value.split(' = ')
+
+            if len(key_val) != 2:
+                continue
+
+            # The relevant data key
+            data_key = key_val[0]
+            data_value = key_val[1]
+
+            if data_key == 'tradeable':
+                item_data_json['tradeable'] = data_value == 'Yes'
+            elif data_key == 'equipable':
+                item_data_json['equipable'] = data_value == 'Yes'
+            elif data_key == 'stackable':
+                item_data_json['equipable'] = data_value == 'Yes'
+            elif data_key == 'quest':
+                item_data_json['quest_item'] = data_value == 'Yes'
+            elif data_key == 'store':
+                if data_value == 'No':
+                    item_data_json['store'] = -1
+                else:
+                    item_data_json['store']
+            elif data_key == 'weight':
+                item_data_json['weight'] = float(data_value)
+            elif data_key == 'high':
+                item_data_json['high_alch'] = int(data_value)
+            elif data_key == 'low':
+                item_data_json['low_alch'] = int(data_value)
+
+        return item_data_json
+
+    def parse_item_bonuses(self, group):
+        item_bonuses = group.split('\n|')
+
+        item_bonuses_json = {
+            'attack': {},
+            'defence': {},
+            'bonus': {}
+        }
+
+        for value in item_bonuses:
+            key_val = value.split(' = ')
+
+            if len(key_val) != 2:
+                continue
+
+            # The relevant data key
+            data_key = key_val[0]
+            data_value = key_val[1]
+
+            if data_key == 'astab':
+                item_bonuses_json['attack']['stab'] = int(data_value)
+            elif data_key == 'aslash':
+                item_bonuses_json['attack']['slash'] = int(data_value)
+            elif data_key == 'acrush':
+                item_bonuses_json['attack']['crush'] = int(data_value)
+            elif data_key == 'amagic':
+                item_bonuses_json['attack']['magic'] = int(data_value)
+            elif data_key == 'arange':
+                item_bonuses_json['attack']['range'] = int(data_value)
+            elif data_key == 'dstab':
+                item_bonuses_json['defence']['stab'] = int(data_value)
+            elif data_key == 'dslash':
+                item_bonuses_json['defence']['slash'] = int(data_value)
+            elif data_key == 'dcrush':
+                item_bonuses_json['defence']['crush'] = int(data_value)
+            elif data_key == 'dmagic':
+                item_bonuses_json['defence']['magic'] = int(data_value)
+            elif data_key == 'drange':
+                item_bonuses_json['defence']['range'] = int(data_value)
+            elif data_key == 'str':
+                item_bonuses_json['bonus']['strength'] = data_value
+            elif data_key == 'rstr':
+                item_bonuses_json['bonus']['range_strength'] = data_value
+            elif data_key == 'mdmg':
+                item_bonuses_json['bonus']['magic_strength'] = data_value
+            elif data_key == 'prayer':
+                item_bonuses_json['bonus']['prayer'] = data_value
+            elif data_key == 'slot':
+                item_bonuses_json['item_slot'] = data_value.lower()
+            elif data_key == 'aspeed':
+                item_bonuses_json['attack_speed'] = float(data_value)
+
+        return item_bonuses_json
 
 test_str = """
 {{External|rs}}
@@ -84,63 +184,19 @@ Players can also use either a [[volcanic whip mix|volcanic]] or [[frozen whip mi
 [[Category:Items needed for an emote clue]]
 """
 
-matches = re.finditer(regex, test_str)
+_WikiParser = WikiParser()
+
+matches = re.finditer(WikiParser.REGEX, test_str)
 
 for matchNum, match in enumerate(matches):
 
     group = match.group()
 
     if group.startswith('{{Infobox Item'):
-        item_data = group.split('\n|')
-
-        item_data_json = {}
-
-        for value in item_data:
-            key_val = value.split(' = ')
-
-            if len(key_val) != 2:
-                continue
-
-            # The relevant data key
-            data_key = key_val[0]
-            data_value = key_val[1]
-
-            if data_key == 'tradeable':
-                item_data_json['tradeable'] = data_value == 'Yes'
-            elif data_key == 'equipable':
-                item_data_json['equipable'] = data_value == 'Yes'
-            elif data_key == 'stackable':
-                item_data_json['equipable'] = data_value == 'Yes'
-            elif data_key == 'quest':
-                item_data_json['quest_item'] = data_value == 'Yes'
-            elif data_key == 'store':
-                item_data_json['store'] = data_value == 'Yes'
-            elif data_key == 'weight':
-                item_data_json['weight'] = float(data_value)
-            elif data_key == 'high':
-                item_data_json['high_alch'] = int(data_value)
-            elif data_key == 'low':
-                item_data_json['low_alch'] = int(data_value)
-
-        print item_data_json
+        print _WikiParser.parse_item_data(group)
 
     elif group.startswith('{{Infobox Bonuses'):
-        item_bonuses = group.split('\n|')
-
-        item_bonuses_json = {}
-
-        for value in item_bonuses:
-            key_val = value.split(' = ')
-
-            if len(key_val) != 2:
-                continue
-
-            # The relevant data key
-            data_key = key_val[0]
-            data_value = key_val[1]
-
-            if data_key == 'astab':
-
+        print _WikiParser.parse_item_bonuses(group)
 
 
     # matchNum = matchNum + 1
