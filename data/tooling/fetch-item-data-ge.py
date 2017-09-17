@@ -2,6 +2,7 @@ import os
 import json
 import requests
 import urllib
+import time
 
 
 class RequestService(object):
@@ -31,7 +32,14 @@ class RequestService(object):
         if resp.status_code != 200:
             return None
 
-        return resp.json()
+        try: 
+            return resp.json()
+        except Exception as e:
+            print 'Unable to decode json. Potential rate limit, delaying for 30 seconds.'
+            for i in range(0, 60):
+                time.sleep(1)
+
+            return RequestService.fetch_data_for_item(self, item_id)
 
     def download_image_from_url(self, url, local_file_name):
 
@@ -102,7 +110,8 @@ try:
     #     item_list['item'][item_id]['is_in_exchange'] = True
     #     item_list['item'][item_id]['description'] = item_data['item']['description']
     #     item_list['item'][item_id]['members'] = item_data['item']['members'] == "true"
-            
+except (KeyboardInterrupt, SystemExit): 
+    print 'Exiting due to interrupt...'
 except Exception as e:
     print 'Error in process. Writing current data to file.'
     print e
