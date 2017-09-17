@@ -91,9 +91,57 @@ for matchNum, match in enumerate(matches):
     group = match.group()
 
     if group.startswith('{{Infobox Item'):
-        pass
-    else group.startswith('{{Infobox Bonuses'):
-        pass
+        item_data = group.split('\n|')
+
+        item_data_json = {}
+
+        for value in item_data:
+            key_val = value.split(' = ')
+
+            if len(key_val) != 2:
+                continue
+
+            # The relevant data key
+            data_key = key_val[0]
+            data_value = key_val[1]
+
+            if data_key == 'tradeable':
+                item_data_json['tradeable'] = data_value == 'Yes'
+            elif data_key == 'equipable':
+                item_data_json['equipable'] = data_value == 'Yes'
+            elif data_key == 'stackable':
+                item_data_json['equipable'] = data_value == 'Yes'
+            elif data_key == 'quest':
+                item_data_json['quest_item'] = data_value == 'Yes'
+            elif data_key == 'store':
+                item_data_json['store'] = data_value == 'Yes'
+            elif data_key == 'weight':
+                item_data_json['weight'] = float(data_value)
+            elif data_key == 'high':
+                item_data_json['high_alch'] = int(data_value)
+            elif data_key == 'low':
+                item_data_json['low_alch'] = int(data_value)
+
+        print item_data_json
+
+    elif group.startswith('{{Infobox Bonuses'):
+        item_bonuses = group.split('\n|')
+
+        item_bonuses_json = {}
+
+        for value in item_bonuses:
+            key_val = value.split(' = ')
+
+            if len(key_val) != 2:
+                continue
+
+            # The relevant data key
+            data_key = key_val[0]
+            data_value = key_val[1]
+
+            if data_key == 'astab':
+
+
 
     # matchNum = matchNum + 1
     
