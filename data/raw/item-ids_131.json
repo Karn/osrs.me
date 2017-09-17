@@ -24379,6 +24379,7 @@
         }, 
         "3109": {
             "id": 3109, 
+            "is_in_exchange": false, 
             "name": "Stone ball"
         }, 
         "311": {
@@ -24390,46 +24391,63 @@
         }, 
         "3110": {
             "id": 3110, 
+            "is_in_exchange": false, 
             "name": "Stone ball"
         }, 
         "3111": {
             "id": 3111, 
+            "is_in_exchange": false, 
             "name": "Stone ball"
         }, 
         "3112": {
             "id": 3112, 
+            "is_in_exchange": false, 
             "name": "Stone ball"
         }, 
         "3113": {
             "id": 3113, 
+            "is_in_exchange": false, 
             "name": "Stone ball"
         }, 
         "3114": {
             "id": 3114, 
+            "is_in_exchange": false, 
             "name": "Certificate"
         }, 
         "3122": {
+            "description": "A solid stone shield.", 
             "id": 3122, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Granite shield"
         }, 
         "3123": {
+            "description": "Large glistening bones which glow with a pale yellow aura.", 
             "id": 3123, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Shaikahan bones"
         }, 
         "3125": {
+            "description": "Fairly big bones which smell distinctly of Jogre.", 
             "id": 3125, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Jogre bones"
         }, 
         "3127": {
             "id": 3127, 
+            "is_in_exchange": false, 
             "name": "Burnt jogre bones"
         }, 
         "3128": {
             "id": 3128, 
+            "is_in_exchange": false, 
             "name": "Pasty jogre bones"
         }, 
         "3129": {
             "id": 3129, 
+            "is_in_exchange": false, 
             "name": "Pasty jogre bones"
         }, 
         "313": {
@@ -24441,34 +24459,44 @@
         }, 
         "3130": {
             "id": 3130, 
+            "is_in_exchange": false, 
             "name": "Marinated j' bones"
         }, 
         "3131": {
             "id": 3131, 
+            "is_in_exchange": false, 
             "name": "Pasty jogre bones"
         }, 
         "3132": {
             "id": 3132, 
+            "is_in_exchange": false, 
             "name": "Pasty jogre bones"
         }, 
         "3133": {
             "id": 3133, 
+            "is_in_exchange": false, 
             "name": "Marinated j' bones"
         }, 
         "3135": {
             "id": 3135, 
+            "is_in_exchange": false, 
             "name": "Prison key"
         }, 
         "3136": {
             "id": 3136, 
+            "is_in_exchange": false, 
             "name": "Cell key 1"
         }, 
         "3137": {
             "id": 3137, 
+            "is_in_exchange": false, 
             "name": "Cell key 2"
         }, 
         "3138": {
+            "description": "How am I supposed to eat that?!", 
             "id": 3138, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Potato cactus"
         }, 
         "314": {
@@ -24479,27 +24507,39 @@
             "name": "Feather"
         }, 
         "3140": {
+            "description": "A series of connected metal rings.", 
             "id": 3140, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dragon chainbody"
         }, 
         "3142": {
+            "description": "A raw green octopus.", 
             "id": 3142, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Raw karambwan"
         }, 
         "3144": {
+            "description": "Cooked octopus. It looks very nutritious.", 
             "id": 3144, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Cooked karambwan"
         }, 
         "3146": {
             "id": 3146, 
+            "is_in_exchange": false, 
             "name": "Poison karambwan"
         }, 
         "3147": {
             "id": 3147, 
+            "is_in_exchange": false, 
             "name": "Cooked karambwan"
         }, 
         "3148": {
             "id": 3148, 
+            "is_in_exchange": false, 
             "name": "Burnt karambwan"
         }, 
         "315": {
@@ -24511,70 +24551,93 @@
         }, 
         "3150": {
             "id": 3150, 
+            "is_in_exchange": false, 
             "name": "Raw karambwanji"
         }, 
         "3151": {
             "id": 3151, 
+            "is_in_exchange": false, 
             "name": "Karambwanji"
         }, 
         "3152": {
             "id": 3152, 
+            "is_in_exchange": false, 
             "name": "Karambwan paste"
         }, 
         "3153": {
             "id": 3153, 
+            "is_in_exchange": false, 
             "name": "Karambwan paste"
         }, 
         "3154": {
             "id": 3154, 
+            "is_in_exchange": false, 
             "name": "Karambwan paste"
         }, 
         "3155": {
             "id": 3155, 
+            "is_in_exchange": false, 
             "name": "Karambwanji paste"
         }, 
         "3156": {
             "id": 3156, 
+            "is_in_exchange": false, 
             "name": "Karambwanji paste"
         }, 
         "3157": {
+            "description": "A wide bodied and thin necked vessel, encrusted with sea salt.", 
             "id": 3157, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Karambwan vessel"
         }, 
         "3159": {
+            "description": "This Karambwan Vessel is loaded with Karambwanji.", 
             "id": 3159, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Karambwan vessel"
         }, 
         "3161": {
             "id": 3161, 
+            "is_in_exchange": false, 
             "name": "Crafting manual"
         }, 
         "3162": {
+            "description": "You swear you had more than three slices before.", 
             "id": 3162, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Sliced banana"
         }, 
         "3164": {
             "id": 3164, 
+            "is_in_exchange": false, 
             "name": "Karamjan rum"
         }, 
         "3165": {
             "id": 3165, 
+            "is_in_exchange": false, 
             "name": "Karamjan rum"
         }, 
         "3166": {
             "id": 3166, 
+            "is_in_exchange": false, 
             "name": "Monkey corpse"
         }, 
         "3167": {
             "id": 3167, 
+            "is_in_exchange": false, 
             "name": "Monkey skin"
         }, 
         "3168": {
             "id": 3168, 
+            "is_in_exchange": false, 
             "name": "Seaweed sandwich"
         }, 
         "3169": {
             "id": 3169, 
+            "is_in_exchange": false, 
             "name": "Stuffed monkey"
         }, 
         "317": {
@@ -24586,70 +24649,91 @@
         }, 
         "3170": {
             "id": 3170, 
+            "is_in_exchange": false, 
             "name": "Bronze spear(kp)"
         }, 
         "3171": {
             "id": 3171, 
+            "is_in_exchange": false, 
             "name": "Iron spear(kp)"
         }, 
         "3172": {
             "id": 3172, 
+            "is_in_exchange": false, 
             "name": "Steel spear(kp)"
         }, 
         "3173": {
             "id": 3173, 
+            "is_in_exchange": false, 
             "name": "Mithril spear(kp)"
         }, 
         "3174": {
             "id": 3174, 
+            "is_in_exchange": false, 
             "name": "Adamant spear(kp)"
         }, 
         "3175": {
             "id": 3175, 
+            "is_in_exchange": false, 
             "name": "Rune spear(kp)"
         }, 
         "3176": {
             "id": 3176, 
+            "is_in_exchange": false, 
             "name": "Dragon spear(kp)"
         }, 
         "3177": {
             "id": 3177, 
+            "is_in_exchange": false, 
             "name": "Left-handed banana"
         }, 
         "3179": {
             "id": 3179, 
+            "is_in_exchange": false, 
             "name": "Monkey bones"
         }, 
         "3180": {
             "id": 3180, 
+            "is_in_exchange": false, 
             "name": "Monkey bones"
         }, 
         "3181": {
             "id": 3181, 
+            "is_in_exchange": false, 
             "name": "Monkey bones"
         }, 
         "3182": {
             "id": 3182, 
+            "is_in_exchange": false, 
             "name": "Monkey bones"
         }, 
         "3183": {
+            "description": "These are small monkey bones.", 
             "id": 3183, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Monkey bones"
         }, 
         "3185": {
             "id": 3185, 
+            "is_in_exchange": false, 
             "name": "Monkey bones"
         }, 
         "3186": {
             "id": 3186, 
+            "is_in_exchange": false, 
             "name": "Monkey bones"
         }, 
         "3187": {
             "id": 3187, 
+            "is_in_exchange": false, 
             "name": "Bones"
         }, 
         "3188": {
+            "description": "A spirit soaked piece of silk which can be used to remove poison.", 
             "id": 3188, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Cleaning cloth"
         }, 
         "319": {
@@ -24700,7 +24784,10 @@
             "name": "Lit black candle"
         }, 
         "3200": {
+            "description": "An adamant halberd.", 
             "id": 3200, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Adamant halberd"
         }, 
         "3202": {
@@ -24745,31 +24832,42 @@
             "name": "Raw anchovies"
         }, 
         "3211": {
+            "description": "Some limestone.", 
             "id": 3211, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Limestone"
         }, 
         "3213": {
             "id": 3213, 
+            "is_in_exchange": false, 
             "name": "Quicklime"
         }, 
         "3214": {
             "id": 3214, 
+            "is_in_exchange": false, 
             "name": "Pot of quicklime"
         }, 
         "3215": {
             "id": 3215, 
+            "is_in_exchange": false, 
             "name": "Ground sulphur"
         }, 
         "3216": {
+            "description": "An empty barrel.", 
             "id": 3216, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Barrel"
         }, 
         "3218": {
             "id": 3218, 
+            "is_in_exchange": false, 
             "name": "Barrel bomb"
         }, 
         "3219": {
             "id": 3219, 
+            "is_in_exchange": false, 
             "name": "Barrel bomb"
         }, 
         "3220": {
@@ -24818,42 +24916,54 @@
         }, 
         "3230": {
             "id": 3230, 
+            "is_in_exchange": false, 
             "name": "Big book of bangs"
         }, 
         "3231": {
             "id": 3231, 
+            "is_in_exchange": false, 
             "name": "Symbol"
         }, 
         "3233": {
             "id": 3233, 
+            "is_in_exchange": false, 
             "name": "Symbol"
         }, 
         "3235": {
             "id": 3235, 
+            "is_in_exchange": false, 
             "name": "Symbol"
         }, 
         "3237": {
             "id": 3237, 
+            "is_in_exchange": false, 
             "name": "Symbol"
         }, 
         "3239": {
+            "description": "Bark from a hollow tree.", 
             "id": 3239, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bark"
         }, 
         "3241": {
             "id": 3241, 
+            "is_in_exchange": false, 
             "name": "Man"
         }, 
         "3243": {
             "id": 3243, 
+            "is_in_exchange": false, 
             "name": "Farmer"
         }, 
         "3245": {
             "id": 3245, 
+            "is_in_exchange": false, 
             "name": "Warrior woman"
         }, 
         "3247": {
             "id": 3247, 
+            "is_in_exchange": false, 
             "name": "Rogue"
         }, 
         "3249": {
@@ -24870,22 +24980,27 @@
         }, 
         "3251": {
             "id": 3251, 
+            "is_in_exchange": false, 
             "name": "Knight of ardougne"
         }, 
         "3253": {
             "id": 3253, 
+            "is_in_exchange": false, 
             "name": "Watchman"
         }, 
         "3255": {
             "id": 3255, 
+            "is_in_exchange": false, 
             "name": "Paladin"
         }, 
         "3257": {
             "id": 3257, 
+            "is_in_exchange": false, 
             "name": "Gnome"
         }, 
         "3259": {
             "id": 3259, 
+            "is_in_exchange": false, 
             "name": "Hero"
         }, 
         "3261": {
@@ -24895,6 +25010,7 @@
         }, 
         "3262": {
             "id": 3262, 
+            "is_in_exchange": false, 
             "name": "Troll thistle"
         }, 
         "3263": {
@@ -24904,14 +25020,17 @@
         }, 
         "3264": {
             "id": 3264, 
+            "is_in_exchange": false, 
             "name": "Ground thistle"
         }, 
         "3265": {
             "id": 3265, 
+            "is_in_exchange": false, 
             "name": "Troll potion"
         }, 
         "3266": {
             "id": 3266, 
+            "is_in_exchange": false, 
             "name": "Drunk parrot"
         }, 
         "3267": {
@@ -24921,10 +25040,12 @@
         }, 
         "3268": {
             "id": 3268, 
+            "is_in_exchange": false, 
             "name": "Fake man"
         }, 
         "3269": {
             "id": 3269, 
+            "is_in_exchange": false, 
             "name": "Storeroom key"
         }, 
         "327": {
@@ -24936,14 +25057,17 @@
         }, 
         "3270": {
             "id": 3270, 
+            "is_in_exchange": false, 
             "name": "Alco-chunks"
         }, 
         "3271": {
             "id": 3271, 
+            "is_in_exchange": false, 
             "name": "Compost bin"
         }, 
         "3272": {
             "id": 3272, 
+            "is_in_exchange": false, 
             "name": "Cave kraken"
         }, 
         "329": {
@@ -24994,23 +25118,38 @@
             "name": "Trout"
         }, 
         "3331": {
+            "description": "A muddy yellow snail shell helmet.", 
             "id": 3331, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ochre snelm"
         }, 
         "3333": {
+            "description": "A moody blue snail shell helmet.", 
             "id": 3333, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bruise blue snelm"
         }, 
         "3335": {
+            "description": "An orange and bark coloured snail shell helmet.", 
             "id": 3335, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Broken bark snelm"
         }, 
         "3337": {
+            "description": "A swamp coloured pointed snail shell helmet.", 
             "id": 3337, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Myre snelm"
         }, 
         "3339": {
+            "description": "A red and black pointed snail shell helmet.", 
             "id": 3339, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Blood'n'tar snelm"
         }, 
         "3341": {
@@ -25056,23 +25195,38 @@
             "name": "Raw trout"
         }, 
         "3351": {
+            "description": "A large blue coloured blamish snail shell, looks protective.", 
             "id": 3351, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Blamish blue shell"
         }, 
         "3353": {
+            "description": "A large bark coloured blamish snail shell, looks protective.", 
             "id": 3353, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Blamish bark shell"
         }, 
         "3355": {
+            "description": "A large 'Myre' coloured blamish snail shell, looks protective.", 
             "id": 3355, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Blamish myre shell"
         }, 
         "3357": {
+            "description": "A large red coloured blamish snail shell, looks protective.", 
             "id": 3357, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Blamish red shell"
         }, 
         "3359": {
+            "description": "A large ochre coloured blamish snail shell, looks protective.", 
             "id": 3359, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Blamish ochre shell"
         }, 
         "3361": {
@@ -25104,7 +25258,10 @@
             "name": "Fat snail"
         }, 
         "3369": {
+            "description": "A succulently slimy slice of sumptuous snail.", 
             "id": 3369, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Thin snail meat"
         }, 
         "337": {
@@ -25113,23 +25270,34 @@
             "name": "Giant carp"
         }, 
         "3371": {
+            "description": "A succulently slimy slice of sumptuous snail.", 
             "id": 3371, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Lean snail meat"
         }, 
         "3373": {
+            "description": "A succulently slimy slice of sumptuous snail.", 
             "id": 3373, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fat snail meat"
         }, 
         "3375": {
             "id": 3375, 
+            "is_in_exchange": false, 
             "name": "Burnt snail"
         }, 
         "3377": {
             "id": 3377, 
+            "is_in_exchange": false, 
             "name": "Sample bottle"
         }, 
         "3379": {
+            "description": "A slime covered eel - yuck!", 
             "id": 3379, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Raw slimy eel"
         }, 
         "338": {
@@ -25178,43 +25346,71 @@
             "name": "Cod"
         }, 
         "3391": {
+            "description": "These should keep my hands safe.", 
             "id": 3391, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Splitbark gauntlets"
         }, 
         "3393": {
+            "description": "Wooden foot protection.", 
             "id": 3393, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Splitbark boots"
         }, 
         "3395": {
             "id": 3395, 
+            "is_in_exchange": false, 
             "name": "Diary"
         }, 
         "3396": {
+            "description": "The remains of a deadly shade.", 
             "id": 3396, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Loar remains"
         }, 
         "3398": {
+            "description": "The remains of a deadly shade.", 
             "id": 3398, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Phrin remains"
         }, 
         "3400": {
+            "description": "The remains of a deadly shade.", 
             "id": 3400, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Riyl remains"
         }, 
         "3402": {
+            "description": "The remains of a deadly shade.", 
             "id": 3402, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Asyn remains"
         }, 
         "3404": {
+            "description": "The remains of a deadly shade.", 
             "id": 3404, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fiyr remains"
         }, 
         "3406": {
+            "description": "I need another ingredient to finish this potion.", 
             "id": 3406, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Unfinished potion"
         }, 
         "3408": {
+            "description": "4 doses serum 207 as described in Herbi Flax's diary.", 
             "id": 3408, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Serum 207 (4)"
         }, 
         "341": {
@@ -25266,23 +25462,38 @@
             "name": "Serum 208 (1)"
         }, 
         "3420": {
+            "description": "A well carved limestone brick.", 
             "id": 3420, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Limestone brick"
         }, 
         "3422": {
+            "description": "4 doses of olive oil.", 
             "id": 3422, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Olive oil(4)"
         }, 
         "3424": {
+            "description": "3 doses of olive oil.", 
             "id": 3424, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Olive oil(3)"
         }, 
         "3426": {
+            "description": "2 doses of olive oil.", 
             "id": 3426, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Olive oil(2)"
         }, 
         "3428": {
+            "description": "1 dose of olive oil.", 
             "id": 3428, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Olive oil(1)"
         }, 
         "343": {
@@ -25326,23 +25537,38 @@
             "name": "Pyre logs"
         }, 
         "3440": {
+            "description": "Oak logs prepared with sacred oil for a funeral pyre.", 
             "id": 3440, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Oak pyre logs"
         }, 
         "3442": {
+            "description": "Willow logs prepared with sacred oil for a funeral pyre.", 
             "id": 3442, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Willow pyre logs"
         }, 
         "3444": {
+            "description": "Maple logs prepared with sacred oil for a funeral pyre.", 
             "id": 3444, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Maple pyre logs"
         }, 
         "3446": {
+            "description": "Yew logs prepared with sacred oil for a funeral pyre.", 
             "id": 3446, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Yew pyre logs"
         }, 
         "3448": {
+            "description": "Magic logs prepared with sacred oil for a funeral pyre.", 
             "id": 3448, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Magic pyre logs"
         }, 
         "345": {
@@ -25404,42 +25630,52 @@
         }, 
         "3460": {
             "id": 3460, 
+            "is_in_exchange": false, 
             "name": "Black key red"
         }, 
         "3461": {
             "id": 3461, 
+            "is_in_exchange": false, 
             "name": "Black key brown"
         }, 
         "3462": {
             "id": 3462, 
+            "is_in_exchange": false, 
             "name": "Black key crimson"
         }, 
         "3463": {
             "id": 3463, 
+            "is_in_exchange": false, 
             "name": "Black key black"
         }, 
         "3464": {
             "id": 3464, 
+            "is_in_exchange": false, 
             "name": "Black key purple"
         }, 
         "3465": {
             "id": 3465, 
+            "is_in_exchange": false, 
             "name": "Silver key red"
         }, 
         "3466": {
             "id": 3466, 
+            "is_in_exchange": false, 
             "name": "Silver key brown"
         }, 
         "3467": {
             "id": 3467, 
+            "is_in_exchange": false, 
             "name": "Silver key crimson"
         }, 
         "3468": {
             "id": 3468, 
+            "is_in_exchange": false, 
             "name": "Silver key black"
         }, 
         "3469": {
             "id": 3469, 
+            "is_in_exchange": false, 
             "name": "Silver key purple"
         }, 
         "347": {
@@ -25513,27 +25749,45 @@
             "name": "Saradomin plateskirt"
         }, 
         "3480": {
+            "description": "Rune plateskirt in the colours of Guthix.", 
             "id": 3480, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Guthix plateskirt"
         }, 
         "3481": {
+            "description": "Rune platebody with gold plate.", 
             "id": 3481, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Gilded platebody"
         }, 
         "3483": {
+            "description": "Rune platelegs with gold plate.", 
             "id": 3483, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Gilded platelegs"
         }, 
         "3485": {
+            "description": "Rune plateskirt with gold plate.", 
             "id": 3485, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Gilded plateskirt"
         }, 
         "3486": {
+            "description": "Rune full helmet with gold plate.", 
             "id": 3486, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Gilded full helm"
         }, 
         "3488": {
+            "description": "Rune kiteshield with gold plate.", 
             "id": 3488, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Gilded kiteshield"
         }, 
         "349": {
@@ -25545,42 +25799,52 @@
         }, 
         "3490": {
             "id": 3490, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3491": {
             "id": 3491, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3492": {
             "id": 3492, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3493": {
             "id": 3493, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3494": {
             "id": 3494, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3495": {
             "id": 3495, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3496": {
             "id": 3496, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3497": {
             "id": 3497, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3498": {
             "id": 3498, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3499": {
             "id": 3499, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "35": {
@@ -25590,42 +25854,52 @@
         }, 
         "3500": {
             "id": 3500, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3501": {
             "id": 3501, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3502": {
             "id": 3502, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3503": {
             "id": 3503, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3504": {
             "id": 3504, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3505": {
             "id": 3505, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3506": {
             "id": 3506, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3507": {
             "id": 3507, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3508": {
             "id": 3508, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "3509": {
             "id": 3509, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (easy)"
         }, 
         "351": {
@@ -25687,42 +25961,52 @@
         }, 
         "3520": {
             "id": 3520, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3521": {
             "id": 3521, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3522": {
             "id": 3522, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3523": {
             "id": 3523, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3524": {
             "id": 3524, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3525": {
             "id": 3525, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3526": {
             "id": 3526, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3527": {
             "id": 3527, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3528": {
             "id": 3528, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3529": {
             "id": 3529, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "353": {
@@ -25784,42 +26068,52 @@
         }, 
         "3540": {
             "id": 3540, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3541": {
             "id": 3541, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3542": {
             "id": 3542, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3543": {
             "id": 3543, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3544": {
             "id": 3544, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3545": {
             "id": 3545, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3546": {
             "id": 3546, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3547": {
             "id": 3547, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3548": {
             "id": 3548, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3549": {
             "id": 3549, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "355": {
@@ -25831,82 +26125,102 @@
         }, 
         "3550": {
             "id": 3550, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3551": {
             "id": 3551, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3552": {
             "id": 3552, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3553": {
             "id": 3553, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3554": {
             "id": 3554, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3555": {
             "id": 3555, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3556": {
             "id": 3556, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3557": {
             "id": 3557, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3558": {
             "id": 3558, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3559": {
             "id": 3559, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3560": {
             "id": 3560, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3561": {
             "id": 3561, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3562": {
             "id": 3562, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3563": {
             "id": 3563, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3564": {
             "id": 3564, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3565": {
             "id": 3565, 
+            "is_in_exchange": false, 
             "name": "Puzzle box (hard)"
         }, 
         "3566": {
             "id": 3566, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3567": {
             "id": 3567, 
+            "is_in_exchange": false, 
             "name": "Puzzle box (hard)"
         }, 
         "3568": {
             "id": 3568, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3569": {
             "id": 3569, 
+            "is_in_exchange": false, 
             "name": "Puzzle box (hard)"
         }, 
         "357": {
@@ -25916,82 +26230,102 @@
         }, 
         "3570": {
             "id": 3570, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3571": {
             "id": 3571, 
+            "is_in_exchange": false, 
             "name": "Puzzle box (hard)"
         }, 
         "3572": {
             "id": 3572, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3573": {
             "id": 3573, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3574": {
             "id": 3574, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3575": {
             "id": 3575, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3576": {
             "id": 3576, 
+            "is_in_exchange": false, 
             "name": "Puzzle box (hard)"
         }, 
         "3577": {
             "id": 3577, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3578": {
             "id": 3578, 
+            "is_in_exchange": false, 
             "name": "Puzzle box (hard)"
         }, 
         "3579": {
             "id": 3579, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3580": {
             "id": 3580, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (hard)"
         }, 
         "3581": {
             "id": 3581, 
+            "is_in_exchange": false, 
             "name": "Casket (hard)"
         }, 
         "3582": {
             "id": 3582, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3583": {
             "id": 3583, 
+            "is_in_exchange": false, 
             "name": "Casket (medium)"
         }, 
         "3584": {
             "id": 3584, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3585": {
             "id": 3585, 
+            "is_in_exchange": false, 
             "name": "Casket (medium)"
         }, 
         "3586": {
             "id": 3586, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3587": {
             "id": 3587, 
+            "is_in_exchange": false, 
             "name": "Casket (medium)"
         }, 
         "3588": {
             "id": 3588, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3589": {
             "id": 3589, 
+            "is_in_exchange": false, 
             "name": "Casket (medium)"
         }, 
         "359": {
@@ -26117,42 +26451,52 @@
         }, 
         "3610": {
             "id": 3610, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3611": {
             "id": 3611, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3612": {
             "id": 3612, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3613": {
             "id": 3613, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3614": {
             "id": 3614, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3615": {
             "id": 3615, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3616": {
             "id": 3616, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3617": {
             "id": 3617, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3618": {
             "id": 3618, 
+            "is_in_exchange": false, 
             "name": "Clue scroll (medium)"
         }, 
         "3619": {
             "id": 3619, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3620": {
@@ -26214,42 +26558,52 @@
         }, 
         "3630": {
             "id": 3630, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3631": {
             "id": 3631, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3632": {
             "id": 3632, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3633": {
             "id": 3633, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3634": {
             "id": 3634, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3635": {
             "id": 3635, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3636": {
             "id": 3636, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3637": {
             "id": 3637, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3638": {
             "id": 3638, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3639": {
             "id": 3639, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3640": {
@@ -26311,42 +26665,52 @@
         }, 
         "3650": {
             "id": 3650, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3651": {
             "id": 3651, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3652": {
             "id": 3652, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3653": {
             "id": 3653, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3654": {
             "id": 3654, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3655": {
             "id": 3655, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3656": {
             "id": 3656, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3657": {
             "id": 3657, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3658": {
             "id": 3658, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3659": {
             "id": 3659, 
+            "is_in_exchange": false, 
             "name": "Sliding piece"
         }, 
         "3660": {
@@ -26390,7 +26754,10 @@
             "name": "Burnt fish"
         }, 
         "3678": {
+            "description": "An exquisitely shaped tool specially designed for fixing temples.", 
             "id": 3678, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Flamtaer hammer"
         }, 
         "3680": {
@@ -26445,82 +26812,102 @@
         }, 
         "3690": {
             "id": 3690, 
+            "is_in_exchange": false, 
             "name": "Enchanted lyre"
         }, 
         "3691": {
             "id": 3691, 
+            "is_in_exchange": false, 
             "name": "Enchanted lyre(1)"
         }, 
         "3692": {
             "id": 3692, 
+            "is_in_exchange": false, 
             "name": "Branch"
         }, 
         "3693": {
             "id": 3693, 
+            "is_in_exchange": false, 
             "name": "Golden fleece"
         }, 
         "3694": {
             "id": 3694, 
+            "is_in_exchange": false, 
             "name": "Golden wool"
         }, 
         "3695": {
             "id": 3695, 
+            "is_in_exchange": false, 
             "name": "Pet rock"
         }, 
         "3696": {
             "id": 3696, 
+            "is_in_exchange": false, 
             "name": "Hunters' talisman"
         }, 
         "3697": {
             "id": 3697, 
+            "is_in_exchange": false, 
             "name": "Hunters' talisman"
         }, 
         "3698": {
             "id": 3698, 
+            "is_in_exchange": false, 
             "name": "Exotic flower"
         }, 
         "3699": {
             "id": 3699, 
+            "is_in_exchange": false, 
             "name": "Fremennik ballad"
         }, 
         "3700": {
             "id": 3700, 
+            "is_in_exchange": false, 
             "name": "Sturdy boots"
         }, 
         "3701": {
             "id": 3701, 
+            "is_in_exchange": false, 
             "name": "Tracking map"
         }, 
         "3702": {
             "id": 3702, 
+            "is_in_exchange": false, 
             "name": "Custom bow string"
         }, 
         "3703": {
             "id": 3703, 
+            "is_in_exchange": false, 
             "name": "Unusual fish"
         }, 
         "3704": {
             "id": 3704, 
+            "is_in_exchange": false, 
             "name": "Sea fishing map"
         }, 
         "3705": {
             "id": 3705, 
+            "is_in_exchange": false, 
             "name": "Weather forecast"
         }, 
         "3706": {
             "id": 3706, 
+            "is_in_exchange": false, 
             "name": "Champions token"
         }, 
         "3707": {
             "id": 3707, 
+            "is_in_exchange": false, 
             "name": "Legendary cocktail"
         }, 
         "3708": {
             "id": 3708, 
+            "is_in_exchange": false, 
             "name": "Fiscal statement"
         }, 
         "3709": {
             "id": 3709, 
+            "is_in_exchange": false, 
             "name": "Promissory note"
         }, 
         "371": {
@@ -26532,78 +26919,97 @@
         }, 
         "3710": {
             "id": 3710, 
+            "is_in_exchange": false, 
             "name": "Warriors' contract"
         }, 
         "3711": {
             "id": 3711, 
+            "is_in_exchange": false, 
             "name": "Keg of beer"
         }, 
         "3712": {
             "id": 3712, 
+            "is_in_exchange": false, 
             "name": "Low alcohol keg"
         }, 
         "3713": {
             "id": 3713, 
+            "is_in_exchange": false, 
             "name": "Strange object"
         }, 
         "3714": {
             "id": 3714, 
+            "is_in_exchange": false, 
             "name": "Lit strange object"
         }, 
         "3715": {
             "id": 3715, 
+            "is_in_exchange": false, 
             "name": "Red disk"
         }, 
         "3716": {
             "id": 3716, 
+            "is_in_exchange": false, 
             "name": "Red disk"
         }, 
         "3718": {
             "id": 3718, 
+            "is_in_exchange": false, 
             "name": "Magnet"
         }, 
         "3719": {
             "id": 3719, 
+            "is_in_exchange": false, 
             "name": "Blue thread"
         }, 
         "3720": {
             "id": 3720, 
+            "is_in_exchange": false, 
             "name": "Small pick"
         }, 
         "3721": {
             "id": 3721, 
+            "is_in_exchange": false, 
             "name": "Toy ship"
         }, 
         "3722": {
             "id": 3722, 
+            "is_in_exchange": false, 
             "name": "Full bucket"
         }, 
         "3723": {
             "id": 3723, 
+            "is_in_exchange": false, 
             "name": "4/5ths full bucket"
         }, 
         "3724": {
             "id": 3724, 
+            "is_in_exchange": false, 
             "name": "3/5ths full bucket"
         }, 
         "3725": {
             "id": 3725, 
+            "is_in_exchange": false, 
             "name": "2/5ths full bucket"
         }, 
         "3726": {
             "id": 3726, 
+            "is_in_exchange": false, 
             "name": "1/5ths full bucket"
         }, 
         "3727": {
             "id": 3727, 
+            "is_in_exchange": false, 
             "name": "Empty bucket"
         }, 
         "3728": {
             "id": 3728, 
+            "is_in_exchange": false, 
             "name": "Frozen bucket"
         }, 
         "3729": {
             "id": 3729, 
+            "is_in_exchange": false, 
             "name": "Full jug"
         }, 
         "373": {
@@ -26615,42 +27021,52 @@
         }, 
         "3730": {
             "id": 3730, 
+            "is_in_exchange": false, 
             "name": "2/3rds full jug"
         }, 
         "3731": {
             "id": 3731, 
+            "is_in_exchange": false, 
             "name": "1/3rds full jug"
         }, 
         "3732": {
             "id": 3732, 
+            "is_in_exchange": false, 
             "name": "Empty jug"
         }, 
         "3733": {
             "id": 3733, 
+            "is_in_exchange": false, 
             "name": "Frozen jug"
         }, 
         "3734": {
             "id": 3734, 
+            "is_in_exchange": false, 
             "name": "Vase"
         }, 
         "3735": {
             "id": 3735, 
+            "is_in_exchange": false, 
             "name": "Vase of water"
         }, 
         "3736": {
             "id": 3736, 
+            "is_in_exchange": false, 
             "name": "Frozen vase"
         }, 
         "3737": {
             "id": 3737, 
+            "is_in_exchange": false, 
             "name": "Vase lid"
         }, 
         "3738": {
             "id": 3738, 
+            "is_in_exchange": false, 
             "name": "Sealed vase"
         }, 
         "3739": {
             "id": 3739, 
+            "is_in_exchange": false, 
             "name": "Sealed vase"
         }, 
         "3740": {
@@ -26706,47 +27122,76 @@
             "name": "Burnt swordfish"
         }, 
         "3751": {
+            "description": "This helmet is worn by berserkers.", 
             "id": 3751, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Berserker helm"
         }, 
         "3753": {
+            "description": "This helmet is worn by warriors.", 
             "id": 3753, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Warrior helm"
         }, 
         "3755": {
+            "description": "This helmet is worn by farseers.", 
             "id": 3755, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Farseer helm"
         }, 
         "3757": {
             "id": 3757, 
+            "is_in_exchange": false, 
             "name": "Fremennik blade"
         }, 
         "3758": {
             "id": 3758, 
+            "is_in_exchange": false, 
             "name": "Fremennik shield"
         }, 
         "3759": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3759, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik cyan cloak"
         }, 
         "3761": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3761, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik brown cloak"
         }, 
         "3763": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3763, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik blue cloak"
         }, 
         "3765": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3765, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik green cloak"
         }, 
         "3767": {
+            "description": "The latest in Fremennik fashion.", 
             "id": 3767, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik brown shirt"
         }, 
         "3769": {
+            "description": "The latest in Fremennik fashion.", 
             "id": 3769, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik grey shirt"
         }, 
         "377": {
@@ -26757,43 +27202,73 @@
             "name": "Raw lobster"
         }, 
         "3771": {
+            "description": "The latest in Fremennik fashion.", 
             "id": 3771, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik beige shirt"
         }, 
         "3773": {
+            "description": "The latest in Fremennik fashion.", 
             "id": 3773, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik red shirt"
         }, 
         "3775": {
+            "description": "The latest in Fremennik fashion.", 
             "id": 3775, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik blue shirt"
         }, 
         "3777": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3777, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik red cloak"
         }, 
         "3779": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3779, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik grey cloak"
         }, 
         "3781": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3781, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik yellow cloak"
         }, 
         "3783": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3783, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik teal cloak"
         }, 
         "3785": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3785, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik purple cloak"
         }, 
         "3787": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3787, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik pink cloak"
         }, 
         "3789": {
+            "description": "The latest fashion in Rellekka.", 
             "id": 3789, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fremennik black cloak"
         }, 
         "379": {
@@ -26844,15 +27319,22 @@
             "name": "Black candle"
         }, 
         "3801": {
+            "description": "A lot of beer in a barrel.", 
             "id": 3801, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Keg of beer"
         }, 
         "3803": {
+            "description": "Frothy and alcoholic.", 
             "id": 3803, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Beer tankard"
         }, 
         "3805": {
             "id": 3805, 
+            "is_in_exchange": false, 
             "name": "Tankard"
         }, 
         "381": {
@@ -26861,15 +27343,24 @@
             "name": "Burnt lobster"
         }, 
         "3827": {
+            "description": "This seems to have been torn from a book...", 
             "id": 3827, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Saradomin page 1"
         }, 
         "3828": {
+            "description": "This seems to have been torn from a book...", 
             "id": 3828, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Saradomin page 2"
         }, 
         "3829": {
+            "description": "This seems to have been torn from a book...", 
             "id": 3829, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Saradomin page 3"
         }, 
         "383": {
@@ -26949,42 +27440,52 @@
         }, 
         "3840": {
             "id": 3840, 
+            "is_in_exchange": false, 
             "name": "Holy book"
         }, 
         "3841": {
             "id": 3841, 
+            "is_in_exchange": false, 
             "name": "Damaged book"
         }, 
         "3842": {
             "id": 3842, 
+            "is_in_exchange": false, 
             "name": "Unholy book"
         }, 
         "3843": {
             "id": 3843, 
+            "is_in_exchange": false, 
             "name": "Damaged book"
         }, 
         "3844": {
             "id": 3844, 
+            "is_in_exchange": false, 
             "name": "Book of balance"
         }, 
         "3845": {
             "id": 3845, 
+            "is_in_exchange": false, 
             "name": "Journal"
         }, 
         "3846": {
             "id": 3846, 
+            "is_in_exchange": false, 
             "name": "Diary"
         }, 
         "3847": {
             "id": 3847, 
+            "is_in_exchange": false, 
             "name": "Manual"
         }, 
         "3848": {
             "id": 3848, 
+            "is_in_exchange": false, 
             "name": "Lighthouse key"
         }, 
         "3849": {
             "id": 3849, 
+            "is_in_exchange": false, 
             "name": "Rusty casket"
         }, 
         "385": {
@@ -26995,39 +27496,50 @@
             "name": "Shark"
         }, 
         "3853": {
+            "description": "An enchanted necklace.", 
             "id": 3853, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Games necklace(8)"
         }, 
         "3855": {
             "id": 3855, 
+            "is_in_exchange": false, 
             "name": "Games necklace(7)"
         }, 
         "3857": {
             "id": 3857, 
+            "is_in_exchange": false, 
             "name": "Games necklace(6)"
         }, 
         "3859": {
             "id": 3859, 
+            "is_in_exchange": false, 
             "name": "Games necklace(5)"
         }, 
         "3861": {
             "id": 3861, 
+            "is_in_exchange": false, 
             "name": "Games necklace(4)"
         }, 
         "3863": {
             "id": 3863, 
+            "is_in_exchange": false, 
             "name": "Games necklace(3)"
         }, 
         "3865": {
             "id": 3865, 
+            "is_in_exchange": false, 
             "name": "Games necklace(2)"
         }, 
         "3867": {
             "id": 3867, 
+            "is_in_exchange": false, 
             "name": "Games necklace(1)"
         }, 
         "3869": {
             "id": 3869, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "387": {
@@ -27037,82 +27549,102 @@
         }, 
         "3870": {
             "id": 3870, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3871": {
             "id": 3871, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3872": {
             "id": 3872, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3873": {
             "id": 3873, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3874": {
             "id": 3874, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3875": {
             "id": 3875, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3876": {
             "id": 3876, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3877": {
             "id": 3877, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3878": {
             "id": 3878, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3879": {
             "id": 3879, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3880": {
             "id": 3880, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3881": {
             "id": 3881, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3882": {
             "id": 3882, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3883": {
             "id": 3883, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3884": {
             "id": 3884, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3885": {
             "id": 3885, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3886": {
             "id": 3886, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3887": {
             "id": 3887, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3888": {
             "id": 3888, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3889": {
             "id": 3889, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "389": {
@@ -27124,42 +27656,52 @@
         }, 
         "3890": {
             "id": 3890, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3891": {
             "id": 3891, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3892": {
             "id": 3892, 
+            "is_in_exchange": false, 
             "name": "Board game piece"
         }, 
         "3893": {
             "id": 3893, 
+            "is_in_exchange": false, 
             "name": "Stool"
         }, 
         "3894": {
             "id": 3894, 
+            "is_in_exchange": false, 
             "name": "Awful anthem"
         }, 
         "3895": {
             "id": 3895, 
+            "is_in_exchange": false, 
             "name": "Good anthem"
         }, 
         "3896": {
             "id": 3896, 
+            "is_in_exchange": false, 
             "name": "Treaty"
         }, 
         "3897": {
             "id": 3897, 
+            "is_in_exchange": false, 
             "name": "Giant nib"
         }, 
         "3898": {
             "id": 3898, 
+            "is_in_exchange": false, 
             "name": "Giant pen"
         }, 
         "3899": {
             "id": 3899, 
+            "is_in_exchange": false, 
             "name": "Iron sickle"
         }, 
         "39": {
@@ -27171,18 +27713,22 @@
         }, 
         "3901": {
             "id": 3901, 
+            "is_in_exchange": false, 
             "name": "Ghrim's book"
         }, 
         "3904": {
             "id": 3904, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3906": {
             "id": 3906, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3908": {
             "id": 3908, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "391": {
@@ -27204,34 +27750,42 @@
         }, 
         "3914": {
             "id": 3914, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3916": {
             "id": 3916, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3918": {
             "id": 3918, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3920": {
             "id": 3920, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3922": {
             "id": 3922, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3924": {
             "id": 3924, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3926": {
             "id": 3926, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3928": {
             "id": 3928, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "393": {
@@ -27266,22 +27820,27 @@
         }, 
         "3940": {
             "id": 3940, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3942": {
             "id": 3942, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3944": {
             "id": 3944, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3946": {
             "id": 3946, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3948": {
             "id": 3948, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "395": {
@@ -27318,22 +27877,27 @@
         }, 
         "3960": {
             "id": 3960, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3962": {
             "id": 3962, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3964": {
             "id": 3964, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3966": {
             "id": 3966, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3968": {
             "id": 3968, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "397": {
@@ -27370,30 +27934,37 @@
         }, 
         "3980": {
             "id": 3980, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3981": {
             "id": 3981, 
+            "is_in_exchange": false, 
             "name": "Wilderness sword"
         }, 
         "3982": {
             "id": 3982, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3983": {
             "id": 3983, 
+            "is_in_exchange": false, 
             "name": "Western banner"
         }, 
         "3984": {
             "id": 3984, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3986": {
             "id": 3986, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "3988": {
             "id": 3988, 
+            "is_in_exchange": false, 
             "name": "Sliding button"
         }, 
         "399": {
@@ -27487,22 +28058,33 @@
         }, 
         "4010": {
             "id": 4010, 
+            "is_in_exchange": false, 
             "name": "Monkey magic"
         }, 
         "4012": {
+            "description": "These are monkey nuts. Yummy.", 
             "id": 4012, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Monkey nuts"
         }, 
         "4014": {
+            "description": "It's a monkey bar. It looks highly nutritious.", 
             "id": 4014, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Monkey bar"
         }, 
         "4016": {
+            "description": "It's a bowl full of mushy banana.", 
             "id": 4016, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Banana stew"
         }, 
         "4018": {
             "id": 4018, 
+            "is_in_exchange": false, 
             "name": "Monkey wrench"
         }, 
         "4020": {
@@ -27564,30 +28146,37 @@
         }, 
         "4030": {
             "id": 4030, 
+            "is_in_exchange": false, 
             "name": "Zombie monkey greegree"
         }, 
         "4031": {
             "id": 4031, 
+            "is_in_exchange": false, 
             "name": "Karamjan monkey greegree"
         }, 
         "4033": {
             "id": 4033, 
+            "is_in_exchange": false, 
             "name": "Monkey"
         }, 
         "4034": {
             "id": 4034, 
+            "is_in_exchange": false, 
             "name": "Monkey skull"
         }, 
         "4035": {
             "id": 4035, 
+            "is_in_exchange": false, 
             "name": "10th squad sigil"
         }, 
         "4037": {
             "id": 4037, 
+            "is_in_exchange": false, 
             "name": "Saradomin banner"
         }, 
         "4039": {
             "id": 4039, 
+            "is_in_exchange": false, 
             "name": "Zamorak banner"
         }, 
         "4041": {
@@ -27629,14 +28218,17 @@
         }, 
         "4051": {
             "id": 4051, 
+            "is_in_exchange": false, 
             "name": "Toolkit"
         }, 
         "4053": {
             "id": 4053, 
+            "is_in_exchange": false, 
             "name": "Barricade"
         }, 
         "4055": {
             "id": 4055, 
+            "is_in_exchange": false, 
             "name": "Castlewars manual"
         }, 
         "4067": {
@@ -27663,66 +28255,86 @@
         }, 
         "4070": {
             "id": 4070, 
+            "is_in_exchange": false, 
             "name": "Decorative armour"
         }, 
         "4071": {
             "id": 4071, 
+            "is_in_exchange": false, 
             "name": "Decorative helm"
         }, 
         "4072": {
             "id": 4072, 
+            "is_in_exchange": false, 
             "name": "Decorative shield"
         }, 
         "4073": {
             "id": 4073, 
+            "is_in_exchange": false, 
             "name": "Damp tinderbox"
         }, 
         "4075": {
             "id": 4075, 
+            "is_in_exchange": false, 
             "name": "Glowing fungus"
         }, 
         "4077": {
             "id": 4077, 
+            "is_in_exchange": false, 
             "name": "Crystal-mine key"
         }, 
         "4078": {
             "id": 4078, 
+            "is_in_exchange": false, 
             "name": "Zealot's key"
         }, 
         "4079": {
             "id": 4079, 
+            "is_in_exchange": false, 
             "name": "Yo-yo"
         }, 
         "4081": {
             "id": 4081, 
+            "is_in_exchange": false, 
             "name": "Salve amulet"
         }, 
         "4082": {
             "id": 4082, 
+            "is_in_exchange": false, 
             "name": "Salve shard"
         }, 
         "4083": {
             "id": 4083, 
+            "is_in_exchange": false, 
             "name": "Sled"
         }, 
         "4084": {
             "id": 4084, 
+            "is_in_exchange": false, 
             "name": "Sled"
         }, 
         "4085": {
             "id": 4085, 
+            "is_in_exchange": false, 
             "name": "Wax"
         }, 
         "4086": {
             "id": 4086, 
+            "is_in_exchange": false, 
             "name": "Trollweiss"
         }, 
         "4087": {
+            "description": "These look pretty heavy.", 
             "id": 4087, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dragon platelegs"
         }, 
         "4089": {
+            "description": "A magical hat.", 
             "id": 4089, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic hat"
         }, 
         "409": {
@@ -27731,23 +28343,38 @@
             "name": "Empty oyster"
         }, 
         "4091": {
+            "description": "The upper half of a magical robe.", 
             "id": 4091, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic robe top"
         }, 
         "4093": {
+            "description": "The lower half of a magical robe.", 
             "id": 4093, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic robe bottom"
         }, 
         "4095": {
+            "description": "Magical gloves.", 
             "id": 4095, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic gloves"
         }, 
         "4097": {
+            "description": "Magical boots.", 
             "id": 4097, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic boots"
         }, 
         "4099": {
+            "description": "A dark magical hat.", 
             "id": 4099, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic hat (dark)"
         }, 
         "41": {
@@ -27758,23 +28385,38 @@
             "name": "Steel arrowtips"
         }, 
         "4101": {
+            "description": "The upper half of a dark magical robe.", 
             "id": 4101, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic robe top (dark)"
         }, 
         "4103": {
+            "description": "The lower half of a dark magical robe.", 
             "id": 4103, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic robe bottom (dark)"
         }, 
         "4105": {
+            "description": "Dark magical gloves.", 
             "id": 4105, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic gloves (dark)"
         }, 
         "4107": {
+            "description": "Dark magical boots.", 
             "id": 4107, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic boots (dark)"
         }, 
         "4109": {
+            "description": "A bright magical hat.", 
             "id": 4109, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic hat (light)"
         }, 
         "411": {
@@ -27785,43 +28427,73 @@
             "name": "Oyster pearl"
         }, 
         "4111": {
+            "description": "The upper half of a bright magical robe.", 
             "id": 4111, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic robe top (light)"
         }, 
         "4113": {
+            "description": "The lower half of a bright magical robe.", 
             "id": 4113, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic robe bottom (light)"
         }, 
         "4115": {
+            "description": "Bright magical gloves.", 
             "id": 4115, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic gloves (light)"
         }, 
         "4117": {
+            "description": "Bright magical boots.", 
             "id": 4117, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mystic boots (light)"
         }, 
         "4119": {
+            "description": "These will protect my feet.", 
             "id": 4119, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bronze boots"
         }, 
         "4121": {
+            "description": "These will protect my feet.", 
             "id": 4121, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Iron boots"
         }, 
         "4123": {
+            "description": "These will protect my feet.", 
             "id": 4123, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Steel boots"
         }, 
         "4125": {
+            "description": "These will protect my feet.", 
             "id": 4125, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Black boots"
         }, 
         "4127": {
+            "description": "These will protect my feet.", 
             "id": 4127, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mithril boots"
         }, 
         "4129": {
+            "description": "These will protect my feet.", 
             "id": 4129, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Adamant boots"
         }, 
         "413": {
@@ -27832,75 +28504,95 @@
             "name": "Oyster pearls"
         }, 
         "4131": {
+            "description": "These will protect my feet.", 
             "id": 4131, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Rune boots"
         }, 
         "4133": {
             "id": 4133, 
+            "is_in_exchange": false, 
             "name": "Crawling hand"
         }, 
         "4134": {
             "id": 4134, 
+            "is_in_exchange": false, 
             "name": "Cave crawler"
         }, 
         "4135": {
             "id": 4135, 
+            "is_in_exchange": false, 
             "name": "Banshee"
         }, 
         "4136": {
             "id": 4136, 
+            "is_in_exchange": false, 
             "name": "Rockslug"
         }, 
         "4137": {
             "id": 4137, 
+            "is_in_exchange": false, 
             "name": "Cockatrice"
         }, 
         "4138": {
             "id": 4138, 
+            "is_in_exchange": false, 
             "name": "Pyrefiend"
         }, 
         "4139": {
             "id": 4139, 
+            "is_in_exchange": false, 
             "name": "Basilisk"
         }, 
         "4140": {
             "id": 4140, 
+            "is_in_exchange": false, 
             "name": "Infernal mage"
         }, 
         "4141": {
             "id": 4141, 
+            "is_in_exchange": false, 
             "name": "Bloodveld"
         }, 
         "4142": {
             "id": 4142, 
+            "is_in_exchange": false, 
             "name": "Jelly"
         }, 
         "4143": {
             "id": 4143, 
+            "is_in_exchange": false, 
             "name": "Turoth"
         }, 
         "4144": {
             "id": 4144, 
+            "is_in_exchange": false, 
             "name": "Aberrant spectre"
         }, 
         "4145": {
             "id": 4145, 
+            "is_in_exchange": false, 
             "name": "Dust devil"
         }, 
         "4146": {
             "id": 4146, 
+            "is_in_exchange": false, 
             "name": "Kurask"
         }, 
         "4147": {
             "id": 4147, 
+            "is_in_exchange": false, 
             "name": "Gargoyle"
         }, 
         "4148": {
             "id": 4148, 
+            "is_in_exchange": false, 
             "name": "Nechryael"
         }, 
         "4149": {
             "id": 4149, 
+            "is_in_exchange": false, 
             "name": "Abyssal demon"
         }, 
         "415": {
@@ -27910,30 +28602,43 @@
         }, 
         "4150": {
             "id": 4150, 
+            "is_in_exchange": false, 
             "name": "Broad arrows"
         }, 
         "4151": {
+            "description": "A weapon from the abyss.", 
             "id": 4151, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Abyssal whip"
         }, 
         "4153": {
+            "description": "Simplicity is the best weapon.", 
             "id": 4153, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Granite maul"
         }, 
         "4155": {
             "id": 4155, 
+            "is_in_exchange": false, 
             "name": "Enchanted gem"
         }, 
         "4156": {
+            "description": "I can just about see things in this shield's reflection.", 
             "id": 4156, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mirror shield"
         }, 
         "4158": {
             "id": 4158, 
+            "is_in_exchange": false, 
             "name": "Leaf-bladed spear"
         }, 
         "4159": {
             "id": 4159, 
+            "is_in_exchange": false, 
             "name": "Leaf-bladed spear"
         }, 
         "416": {
@@ -27943,26 +28648,42 @@
         }, 
         "4160": {
             "id": 4160, 
+            "is_in_exchange": false, 
             "name": "Broad arrows"
         }, 
         "4161": {
+            "description": "A bag of salt.", 
             "id": 4161, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bag of salt"
         }, 
         "4162": {
+            "description": "I can even smash stone with this.", 
             "id": 4162, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Rock hammer"
         }, 
         "4164": {
+            "description": "Stops me breathing in too much dust.", 
             "id": 4164, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Facemask"
         }, 
         "4166": {
+            "description": "These will protect my ears from loud noise.", 
             "id": 4166, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Earmuffs"
         }, 
         "4168": {
+            "description": "Protects me from any bad smells.", 
             "id": 4168, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Nose peg"
         }, 
         "417": {
@@ -27971,15 +28692,20 @@
             "name": "Sulphuric broline"
         }, 
         "4170": {
+            "description": "An old and magical staff.", 
             "id": 4170, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Slayer's staff"
         }, 
         "4178": {
             "id": 4178, 
+            "is_in_exchange": false, 
             "name": "Abyssal whip"
         }, 
         "4179": {
             "id": 4179, 
+            "is_in_exchange": false, 
             "name": "Stick"
         }, 
         "418": {
@@ -27989,42 +28715,52 @@
         }, 
         "4180": {
             "id": 4180, 
+            "is_in_exchange": false, 
             "name": "Dragon platelegs"
         }, 
         "4181": {
             "id": 4181, 
+            "is_in_exchange": false, 
             "name": "Mouth grip"
         }, 
         "4182": {
             "id": 4182, 
+            "is_in_exchange": false, 
             "name": "Goutweed"
         }, 
         "4183": {
             "id": 4183, 
+            "is_in_exchange": false, 
             "name": "Star amulet"
         }, 
         "4184": {
             "id": 4184, 
+            "is_in_exchange": false, 
             "name": "Cavern key"
         }, 
         "4185": {
             "id": 4185, 
+            "is_in_exchange": false, 
             "name": "Tower key"
         }, 
         "4186": {
             "id": 4186, 
+            "is_in_exchange": false, 
             "name": "Shed key"
         }, 
         "4187": {
             "id": 4187, 
+            "is_in_exchange": false, 
             "name": "Marble amulet"
         }, 
         "4188": {
             "id": 4188, 
+            "is_in_exchange": false, 
             "name": "Obsidian amulet"
         }, 
         "4189": {
             "id": 4189, 
+            "is_in_exchange": false, 
             "name": "Garden cane"
         }, 
         "419": {
@@ -28096,38 +28832,49 @@
         }, 
         "4200": {
             "id": 4200, 
+            "is_in_exchange": false, 
             "name": "Conductor mould"
         }, 
         "4201": {
             "id": 4201, 
+            "is_in_exchange": false, 
             "name": "Conductor"
         }, 
         "4202": {
             "id": 4202, 
+            "is_in_exchange": false, 
             "name": "Ring of charos"
         }, 
         "4203": {
             "id": 4203, 
+            "is_in_exchange": false, 
             "name": "Journal"
         }, 
         "4204": {
             "id": 4204, 
+            "is_in_exchange": false, 
             "name": "Letter"
         }, 
         "4205": {
             "id": 4205, 
+            "is_in_exchange": false, 
             "name": "Consecration seed"
         }, 
         "4206": {
             "id": 4206, 
+            "is_in_exchange": false, 
             "name": "Consecration seed"
         }, 
         "4207": {
+            "description": "This crystal seed looks grey and dead.", 
             "id": 4207, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Crystal seed"
         }, 
         "4209": {
             "id": 4209, 
+            "is_in_exchange": false, 
             "name": "Cadarn lineage"
         }, 
         "421": {
@@ -28184,42 +28931,54 @@
         }, 
         "4220": {
             "id": 4220, 
+            "is_in_exchange": false, 
             "name": "Crystal bow 4/10"
         }, 
         "4221": {
             "id": 4221, 
+            "is_in_exchange": false, 
             "name": "Crystal bow 3/10"
         }, 
         "4222": {
             "id": 4222, 
+            "is_in_exchange": false, 
             "name": "Crystal bow 2/10"
         }, 
         "4223": {
             "id": 4223, 
+            "is_in_exchange": false, 
             "name": "Crystal bow 1/10"
         }, 
         "4224": {
+            "description": "A nice sturdy crystal shield.", 
             "id": 4224, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "New crystal shield"
         }, 
         "4225": {
             "id": 4225, 
+            "is_in_exchange": false, 
             "name": "Crystal shield full"
         }, 
         "4226": {
             "id": 4226, 
+            "is_in_exchange": false, 
             "name": "Crystal shield 9/10"
         }, 
         "4227": {
             "id": 4227, 
+            "is_in_exchange": false, 
             "name": "Crystal shield 8/10"
         }, 
         "4228": {
             "id": 4228, 
+            "is_in_exchange": false, 
             "name": "Crystal shield 7/10"
         }, 
         "4229": {
             "id": 4229, 
+            "is_in_exchange": false, 
             "name": "Crystal shield 6/10"
         }, 
         "423": {
@@ -28279,42 +29038,52 @@
         }, 
         "4240": {
             "id": 4240, 
+            "is_in_exchange": false, 
             "name": "Nettle tea"
         }, 
         "4241": {
             "id": 4241, 
+            "is_in_exchange": false, 
             "name": "Nettles"
         }, 
         "4242": {
             "id": 4242, 
+            "is_in_exchange": false, 
             "name": "Cup of tea"
         }, 
         "4243": {
             "id": 4243, 
+            "is_in_exchange": false, 
             "name": "Cup of tea"
         }, 
         "4244": {
             "id": 4244, 
+            "is_in_exchange": false, 
             "name": "Porcelain cup"
         }, 
         "4245": {
             "id": 4245, 
+            "is_in_exchange": false, 
             "name": "Cup of tea"
         }, 
         "4246": {
             "id": 4246, 
+            "is_in_exchange": false, 
             "name": "Cup of tea"
         }, 
         "4247": {
             "id": 4247, 
+            "is_in_exchange": false, 
             "name": "Mystical robes"
         }, 
         "4248": {
             "id": 4248, 
+            "is_in_exchange": false, 
             "name": "Book of haricanto"
         }, 
         "4249": {
             "id": 4249, 
+            "is_in_exchange": false, 
             "name": "Translation manual"
         }, 
         "425": {
@@ -28381,42 +29150,52 @@
         }, 
         "4260": {
             "id": 4260, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4261": {
             "id": 4261, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4262": {
             "id": 4262, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4263": {
             "id": 4263, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4264": {
             "id": 4264, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4265": {
             "id": 4265, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4266": {
             "id": 4266, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4267": {
             "id": 4267, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4268": {
             "id": 4268, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4269": {
             "id": 4269, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4270": {
@@ -28473,26 +29252,32 @@
         }, 
         "4283": {
             "id": 4283, 
+            "is_in_exchange": false, 
             "name": "Petition form"
         }, 
         "4284": {
             "id": 4284, 
+            "is_in_exchange": false, 
             "name": "Bedsheet"
         }, 
         "4285": {
             "id": 4285, 
+            "is_in_exchange": false, 
             "name": "Bedsheet"
         }, 
         "4286": {
             "id": 4286, 
+            "is_in_exchange": false, 
             "name": "Bucket of slime"
         }, 
         "4287": {
             "id": 4287, 
+            "is_in_exchange": false, 
             "name": "Raw beef"
         }, 
         "4289": {
             "id": 4289, 
+            "is_in_exchange": false, 
             "name": "Raw chicken"
         }, 
         "4291": {
@@ -28535,23 +29320,38 @@
             "name": "Doctors' gown"
         }, 
         "4300": {
+            "description": "The label says 'Vivid Crimson', but it looks pink to me!", 
             "id": 4300, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ham robe"
         }, 
         "4302": {
+            "description": "Light-weight head protection and eye shield.", 
             "id": 4302, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ham hood"
         }, 
         "4304": {
+            "description": "A HAM cape.", 
             "id": 4304, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ham cloak"
         }, 
         "4306": {
+            "description": "A badge for the HAM cult.", 
             "id": 4306, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ham logo"
         }, 
         "4308": {
+            "description": "HAM gloves as worn by the Humans Against Monsters group.", 
             "id": 4308, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ham gloves"
         }, 
         "431": {
@@ -28560,23 +29360,36 @@
             "name": "Karamjan rum"
         }, 
         "4310": {
+            "description": "HAM boots as worn by the Humans Against Monsters group.", 
             "id": 4310, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ham boots"
         }, 
         "4313": {
             "id": 4313, 
+            "is_in_exchange": false, 
             "name": "Crystal of seren"
         }, 
         "4315": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4315, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-1 cape"
         }, 
         "4317": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4317, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-2 cape"
         }, 
         "4319": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4319, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-3 cape"
         }, 
         "432": {
@@ -28585,23 +29398,38 @@
             "name": "Chest key"
         }, 
         "4321": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4321, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-4 cape"
         }, 
         "4323": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4323, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-5 cape"
         }, 
         "4325": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4325, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-6 cape"
         }, 
         "4327": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4327, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-7 cape"
         }, 
         "4329": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4329, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-8 cape"
         }, 
         "433": {
@@ -28610,23 +29438,38 @@
             "name": "Pirate message"
         }, 
         "4331": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4331, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-9 cape"
         }, 
         "4333": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4333, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-10 cape"
         }, 
         "4335": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4335, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-11 cape"
         }, 
         "4337": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4337, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-12 cape"
         }, 
         "4339": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4339, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-13 cape"
         }, 
         "434": {
@@ -28637,23 +29480,38 @@
             "name": "Clay"
         }, 
         "4341": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4341, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-14 cape"
         }, 
         "4343": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4343, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-15 cape"
         }, 
         "4345": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4345, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-16 cape"
         }, 
         "4347": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4347, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-17 cape"
         }, 
         "4349": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4349, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-18 cape"
         }, 
         "4351": {
@@ -28699,43 +29557,73 @@
             "name": "Copper ore"
         }, 
         "4361": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4361, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-24 cape"
         }, 
         "4363": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4363, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-25 cape"
         }, 
         "4365": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4365, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-26 cape"
         }, 
         "4367": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4367, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-27 cape"
         }, 
         "4369": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4369, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-28 cape"
         }, 
         "4371": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4371, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-29 cape"
         }, 
         "4373": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4373, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-30 cape"
         }, 
         "4375": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4375, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-31 cape"
         }, 
         "4377": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4377, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-32 cape"
         }, 
         "4379": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4379, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-33 cape"
         }, 
         "438": {
@@ -28746,23 +29634,38 @@
             "name": "Tin ore"
         }, 
         "4381": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4381, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-34 cape"
         }, 
         "4383": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4383, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-35 cape"
         }, 
         "4385": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4385, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-36 cape"
         }, 
         "4387": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4387, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-37 cape"
         }, 
         "4389": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4389, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-38 cape"
         }, 
         "4391": {
@@ -28815,23 +29718,38 @@
             "name": "Iron ore"
         }, 
         "4401": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4401, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-44 cape"
         }, 
         "4403": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4403, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-45 cape"
         }, 
         "4405": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4405, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-46 cape"
         }, 
         "4407": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4407, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-47 cape"
         }, 
         "4409": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4409, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-48 cape"
         }, 
         "4411": {
@@ -28842,19 +29760,27 @@
             "name": "Team-49 cape"
         }, 
         "4413": {
+            "description": "Ooohhh look at the pretty colours...", 
             "id": 4413, 
+            "is_in_exchange": true, 
+            "members": false, 
             "name": "Team-50 cape"
         }, 
         "4415": {
             "id": 4415, 
+            "is_in_exchange": false, 
             "name": "Blunt axe"
         }, 
         "4416": {
             "id": 4416, 
+            "is_in_exchange": false, 
             "name": "Herbal tincture"
         }, 
         "4417": {
+            "description": "A cup of Guthix Rest.", 
             "id": 4417, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Guthix rest(4)"
         }, 
         "4419": {
@@ -28872,35 +29798,47 @@
             "name": "Silver ore"
         }, 
         "4421": {
+            "description": "A cup of Guthix Rest.", 
             "id": 4421, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Guthix rest(2)"
         }, 
         "4423": {
+            "description": "A cup of Guthix Rest.", 
             "id": 4423, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Guthix rest(1)"
         }, 
         "4425": {
             "id": 4425, 
+            "is_in_exchange": false, 
             "name": "Stodgy mattress"
         }, 
         "4426": {
             "id": 4426, 
+            "is_in_exchange": false, 
             "name": "Comfy mattress"
         }, 
         "4427": {
             "id": 4427, 
+            "is_in_exchange": false, 
             "name": "Iron oxide"
         }, 
         "4428": {
             "id": 4428, 
+            "is_in_exchange": false, 
             "name": "Animate rock scroll"
         }, 
         "4429": {
             "id": 4429, 
+            "is_in_exchange": false, 
             "name": "Broken vane part"
         }, 
         "4430": {
             "id": 4430, 
+            "is_in_exchange": false, 
             "name": "Directionals"
         }, 
         "4431": {
@@ -28910,26 +29848,36 @@
         }, 
         "4432": {
             "id": 4432, 
+            "is_in_exchange": false, 
             "name": "Ornament"
         }, 
         "4433": {
             "id": 4433, 
+            "is_in_exchange": false, 
             "name": "Broken vane part"
         }, 
         "4434": {
             "id": 4434, 
+            "is_in_exchange": false, 
             "name": "Weathervane pillar"
         }, 
         "4435": {
             "id": 4435, 
+            "is_in_exchange": false, 
             "name": "Weather report"
         }, 
         "4436": {
+            "description": "This is pretty well sealed.", 
             "id": 4436, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Airtight pot"
         }, 
         "4438": {
+            "description": "This needs firing, then it should fit on a normal-sized pot.", 
             "id": 4438, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Unfired pot lid"
         }, 
         "444": {
@@ -28940,23 +29888,30 @@
             "name": "Gold ore"
         }, 
         "4440": {
+            "description": "This should fit on a normal-sized pot.", 
             "id": 4440, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Pot lid"
         }, 
         "4442": {
             "id": 4442, 
+            "is_in_exchange": false, 
             "name": "Breathing salts"
         }, 
         "4443": {
             "id": 4443, 
+            "is_in_exchange": false, 
             "name": "Chicken cage"
         }, 
         "4444": {
             "id": 4444, 
+            "is_in_exchange": false, 
             "name": "Sharpened axe"
         }, 
         "4445": {
             "id": 4445, 
+            "is_in_exchange": false, 
             "name": "Red mahogany log"
         }, 
         "4446": {
@@ -29029,14 +29984,17 @@
         }, 
         "4472": {
             "id": 4472, 
+            "is_in_exchange": false, 
             "name": "Herb tea mix"
         }, 
         "4474": {
             "id": 4474, 
+            "is_in_exchange": false, 
             "name": "Herb tea mix"
         }, 
         "4476": {
             "id": 4476, 
+            "is_in_exchange": false, 
             "name": "Herb tea mix"
         }, 
         "4478": {
@@ -29051,22 +30009,27 @@
         }, 
         "4482": {
             "id": 4482, 
+            "is_in_exchange": false, 
             "name": "Herb tea mix"
         }, 
         "4484": {
             "id": 4484, 
+            "is_in_exchange": false, 
             "name": "Safety guarantee"
         }, 
         "4485": {
             "id": 4485, 
+            "is_in_exchange": false, 
             "name": "White pearl"
         }, 
         "4486": {
             "id": 4486, 
+            "is_in_exchange": false, 
             "name": "White pearl seed"
         }, 
         "4487": {
             "id": 4487, 
+            "is_in_exchange": false, 
             "name": "Half a rock"
         }, 
         "4488": {
@@ -29076,6 +30039,7 @@
         }, 
         "4489": {
             "id": 4489, 
+            "is_in_exchange": false, 
             "name": "Asleif's necklace"
         }, 
         "449": {
@@ -29087,22 +30051,27 @@
         }, 
         "4490": {
             "id": 4490, 
+            "is_in_exchange": false, 
             "name": "Mud"
         }, 
         "4492": {
             "id": 4492, 
+            "is_in_exchange": false, 
             "name": "Muddy rock"
         }, 
         "4494": {
             "id": 4494, 
+            "is_in_exchange": false, 
             "name": "Pole"
         }, 
         "4496": {
             "id": 4496, 
+            "is_in_exchange": false, 
             "name": "Broken pole"
         }, 
         "4498": {
             "id": 4498, 
+            "is_in_exchange": false, 
             "name": "Rope"
         }, 
         "45": {
@@ -29114,38 +30083,47 @@
         }, 
         "4500": {
             "id": 4500, 
+            "is_in_exchange": false, 
             "name": "Pole"
         }, 
         "4502": {
             "id": 4502, 
+            "is_in_exchange": false, 
             "name": "Bearhead"
         }, 
         "4503": {
             "id": 4503, 
+            "is_in_exchange": false, 
             "name": "Decorative sword"
         }, 
         "4504": {
             "id": 4504, 
+            "is_in_exchange": false, 
             "name": "Decorative armour"
         }, 
         "4505": {
             "id": 4505, 
+            "is_in_exchange": false, 
             "name": "Decorative armour"
         }, 
         "4506": {
             "id": 4506, 
+            "is_in_exchange": false, 
             "name": "Decorative helm"
         }, 
         "4507": {
             "id": 4507, 
+            "is_in_exchange": false, 
             "name": "Decorative shield"
         }, 
         "4508": {
             "id": 4508, 
+            "is_in_exchange": false, 
             "name": "Decorative sword"
         }, 
         "4509": {
             "id": 4509, 
+            "is_in_exchange": false, 
             "name": "Decorative armour"
         }, 
         "451": {
@@ -29162,22 +30140,27 @@
         }, 
         "4511": {
             "id": 4511, 
+            "is_in_exchange": false, 
             "name": "Decorative helm"
         }, 
         "4512": {
             "id": 4512, 
+            "is_in_exchange": false, 
             "name": "Decorative shield"
         }, 
         "4513": {
             "id": 4513, 
+            "is_in_exchange": false, 
             "name": "Castlewars hood"
         }, 
         "4514": {
             "id": 4514, 
+            "is_in_exchange": false, 
             "name": "Castlewars cloak"
         }, 
         "4515": {
             "id": 4515, 
+            "is_in_exchange": false, 
             "name": "Castlewars hood"
         }, 
         "4516": {
@@ -29186,39 +30169,58 @@
             "name": "Castlewars cloak"
         }, 
         "4517": {
+            "description": "This could feed a family of gnomes for a week!", 
             "id": 4517, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Giant frog legs"
         }, 
         "4519": {
             "id": 4519, 
+            "is_in_exchange": false, 
             "name": "Swamp wallbeast"
         }, 
         "4520": {
             "id": 4520, 
+            "is_in_exchange": false, 
             "name": "Swamp cave slime"
         }, 
         "4521": {
             "id": 4521, 
+            "is_in_exchange": false, 
             "name": "Swamp cave bug"
         }, 
         "4522": {
+            "description": "Not the genie sort.", 
             "id": 4522, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Oil lamp"
         }, 
         "4524": {
             "id": 4524, 
+            "is_in_exchange": false, 
             "name": "Oil lamp"
         }, 
         "4525": {
+            "description": "An oil lamp with no oil in it.", 
             "id": 4525, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Empty oil lamp"
         }, 
         "4527": {
+            "description": "Put a candle in to complete it.", 
             "id": 4527, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Empty candle lantern"
         }, 
         "4529": {
+            "description": "A candle in a glass cage.", 
             "id": 4529, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Candle lantern"
         }, 
         "453": {
@@ -29234,43 +30236,69 @@
             "name": "Candle lantern"
         }, 
         "4532": {
+            "description": "A candle in a glass cage.", 
             "id": 4532, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Candle lantern"
         }, 
         "4534": {
             "id": 4534, 
+            "is_in_exchange": false, 
             "name": "Candle lantern"
         }, 
         "4535": {
+            "description": "Put oil in to complete it.", 
             "id": 4535, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Empty oil lantern"
         }, 
         "4537": {
+            "description": "An unlit oil lantern.", 
             "id": 4537, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Oil lantern"
         }, 
         "4539": {
             "id": 4539, 
+            "is_in_exchange": false, 
             "name": "Oil lantern"
         }, 
         "4540": {
+            "description": "Add the glass to complete.", 
             "id": 4540, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Oil lantern frame"
         }, 
         "4542": {
+            "description": "A roughly circular disc of glass.", 
             "id": 4542, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Lantern lens"
         }, 
         "4544": {
+            "description": "You need to add a lens before you can use it.", 
             "id": 4544, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bullseye lantern (unf)"
         }, 
         "4546": {
+            "description": "You need to add lamp oil before you can use it.", 
             "id": 4546, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bullseye lantern (empty)"
         }, 
         "4548": {
+            "description": "A sturdy steel lantern.", 
             "id": 4548, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bullseye lantern"
         }, 
         "455": {
@@ -29332,6 +30360,7 @@
         }, 
         "4565": {
             "id": 4565, 
+            "is_in_exchange": false, 
             "name": "Easter basket"
         }, 
         "4566": {
@@ -29351,6 +30380,7 @@
         }, 
         "4569": {
             "id": 4569, 
+            "is_in_exchange": false, 
             "name": "Book page 1"
         }, 
         "457": {
@@ -29365,6 +30395,7 @@
         }, 
         "4571": {
             "id": 4571, 
+            "is_in_exchange": false, 
             "name": "Book page 3"
         }, 
         "4572": {
@@ -29374,6 +30405,7 @@
         }, 
         "4573": {
             "id": 4573, 
+            "is_in_exchange": false, 
             "name": "Pages"
         }, 
         "4574": {
@@ -29383,6 +30415,7 @@
         }, 
         "4575": {
             "id": 4575, 
+            "is_in_exchange": false, 
             "name": "Schematic"
         }, 
         "4576": {
@@ -29392,14 +30425,17 @@
         }, 
         "4577": {
             "id": 4577, 
+            "is_in_exchange": false, 
             "name": "Schematics"
         }, 
         "4578": {
             "id": 4578, 
+            "is_in_exchange": false, 
             "name": "Schematic"
         }, 
         "4579": {
             "id": 4579, 
+            "is_in_exchange": false, 
             "name": "Cannon ball"
         }, 
         "458": {
@@ -29415,23 +30451,34 @@
             "name": "Black spear"
         }, 
         "4582": {
+            "description": "A poisoned black tipped spear.", 
             "id": 4582, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Black spear(p)"
         }, 
         "4584": {
             "id": 4584, 
+            "is_in_exchange": false, 
             "name": "Black spear(kp)"
         }, 
         "4585": {
+            "description": "This looks pretty heavy.", 
             "id": 4585, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dragon plateskirt"
         }, 
         "4587": {
+            "description": "A vicious, curved sword.", 
             "id": 4587, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dragon scimitar"
         }, 
         "4589": {
             "id": 4589, 
+            "is_in_exchange": false, 
             "name": "Keys"
         }, 
         "459": {
@@ -29445,19 +30492,29 @@
             "name": "Jewels"
         }, 
         "4591": {
+            "description": "Wear it on your head.", 
             "id": 4591, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Kharidian headpiece"
         }, 
         "4593": {
+            "description": "Makes me itch.", 
             "id": 4593, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fake beard"
         }, 
         "4595": {
+            "description": "Makes my face itch.", 
             "id": 4595, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Karidian disguise"
         }, 
         "4597": {
             "id": 4597, 
+            "is_in_exchange": false, 
             "name": "Note"
         }, 
         "4598": {
@@ -29483,11 +30540,15 @@
             "name": "Scorpion cage"
         }, 
         "4600": {
+            "description": "A handy little club made out of willow.", 
             "id": 4600, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Willow blackjack"
         }, 
         "4601": {
             "id": 4601, 
+            "is_in_exchange": false, 
             "name": "Ugthanki dung"
         }, 
         "4602": {
@@ -29502,22 +30563,29 @@
         }, 
         "4604": {
             "id": 4604, 
+            "is_in_exchange": false, 
             "name": "Hag's poison"
         }, 
         "4605": {
             "id": 4605, 
+            "is_in_exchange": false, 
             "name": "Snake charm"
         }, 
         "4606": {
             "id": 4606, 
+            "is_in_exchange": false, 
             "name": "Snake basket"
         }, 
         "4607": {
             "id": 4607, 
+            "is_in_exchange": false, 
             "name": "Snake basket full"
         }, 
         "4608": {
+            "description": "A meaty and very hot kebab.", 
             "id": 4608, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Super kebab"
         }, 
         "461": {
@@ -29527,38 +30595,47 @@
         }, 
         "4610": {
             "id": 4610, 
+            "is_in_exchange": false, 
             "name": "Red hot sauce"
         }, 
         "4611": {
             "id": 4611, 
+            "is_in_exchange": false, 
             "name": "Desert disguise"
         }, 
         "4613": {
             "id": 4613, 
+            "is_in_exchange": false, 
             "name": "Spinning plate"
         }, 
         "4614": {
             "id": 4614, 
+            "is_in_exchange": false, 
             "name": "Broken plate"
         }, 
         "4615": {
             "id": 4615, 
+            "is_in_exchange": false, 
             "name": "Letter"
         }, 
         "4616": {
             "id": 4616, 
+            "is_in_exchange": false, 
             "name": "Varmen's notes"
         }, 
         "4617": {
             "id": 4617, 
+            "is_in_exchange": false, 
             "name": "Display cabinet key"
         }, 
         "4618": {
             "id": 4618, 
+            "is_in_exchange": false, 
             "name": "Statuette"
         }, 
         "4619": {
             "id": 4619, 
+            "is_in_exchange": false, 
             "name": "Strange implement"
         }, 
         "462": {
@@ -29568,10 +30645,12 @@
         }, 
         "4620": {
             "id": 4620, 
+            "is_in_exchange": false, 
             "name": "Black mushroom"
         }, 
         "4621": {
             "id": 4621, 
+            "is_in_exchange": false, 
             "name": "Phoenix feather"
         }, 
         "4622": {
@@ -29630,6 +30709,7 @@
         }, 
         "4656": {
             "id": 4656, 
+            "is_in_exchange": false, 
             "name": "Warm key"
         }, 
         "4657": {
@@ -29654,34 +30734,42 @@
         }, 
         "4660": {
             "id": 4660, 
+            "is_in_exchange": false, 
             "name": "Silver pot"
         }, 
         "4661": {
             "id": 4661, 
+            "is_in_exchange": false, 
             "name": "Blessed pot"
         }, 
         "4662": {
             "id": 4662, 
+            "is_in_exchange": false, 
             "name": "Silver pot"
         }, 
         "4663": {
             "id": 4663, 
+            "is_in_exchange": false, 
             "name": "Blessed pot"
         }, 
         "4664": {
             "id": 4664, 
+            "is_in_exchange": false, 
             "name": "Silver pot"
         }, 
         "4665": {
             "id": 4665, 
+            "is_in_exchange": false, 
             "name": "Blessed pot"
         }, 
         "4666": {
             "id": 4666, 
+            "is_in_exchange": false, 
             "name": "Silver pot"
         }, 
         "4667": {
             "id": 4667, 
+            "is_in_exchange": false, 
             "name": "Blessed pot"
         }, 
         "4668": {
@@ -29693,10 +30781,12 @@
         }, 
         "4670": {
             "id": 4670, 
+            "is_in_exchange": false, 
             "name": "Blood diamond"
         }, 
         "4671": {
             "id": 4671, 
+            "is_in_exchange": false, 
             "name": "Ice diamond"
         }, 
         "4672": {
@@ -29706,26 +30796,34 @@
         }, 
         "4673": {
             "id": 4673, 
+            "is_in_exchange": false, 
             "name": "Shadow diamond"
         }, 
         "4674": {
             "id": 4674, 
+            "is_in_exchange": false, 
             "name": "Gilded cross"
         }, 
         "4675": {
+            "description": "A magical staff of ancient origin...", 
             "id": 4675, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ancient staff"
         }, 
         "4677": {
             "id": 4677, 
+            "is_in_exchange": false, 
             "name": "Catspeak amulet"
         }, 
         "4678": {
             "id": 4678, 
+            "is_in_exchange": false, 
             "name": "Canopic jar"
         }, 
         "4679": {
             "id": 4679, 
+            "is_in_exchange": false, 
             "name": "Canopic jar"
         }, 
         "468": {
@@ -29745,62 +30843,95 @@
         }, 
         "4682": {
             "id": 4682, 
+            "is_in_exchange": false, 
             "name": "Holy symbol"
         }, 
         "4683": {
             "id": 4683, 
+            "is_in_exchange": false, 
             "name": "Unholy symbol"
         }, 
         "4684": {
+            "description": "One sheet of mummy wrap.", 
             "id": 4684, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Linen"
         }, 
         "4686": {
             "id": 4686, 
+            "is_in_exchange": false, 
             "name": "Embalming manual"
         }, 
         "4687": {
+            "description": "It's a bucket of sap.", 
             "id": 4687, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bucket of sap"
         }, 
         "4689": {
+            "description": "A little heap of salt.", 
             "id": 4689, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Pile of salt"
         }, 
         "4691": {
             "id": 4691, 
+            "is_in_exchange": false, 
             "name": "Sphinx's token"
         }, 
         "4692": {
             "id": 4692, 
+            "is_in_exchange": false, 
             "name": "Gold leaf"
         }, 
         "4693": {
             "id": 4693, 
+            "is_in_exchange": false, 
             "name": "Full bucket"
         }, 
         "4694": {
+            "description": "A combined Water and Fire Rune.", 
             "id": 4694, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Steam rune"
         }, 
         "4695": {
+            "description": "A combined Air and Water Rune.", 
             "id": 4695, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mist rune"
         }, 
         "4696": {
+            "description": "A combined Air and Earth Rune.", 
             "id": 4696, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dust rune"
         }, 
         "4697": {
+            "description": "A combined Air and Fire Rune.", 
             "id": 4697, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Smoke rune"
         }, 
         "4698": {
+            "description": "A combined Earth and Water Rune.", 
             "id": 4698, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mud rune"
         }, 
         "4699": {
+            "description": "A combined Earth and Fire Rune.", 
             "id": 4699, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Lava rune"
         }, 
         "47": {
@@ -29817,50 +30948,74 @@
         }, 
         "4700": {
             "id": 4700, 
+            "is_in_exchange": false, 
             "name": "Sapphire lantern"
         }, 
         "4701": {
             "id": 4701, 
+            "is_in_exchange": false, 
             "name": "Sapphire lantern"
         }, 
         "4702": {
             "id": 4702, 
+            "is_in_exchange": false, 
             "name": "Sapphire lantern"
         }, 
         "4703": {
             "id": 4703, 
+            "is_in_exchange": false, 
             "name": "Magic stone"
         }, 
         "4704": {
             "id": 4704, 
+            "is_in_exchange": false, 
             "name": "Stone bowl"
         }, 
         "4707": {
             "id": 4707, 
+            "is_in_exchange": false, 
             "name": "Crumbling tome"
         }, 
         "4708": {
+            "description": "Ahrim the Blighted's leather hood.", 
             "id": 4708, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ahrim's hood"
         }, 
         "4710": {
+            "description": "Ahrim the Blighted's quarterstaff.", 
             "id": 4710, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ahrim's staff"
         }, 
         "4712": {
+            "description": "Ahrim the Blighted's armoured robe top.", 
             "id": 4712, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ahrim's robetop"
         }, 
         "4714": {
+            "description": "Ahrim the Blighted's armoured robe skirt.", 
             "id": 4714, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ahrim's robeskirt"
         }, 
         "4716": {
+            "description": "Dharok the Wretched's helm.", 
             "id": 4716, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dharok's helm"
         }, 
         "4718": {
+            "description": "Dharok the Wretched's greataxe.", 
             "id": 4718, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dharok's greataxe"
         }, 
         "472": {
@@ -29944,19 +31099,31 @@
             "name": "Broken pickaxe"
         }, 
         "4740": {
+            "description": "Must need a special type of crossbow to use this.", 
             "id": 4740, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bolt rack"
         }, 
         "4745": {
+            "description": "Torag the Corrupted's helm.", 
             "id": 4745, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Torag's helm"
         }, 
         "4747": {
+            "description": "Torag the Corrupted's twin hammers.", 
             "id": 4747, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Torag's hammers"
         }, 
         "4749": {
+            "description": "Torag the Corrupted's plate body armour.", 
             "id": 4749, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Torag's platebody"
         }, 
         "4751": {
@@ -29967,7 +31134,10 @@
             "name": "Torag's platelegs"
         }, 
         "4753": {
+            "description": "Verac the Defiled's helm.", 
             "id": 4753, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Verac's helm"
         }, 
         "4755": {
@@ -29985,7 +31155,10 @@
             "name": "Verac's brassard"
         }, 
         "4759": {
+            "description": "Verac the Defiled's plate skirt.", 
             "id": 4759, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Verac's plateskirt"
         }, 
         "476": {
@@ -29994,11 +31167,17 @@
             "name": "Broken pickaxe"
         }, 
         "4773": {
+            "description": "Blunt bronze arrow... ouch.", 
             "id": 4773, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bronze brutal"
         }, 
         "4778": {
+            "description": "Blunt iron arrow... ouch.", 
             "id": 4778, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Iron brutal"
         }, 
         "478": {
@@ -30021,11 +31200,17 @@
             "name": "Black brutal"
         }, 
         "4793": {
+            "description": "Blunt mithril arrow... ouch.", 
             "id": 4793, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mithril brutal"
         }, 
         "4798": {
+            "description": "Blunt adamantite arrow... ouch.", 
             "id": 4798, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Adamant brutal"
         }, 
         "48": {
@@ -30041,7 +31226,10 @@
             "name": "Bronze pick head"
         }, 
         "4803": {
+            "description": "Blunt rune arrow... ouch.", 
             "id": 4803, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Rune brutal"
         }, 
         "4808": {
@@ -30056,26 +31244,34 @@
         }, 
         "4810": {
             "id": 4810, 
+            "is_in_exchange": false, 
             "name": "Ruined backpack"
         }, 
         "4811": {
             "id": 4811, 
+            "is_in_exchange": false, 
             "name": "Dragon inn tankard"
         }, 
         "4812": {
+            "description": "A pile of Zombie Ogre bones.", 
             "id": 4812, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Zogre bones"
         }, 
         "4814": {
             "id": 4814, 
+            "is_in_exchange": false, 
             "name": "Sithik portrait"
         }, 
         "4815": {
             "id": 4815, 
+            "is_in_exchange": false, 
             "name": "Sithik portrait"
         }, 
         "4816": {
             "id": 4816, 
+            "is_in_exchange": false, 
             "name": "Signed portrait"
         }, 
         "4817": {
@@ -30085,10 +31281,14 @@
         }, 
         "4818": {
             "id": 4818, 
+            "is_in_exchange": false, 
             "name": "Ogre artefact"
         }, 
         "4819": {
+            "description": "Keeps things in place fairly permanently.", 
             "id": 4819, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Bronze nails"
         }, 
         "482": {
@@ -30097,7 +31297,10 @@
             "name": "Iron pick head"
         }, 
         "4820": {
+            "description": "Keeps things in place fairly permanently.", 
             "id": 4820, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Iron nails"
         }, 
         "4821": {
@@ -30108,35 +31311,57 @@
             "name": "Black nails"
         }, 
         "4822": {
+            "description": "Keeps things in place fairly permanently.", 
             "id": 4822, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Mithril nails"
         }, 
         "4823": {
+            "description": "Keeps things in place fairly permanently.", 
             "id": 4823, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Adamantite nails"
         }, 
         "4824": {
+            "description": "Keeps things in place fairly permanently.", 
             "id": 4824, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Rune nails"
         }, 
         "4825": {
+            "description": "An unstrung composite ogre bow.", 
             "id": 4825, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Unstrung comp bow"
         }, 
         "4827": {
+            "description": "A composite ogre bow.", 
             "id": 4827, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Comp ogre bow"
         }, 
         "4829": {
             "id": 4829, 
+            "is_in_exchange": false, 
             "name": "Book of 'h.a.m'"
         }, 
         "4830": {
+            "description": "Ancient ogre bones from the ogre burial tomb.", 
             "id": 4830, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Fayrg bones"
         }, 
         "4832": {
+            "description": "Ancient ogre bones from the ogre burial tomb.", 
             "id": 4832, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Raurg bones"
         }, 
         "4834": {
@@ -30158,10 +31383,12 @@
         }, 
         "4838": {
             "id": 4838, 
+            "is_in_exchange": false, 
             "name": "Cup of tea"
         }, 
         "4839": {
             "id": 4839, 
+            "is_in_exchange": false, 
             "name": "Ogre gate key"
         }, 
         "484": {
@@ -30182,11 +31409,17 @@
             "name": "Relicym's balm(4)"
         }, 
         "4844": {
+            "description": "3 doses of Relicym's balm, which helps cure disease.", 
             "id": 4844, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Relicym's balm(3)"
         }, 
         "4846": {
+            "description": "2 doses of Relicym's balm, which helps cure disease.", 
             "id": 4846, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Relicym's balm(2)"
         }, 
         "4848": {
@@ -30210,6 +31443,7 @@
         }, 
         "4853": {
             "id": 4853, 
+            "is_in_exchange": false, 
             "name": "Bonemeal"
         }, 
         "4854": {
@@ -30239,6 +31473,7 @@
         }, 
         "4859": {
             "id": 4859, 
+            "is_in_exchange": false, 
             "name": "Ahrim's hood 25"
         }, 
         "486": {
@@ -30247,11 +31482,15 @@
             "name": "Mithril pick head"
         }, 
         "4860": {
+            "description": "Ahrim the Blighted's leather hood.", 
             "id": 4860, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ahrim's hood 0"
         }, 
         "4862": {
             "id": 4862, 
+            "is_in_exchange": false, 
             "name": "Ahrim's staff 100"
         }, 
         "4863": {
@@ -30261,6 +31500,7 @@
         }, 
         "4864": {
             "id": 4864, 
+            "is_in_exchange": false, 
             "name": "Ahrim's staff 50"
         }, 
         "4865": {
@@ -30269,11 +31509,15 @@
             "name": "Ahrim's staff 25"
         }, 
         "4866": {
+            "description": "Ahrim the Blighted's quarterstaff.", 
             "id": 4866, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ahrim's staff 0"
         }, 
         "4868": {
             "id": 4868, 
+            "is_in_exchange": false, 
             "name": "Ahrim's robetop 100"
         }, 
         "4869": {
@@ -30283,34 +31527,46 @@
         }, 
         "4870": {
             "id": 4870, 
+            "is_in_exchange": false, 
             "name": "Ahrim's robetop 50"
         }, 
         "4871": {
             "id": 4871, 
+            "is_in_exchange": false, 
             "name": "Ahrim's robetop 25"
         }, 
         "4872": {
+            "description": "Ahrim the Blighted's armoured robe top.", 
             "id": 4872, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ahrim's robetop 0"
         }, 
         "4874": {
             "id": 4874, 
+            "is_in_exchange": false, 
             "name": "Ahrim's robeskirt 100"
         }, 
         "4875": {
             "id": 4875, 
+            "is_in_exchange": false, 
             "name": "Ahrim's robeskirt 75"
         }, 
         "4876": {
             "id": 4876, 
+            "is_in_exchange": false, 
             "name": "Ahrim's robeskirt 50"
         }, 
         "4877": {
             "id": 4877, 
+            "is_in_exchange": false, 
             "name": "Ahrim's robeskirt 25"
         }, 
         "4878": {
+            "description": "Ahrim the Blighted's armoured robe skirt.", 
             "id": 4878, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ahrim's robeskirt 0"
         }, 
         "488": {
@@ -30320,34 +31576,44 @@
         }, 
         "4880": {
             "id": 4880, 
+            "is_in_exchange": false, 
             "name": "Dharok's helm 100"
         }, 
         "4881": {
             "id": 4881, 
+            "is_in_exchange": false, 
             "name": "Dharok's helm 75"
         }, 
         "4882": {
             "id": 4882, 
+            "is_in_exchange": false, 
             "name": "Dharok's helm 50"
         }, 
         "4883": {
             "id": 4883, 
+            "is_in_exchange": false, 
             "name": "Dharok's helm 25"
         }, 
         "4884": {
+            "description": "Dharok the Wretched's helm.", 
             "id": 4884, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dharok's helm 0"
         }, 
         "4886": {
             "id": 4886, 
+            "is_in_exchange": false, 
             "name": "Dharok's greataxe 100"
         }, 
         "4887": {
             "id": 4887, 
+            "is_in_exchange": false, 
             "name": "Dharok's greataxe 75"
         }, 
         "4888": {
             "id": 4888, 
+            "is_in_exchange": false, 
             "name": "Dharok's greataxe 50"
         }, 
         "4889": {
@@ -30356,7 +31622,10 @@
             "name": "Dharok's greataxe 25"
         }, 
         "4890": {
+            "description": "Dharok the Wretched's greataxe.", 
             "id": 4890, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dharok's greataxe 0"
         }, 
         "4892": {
@@ -30366,26 +31635,34 @@
         }, 
         "4893": {
             "id": 4893, 
+            "is_in_exchange": false, 
             "name": "Dharok's platebody 75"
         }, 
         "4894": {
             "id": 4894, 
+            "is_in_exchange": false, 
             "name": "Dharok's platebody 50"
         }, 
         "4895": {
             "id": 4895, 
+            "is_in_exchange": false, 
             "name": "Dharok's platebody 25"
         }, 
         "4896": {
+            "description": "Dharok the Wretched's plate body armour.", 
             "id": 4896, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dharok's platebody 0"
         }, 
         "4898": {
             "id": 4898, 
+            "is_in_exchange": false, 
             "name": "Dharok's platelegs 100"
         }, 
         "4899": {
             "id": 4899, 
+            "is_in_exchange": false, 
             "name": "Dharok's platelegs 75"
         }, 
         "490": {
@@ -30400,6 +31677,7 @@
         }, 
         "4901": {
             "id": 4901, 
+            "is_in_exchange": false, 
             "name": "Dharok's platelegs 25"
         }, 
         "4902": {
@@ -30411,22 +31689,29 @@
         }, 
         "4904": {
             "id": 4904, 
+            "is_in_exchange": false, 
             "name": "Guthan's helm 100"
         }, 
         "4905": {
             "id": 4905, 
+            "is_in_exchange": false, 
             "name": "Guthan's helm 75"
         }, 
         "4906": {
             "id": 4906, 
+            "is_in_exchange": false, 
             "name": "Guthan's helm 50"
         }, 
         "4907": {
             "id": 4907, 
+            "is_in_exchange": false, 
             "name": "Guthan's helm 25"
         }, 
         "4908": {
+            "description": "Guthan the Infested's helm.", 
             "id": 4908, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Guthan's helm 0"
         }, 
         "4910": {
@@ -30450,7 +31735,10 @@
             "name": "Guthan's warspear 25"
         }, 
         "4914": {
+            "description": "Guthan the Infested's warspear.", 
             "id": 4914, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Guthan's warspear 0"
         }, 
         "4916": {
@@ -30460,14 +31748,17 @@
         }, 
         "4917": {
             "id": 4917, 
+            "is_in_exchange": false, 
             "name": "Guthan's platebody 75"
         }, 
         "4918": {
             "id": 4918, 
+            "is_in_exchange": false, 
             "name": "Guthan's platebody 50"
         }, 
         "4919": {
             "id": 4919, 
+            "is_in_exchange": false, 
             "name": "Guthan's platebody 25"
         }, 
         "492": {
@@ -30476,35 +31767,47 @@
             "name": "Axe handle"
         }, 
         "4920": {
+            "description": "Guthan the Infested's plate body armour.", 
             "id": 4920, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Guthan's platebody 0"
         }, 
         "4922": {
             "id": 4922, 
+            "is_in_exchange": false, 
             "name": "Guthan's chainskirt 100"
         }, 
         "4923": {
             "id": 4923, 
+            "is_in_exchange": false, 
             "name": "Guthan's chainskirt 75"
         }, 
         "4924": {
             "id": 4924, 
+            "is_in_exchange": false, 
             "name": "Guthan's chainskirt 50"
         }, 
         "4925": {
             "id": 4925, 
+            "is_in_exchange": false, 
             "name": "Guthan's chainskirt 25"
         }, 
         "4926": {
+            "description": "Guthan the Infested's chainskirt.", 
             "id": 4926, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Guthan's chainskirt 0"
         }, 
         "4928": {
             "id": 4928, 
+            "is_in_exchange": false, 
             "name": "Karil's coif 100"
         }, 
         "4929": {
             "id": 4929, 
+            "is_in_exchange": false, 
             "name": "Karil's coif 75"
         }, 
         "4930": {
@@ -30518,7 +31821,10 @@
             "name": "Karil's coif 25"
         }, 
         "4932": {
+            "description": "Karil the Tainted's coif.", 
             "id": 4932, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Karil's coif 0"
         }, 
         "4934": {
@@ -30542,7 +31848,10 @@
             "name": "Karil's crossbow 25"
         }, 
         "4938": {
+            "description": "Karil the Tainted's repeating crossbow.", 
             "id": 4938, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Karil's crossbow 0"
         }, 
         "494": {
@@ -30552,38 +31861,49 @@
         }, 
         "4940": {
             "id": 4940, 
+            "is_in_exchange": false, 
             "name": "Karil's leathertop 100"
         }, 
         "4941": {
             "id": 4941, 
+            "is_in_exchange": false, 
             "name": "Karil's leathertop 75"
         }, 
         "4942": {
             "id": 4942, 
+            "is_in_exchange": false, 
             "name": "Karil's leathertop 50"
         }, 
         "4943": {
             "id": 4943, 
+            "is_in_exchange": false, 
             "name": "Karil's leathertop 25"
         }, 
         "4944": {
+            "description": "Karil the Tainted's leather body armour.", 
             "id": 4944, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Karil's leathertop 0"
         }, 
         "4946": {
             "id": 4946, 
+            "is_in_exchange": false, 
             "name": "Karil's leatherskirt 100"
         }, 
         "4947": {
             "id": 4947, 
+            "is_in_exchange": false, 
             "name": "Karil's leatherskirt 75"
         }, 
         "4948": {
             "id": 4948, 
+            "is_in_exchange": false, 
             "name": "Karil's leatherskirt 50"
         }, 
         "4949": {
             "id": 4949, 
+            "is_in_exchange": false, 
             "name": "Karil's leatherskirt 25"
         }, 
         "4950": {
@@ -30605,6 +31925,7 @@
         }, 
         "4954": {
             "id": 4954, 
+            "is_in_exchange": false, 
             "name": "Torag's helm 50"
         }, 
         "4955": {
@@ -30613,15 +31934,20 @@
             "name": "Torag's helm 25"
         }, 
         "4956": {
+            "description": "Torag the Corrupted's helm.", 
             "id": 4956, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Torag's helm 0"
         }, 
         "4958": {
             "id": 4958, 
+            "is_in_exchange": false, 
             "name": "Torag's hammers 100"
         }, 
         "4959": {
             "id": 4959, 
+            "is_in_exchange": false, 
             "name": "Torag's hammers 75"
         }, 
         "496": {
@@ -30631,14 +31957,19 @@
         }, 
         "4960": {
             "id": 4960, 
+            "is_in_exchange": false, 
             "name": "Torag's hammers 50"
         }, 
         "4961": {
             "id": 4961, 
+            "is_in_exchange": false, 
             "name": "Torag's hammers 25"
         }, 
         "4962": {
+            "description": "Torag the Corrupted's twin hammers.", 
             "id": 4962, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Torag's hammers 0"
         }, 
         "4964": {
@@ -30653,10 +31984,12 @@
         }, 
         "4966": {
             "id": 4966, 
+            "is_in_exchange": false, 
             "name": "Torag's platebody 50"
         }, 
         "4967": {
             "id": 4967, 
+            "is_in_exchange": false, 
             "name": "Torag's platebody 25"
         }, 
         "4968": {
@@ -30668,10 +32001,12 @@
         }, 
         "4970": {
             "id": 4970, 
+            "is_in_exchange": false, 
             "name": "Torag's platelegs 100"
         }, 
         "4971": {
             "id": 4971, 
+            "is_in_exchange": false, 
             "name": "Torag's platelegs 75"
         }, 
         "4972": {
@@ -30693,6 +32028,7 @@
         }, 
         "4976": {
             "id": 4976, 
+            "is_in_exchange": false, 
             "name": "Verac's helm 100"
         }, 
         "4977": {
@@ -30716,27 +32052,37 @@
             "name": "Broken axe"
         }, 
         "4980": {
+            "description": "Verac the Defiled's helm.", 
             "id": 4980, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Verac's helm 0"
         }, 
         "4982": {
             "id": 4982, 
+            "is_in_exchange": false, 
             "name": "Verac's flail 100"
         }, 
         "4983": {
             "id": 4983, 
+            "is_in_exchange": false, 
             "name": "Verac's flail 75"
         }, 
         "4984": {
             "id": 4984, 
+            "is_in_exchange": false, 
             "name": "Verac's flail 50"
         }, 
         "4985": {
             "id": 4985, 
+            "is_in_exchange": false, 
             "name": "Verac's flail 25"
         }, 
         "4986": {
+            "description": "Verac the Defiled's flail.", 
             "id": 4986, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Verac's flail 0"
         }, 
         "4988": {
@@ -30751,34 +32097,46 @@
         }, 
         "4990": {
             "id": 4990, 
+            "is_in_exchange": false, 
             "name": "Verac's brassard 50"
         }, 
         "4991": {
             "id": 4991, 
+            "is_in_exchange": false, 
             "name": "Verac's brassard 25"
         }, 
         "4992": {
+            "description": "Verac the Defiled's brassard.", 
             "id": 4992, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Verac's brassard 0"
         }, 
         "4994": {
             "id": 4994, 
+            "is_in_exchange": false, 
             "name": "Verac's plateskirt 100"
         }, 
         "4995": {
             "id": 4995, 
+            "is_in_exchange": false, 
             "name": "Verac's plateskirt 75"
         }, 
         "4996": {
             "id": 4996, 
+            "is_in_exchange": false, 
             "name": "Verac's plateskirt 50"
         }, 
         "4997": {
             "id": 4997, 
+            "is_in_exchange": false, 
             "name": "Verac's plateskirt 25"
         }, 
         "4998": {
+            "description": "Verac the Defiled's plate skirt.", 
             "id": 4998, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Verac's plateskirt 0"
         }, 
         "5": {
@@ -30807,22 +32165,29 @@
         }, 
         "5002": {
             "id": 5002, 
+            "is_in_exchange": false, 
             "name": "Burnt cave eel"
         }, 
         "5003": {
+            "description": "It's a bit slimy.", 
             "id": 5003, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Cave eel"
         }, 
         "5004": {
             "id": 5004, 
+            "is_in_exchange": false, 
             "name": "Frog spawn"
         }, 
         "5008": {
             "id": 5008, 
+            "is_in_exchange": false, 
             "name": "Brooch"
         }, 
         "5009": {
             "id": 5009, 
+            "is_in_exchange": false, 
             "name": "Goblin symbol book"
         }, 
         "5010": {
@@ -30873,30 +32238,43 @@
         }, 
         "5020": {
             "id": 5020, 
+            "is_in_exchange": false, 
             "name": "Minecart ticket"
         }, 
         "5021": {
             "id": 5021, 
+            "is_in_exchange": false, 
             "name": "Minecart ticket"
         }, 
         "5022": {
             "id": 5022, 
+            "is_in_exchange": false, 
             "name": "Minecart ticket"
         }, 
         "5023": {
             "id": 5023, 
+            "is_in_exchange": false, 
             "name": "Minecart ticket"
         }, 
         "5024": {
+            "description": "Far too small to wear.", 
             "id": 5024, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Woven top"
         }, 
         "5026": {
+            "description": "Yellow top, too small for me.", 
             "id": 5026, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Woven top"
         }, 
         "5028": {
+            "description": "Blue top, very tiny.", 
             "id": 5028, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Woven top"
         }, 
         "5030": {
@@ -30914,7 +32292,10 @@
             "name": "Shirt"
         }, 
         "5034": {
+            "description": "Tiny!", 
             "id": 5034, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Shirt"
         }, 
         "5036": {
@@ -30925,7 +32306,10 @@
             "name": "Trousers"
         }, 
         "5038": {
+            "description": "A pair of long dwarven trousers... long for dwarves, of course.", 
             "id": 5038, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Trousers"
         }, 
         "504": {
@@ -30934,23 +32318,38 @@
             "name": "Broken axe"
         }, 
         "5040": {
+            "description": "A pair of long dwarven trousers... long for dwarves, of course.", 
             "id": 5040, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Trousers"
         }, 
         "5042": {
+            "description": "These look great, on dwarves!", 
             "id": 5042, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Shorts"
         }, 
         "5044": {
+            "description": "Yellow shorts. Far too small for you.", 
             "id": 5044, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Shorts"
         }, 
         "5046": {
+            "description": "Blue shorts, these would look great on dwarves!", 
             "id": 5046, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Shorts"
         }, 
         "5048": {
+            "description": "A brown skirt. Size small!", 
             "id": 5048, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Skirt"
         }, 
         "5050": {
@@ -30999,38 +32398,47 @@
         }, 
         "5060": {
             "id": 5060, 
+            "is_in_exchange": false, 
             "name": "Dwarven battleaxe"
         }, 
         "5061": {
             "id": 5061, 
+            "is_in_exchange": false, 
             "name": "Dwarven battleaxe"
         }, 
         "5062": {
             "id": 5062, 
+            "is_in_exchange": false, 
             "name": "Left boot"
         }, 
         "5063": {
             "id": 5063, 
+            "is_in_exchange": false, 
             "name": "Right boot"
         }, 
         "5064": {
             "id": 5064, 
+            "is_in_exchange": false, 
             "name": "Exquisite boots"
         }, 
         "5065": {
             "id": 5065, 
+            "is_in_exchange": false, 
             "name": "Book on costumes"
         }, 
         "5066": {
             "id": 5066, 
+            "is_in_exchange": false, 
             "name": "Meeting notes"
         }, 
         "5067": {
             "id": 5067, 
+            "is_in_exchange": false, 
             "name": "Exquisite clothes"
         }, 
         "5068": {
             "id": 5068, 
+            "is_in_exchange": false, 
             "name": "Master farmer"
         }, 
         "5070": {
@@ -31087,34 +32495,50 @@
         }, 
         "5087": {
             "id": 5087, 
+            "is_in_exchange": false, 
             "name": "Varrock armour"
         }, 
         "5089": {
             "id": 5089, 
+            "is_in_exchange": false, 
             "name": "Sea snake"
         }, 
         "5093": {
             "id": 5093, 
+            "is_in_exchange": false, 
             "name": "Morytania legs"
         }, 
         "5095": {
             "id": 5095, 
+            "is_in_exchange": false, 
             "name": "Explorer's ring"
         }, 
         "5096": {
+            "description": "A marigold seed - plant in a flower patch.", 
             "id": 5096, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Marigold seed"
         }, 
         "5097": {
+            "description": "A rosemary seed - plant in a flower patch.", 
             "id": 5097, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Rosemary seed"
         }, 
         "5098": {
+            "description": "A nasturtium seed - plant in a flower patch.", 
             "id": 5098, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Nasturtium seed"
         }, 
         "5099": {
+            "description": "A woad seed - plant in a flower patch.", 
             "id": 5099, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Woad seed"
         }, 
         "510": {
@@ -31123,31 +32547,52 @@
             "name": "Iron axe head"
         }, 
         "5100": {
+            "description": "A limpwurt seed - plant in a flower patch.", 
             "id": 5100, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Limpwurt seed"
         }, 
         "5101": {
+            "description": "A redberry bush seed - plant in a bush patch.", 
             "id": 5101, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Redberry seed"
         }, 
         "5102": {
+            "description": "A cadavaberry bush seed - plant in a bush patch.", 
             "id": 5102, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Cadavaberry seed"
         }, 
         "5103": {
+            "description": "A dwellberry bush seed - plant in a bush patch.", 
             "id": 5103, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dwellberry seed"
         }, 
         "5104": {
+            "description": "A jangerberry bush seed - plant in a bush patch.", 
             "id": 5104, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Jangerberry seed"
         }, 
         "5105": {
+            "description": "A whiteberry bush seed - plant in a bush patch.", 
             "id": 5105, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Whiteberry seed"
         }, 
         "5106": {
+            "description": "A poison ivy bush seed - plant in a bush patch.", 
             "id": 5106, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Poison ivy seed"
         }, 
         "512": {
@@ -31167,6 +32612,7 @@
         }, 
         "5171": {
             "id": 5171, 
+            "is_in_exchange": false, 
             "name": "Seeds"
         }, 
         "518": {
@@ -31291,43 +32737,73 @@
             "name": "Palm tree seed"
         }, 
         "5290": {
+            "description": "Plant in a plantpot of soil to grow a sapling.", 
             "id": 5290, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Calquat tree seed"
         }, 
         "5291": {
+            "description": "A guam seed - plant in a herb patch.", 
             "id": 5291, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Guam seed"
         }, 
         "5292": {
+            "description": "A marrentill seed - plant in a herb patch.", 
             "id": 5292, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Marrentill seed"
         }, 
         "5293": {
+            "description": "A tarromin seed - plant in a herb patch.", 
             "id": 5293, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Tarromin seed"
         }, 
         "5294": {
+            "description": "A harralander seed - plant in a herb patch.", 
             "id": 5294, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Harralander seed"
         }, 
         "5295": {
+            "description": "A ranarr seed - plant in a herb patch.", 
             "id": 5295, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Ranarr seed"
         }, 
         "5296": {
+            "description": "A toadflax seed - plant in a herb patch.", 
             "id": 5296, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Toadflax seed"
         }, 
         "5297": {
+            "description": "An irit seed - plant in a herb patch.", 
             "id": 5297, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Irit seed"
         }, 
         "5298": {
+            "description": "An avantoe seed - plant in a herb patch.", 
             "id": 5298, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Avantoe seed"
         }, 
         "5299": {
+            "description": "A kwuarm seed - plant in a herb patch.", 
             "id": 5299, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Kwuarm seed"
         }, 
         "53": {
@@ -31345,83 +32821,141 @@
             "name": "Bat bones"
         }, 
         "5300": {
+            "description": "A snapdragon seed - plant in a herb patch.", 
             "id": 5300, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Snapdragon seed"
         }, 
         "5301": {
+            "description": "A cadantine seed - plant in a herb patch.", 
             "id": 5301, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Cadantine seed"
         }, 
         "5302": {
+            "description": "A lantadyme seed - plant in a herb patch.", 
             "id": 5302, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Lantadyme seed"
         }, 
         "5303": {
+            "description": "A dwarf weed seed - plant in a herb patch.", 
             "id": 5303, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Dwarf weed seed"
         }, 
         "5304": {
+            "description": "A torstol seed - plant in a herb patch.", 
             "id": 5304, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Torstol seed"
         }, 
         "5305": {
+            "description": "A barley seed - plant in a hops patch.", 
             "id": 5305, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Barley seed"
         }, 
         "5306": {
+            "description": "A jute plant seed - plant in a hops patch.", 
             "id": 5306, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Jute seed"
         }, 
         "5307": {
+            "description": "A Hammerstone hop seed - plant in a hops patch.", 
             "id": 5307, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Hammerstone seed"
         }, 
         "5308": {
+            "description": "An Asgarnian hop seed - plant in a hops patch.", 
             "id": 5308, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Asgarnian seed"
         }, 
         "5309": {
+            "description": "A Yanillian hop seed - plant in a hops patch.", 
             "id": 5309, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Yanillian seed"
         }, 
         "5310": {
+            "description": "A Krandorian hop seed - plant in a hops patch.", 
             "id": 5310, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Krandorian seed"
         }, 
         "5311": {
+            "description": "A Wildblood hop seed - plant in a hops patch.", 
             "id": 5311, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Wildblood seed"
         }, 
         "5312": {
+            "description": "Plant this in a plantpot of soil to grow a sapling.", 
             "id": 5312, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Acorn"
         }, 
         "5313": {
+            "description": "Plant this in a plantpot of soil to grow a sapling.", 
             "id": 5313, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Willow seed"
         }, 
         "5314": {
+            "description": "Plant this in a plantpot of soil to grow a sapling.", 
             "id": 5314, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Maple seed"
         }, 
         "5315": {
+            "description": "Plant this in a plantpot of soil to grow a sapling.", 
             "id": 5315, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Yew seed"
         }, 
         "5316": {
+            "description": "Plant this in a plantpot of soil to grow a sapling.", 
             "id": 5316, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Magic seed"
         }, 
         "5317": {
             "id": 5317, 
+            "is_in_exchange": false, 
             "name": "Spirit seed"
         }, 
         "5318": {
+            "description": "A potato seed - plant in an allotment.", 
             "id": 5318, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Potato seed"
         }, 
         "5319": {
+            "description": "An onion seed - plant in an allotment.", 
             "id": 5319, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Onion seed"
         }, 
         "532": {
@@ -31432,71 +32966,104 @@
             "name": "Big bones"
         }, 
         "5320": {
+            "description": "A sweetcorn seed - plant in an allotment.", 
             "id": 5320, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Sweetcorn seed"
         }, 
         "5321": {
+            "description": "A watermelon seed - plant in an allotment.", 
             "id": 5321, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Watermelon seed"
         }, 
         "5322": {
+            "description": "A tomato seed - plant in an allotment.", 
             "id": 5322, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Tomato seed"
         }, 
         "5323": {
+            "description": "A strawberry seed - plant in an allotment.", 
             "id": 5323, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Strawberry seed"
         }, 
         "5324": {
+            "description": "A cabbage seed - plant in an allotment.", 
             "id": 5324, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Cabbage seed"
         }, 
         "5325": {
+            "description": "Not suitable for archaeological digs.", 
             "id": 5325, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Gardening trowel"
         }, 
         "5327": {
             "id": 5327, 
+            "is_in_exchange": false, 
             "name": "Spade handle"
         }, 
         "5328": {
             "id": 5328, 
+            "is_in_exchange": false, 
             "name": "Spade head"
         }, 
         "5329": {
+            "description": "Good for pruning away diseased leaves.", 
             "id": 5329, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Secateurs"
         }, 
         "5331": {
+            "description": "This watering can is empty.", 
             "id": 5331, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Watering can"
         }, 
         "5333": {
             "id": 5333, 
+            "is_in_exchange": false, 
             "name": "Watering can(1)"
         }, 
         "5334": {
             "id": 5334, 
+            "is_in_exchange": false, 
             "name": "Watering can(2)"
         }, 
         "5335": {
             "id": 5335, 
+            "is_in_exchange": false, 
             "name": "Watering can(3)"
         }, 
         "5336": {
             "id": 5336, 
+            "is_in_exchange": false, 
             "name": "Watering can(4)"
         }, 
         "5337": {
             "id": 5337, 
+            "is_in_exchange": false, 
             "name": "Watering can(5)"
         }, 
         "5338": {
             "id": 5338, 
+            "is_in_exchange": false, 
             "name": "Watering can(6)"
         }, 
         "5339": {
             "id": 5339, 
+            "is_in_exchange": false, 
             "name": "Watering can(7)"
         }, 
         "534": {
@@ -31512,19 +33079,29 @@
             "name": "Watering can(8)"
         }, 
         "5341": {
+            "description": "Use this to clear weeds.", 
             "id": 5341, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Rake"
         }, 
         "5343": {
+            "description": "Use this to plant seeds with.", 
             "id": 5343, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Seed dibber"
         }, 
         "5345": {
+            "description": "A pair of gardening boots.", 
             "id": 5345, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Gardening boots"
         }, 
         "5347": {
             "id": 5347, 
+            "is_in_exchange": false, 
             "name": "Rake handle"
         }, 
         "5348": {
@@ -31534,6 +33111,7 @@
         }, 
         "5349": {
             "id": 5349, 
+            "is_in_exchange": false, 
             "name": "Smoke devil"
         }, 
         "5350": {
@@ -31551,19 +33129,25 @@
             "name": "Unfired plant pot"
         }, 
         "5354": {
+            "description": "A plant pot filled with soil.", 
             "id": 5354, 
+            "is_in_exchange": true, 
+            "members": true, 
             "name": "Filled plant pot"
         }, 
         "5356": {
             "id": 5356, 
+            "is_in_exchange": false, 
             "name": "Plant pot"
         }, 
         "5358": {
             "id": 5358, 
+            "is_in_exchange": false, 
             "name": "Oak seedling"
         }, 
         "5359": {
             "id": 5359, 
+            "is_in_exchange": false, 
             "name": "Willow seedling"
         }, 
         "536": {
@@ -31575,26 +33159,32 @@
         }, 
         "5360": {
             "id": 5360, 
+            "is_in_exchange": false, 
             "name": "Maple seedling"
         }, 
         "5361": {
             "id": 5361, 
+            "is_in_exchange": false, 
             "name": "Yew seedling"
         }, 
         "5362": {
             "id": 5362, 
+            "is_in_exchange": false, 
             "name": "Magic seedling"
         }, 
         "5363": {
             "id": 5363, 
+            "is_in_exchange": false, 
             "name": "Spirit seedling"
         }, 
         "5364": {
             "id": 5364, 
+            "is_in_exchange": false, 
             "name": "Oak seedling (w)"
         }, 
         "5365": {
             "id": 5365, 
+            "is_in_exchange": false, 
             "name": "Willow seedling (w)"
         }, 
         "5366": {
