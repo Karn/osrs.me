@@ -37,6 +37,10 @@ class WikiParser(object):
                 item_data_json['equipable'] = data_value == 'Yes'
             elif data_key == 'quest':
                 item_data_json['quest_item'] = data_value == 'Yes'
+            elif data_key == 'members':
+                item_data_json['members'] = data_value == 'Yes'
+            elif data_key == 'examine':
+                item_data_json['description'] = data_value
             elif data_key == 'store':
                 if data_value == 'No':
                     item_data_json['store'] = -1
