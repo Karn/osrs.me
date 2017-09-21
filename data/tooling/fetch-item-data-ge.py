@@ -3,6 +3,7 @@ import json
 import requests
 import urllib
 import time
+from iterator import FileManager
 
 
 class RequestService(object):
@@ -44,25 +45,6 @@ class RequestService(object):
     def download_image_from_url(self, url, local_file_name):
 
         urllib.urlretrieve(url, RequestService.IMAGE_DIR + local_file_name)
-
-
-class FileManager(object):
-
-    def __init__(self):
-        pass
-
-    def load_item_data(self, path):
-        item_list = None
-
-        with open(path) as item_data_file:    
-            item_list = json.load(item_data_file)
-
-        return item_list
-
-    def write_item_data(self, path, json_data):
-
-        with open(path, 'w') as item_data_file:    
-            item_data_file.write(json.dumps(json_data, indent=4, sort_keys=True))
 
 
 _FileManager = FileManager()

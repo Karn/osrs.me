@@ -134,8 +134,11 @@ class WikiParser(object):
                 print WikiParser.parse_item_bonuses(self, group)
 
 
-_WikiParser = WikiParser()
 
-test_str = _WikiParser.fetch_item('dwarf_remains')
+if __name__ is '__main__':
 
-_WikiParser.parse_response(test_str)
+    _WikiParser = WikiParser()
+
+    test_str = _WikiParser.fetch_item('dwarf_remains')
+
+    _WikiParser.parse_response(test_str)
