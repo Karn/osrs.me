@@ -47,7 +47,7 @@ class WikiParser(object):
             elif data_key == 'equipable':
                 item_data_json['equipable'] = data_value == 'Yes'
             elif data_key == 'stackable':
-                item_data_json['equipable'] = data_value == 'Yes'
+                item_data_json['stackable'] = data_value == 'Yes'
             elif data_key == 'quest':
                 item_data_json['quest_item'] = data_value == 'Yes'
             elif data_key == 'members':
@@ -62,6 +62,8 @@ class WikiParser(object):
                 item_data_json['high_alch'] = int(data_value)
             elif data_key == 'low' and data_value != 'No':
                 item_data_json['low_alch'] = int(data_value)
+            elif data_key == 'value' and data_value != 'No':
+                item_data_json['store_value'] = int(data_value)
 
         return item_data_json
 
@@ -121,7 +123,7 @@ class WikiParser(object):
 
 
     def parse_response(self, response):
-        matches = re.finditer(WikiParser.REGEX, test_str)
+        matches = re.finditer(WikiParser.REGEX, response)
 
         for matchNum, match in enumerate(matches):
 

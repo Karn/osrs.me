@@ -36,7 +36,7 @@ class ItemIterator(object):
 
         # Iterate for each possible item id in the list of items.
         # for i in range(0, 21049):
-        for i in range(0, 1):
+        for i in range(0, 2):
 
             item_id = str(i)
 
@@ -45,7 +45,6 @@ class ItemIterator(object):
                 continue
 
             executing_function(item_list['item'][item_id])
-
 
 
 _ItemIterator = ItemIterator()
@@ -57,6 +56,8 @@ item_list = _FileManager.load_item_data(FileManager.ITEM_DATA_FILE)
 
 def load_from_wiki(item):
 
-    _WikiParser.fetch_item(item['name'])
+    response = _WikiParser.fetch_item(item['name'].replace(' ', '_'))
+
+    _WikiParser.parse_response(response)
 
 _ItemIterator.iterate(item_list, load_from_wiki)
