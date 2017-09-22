@@ -125,17 +125,19 @@ class WikiParser(object):
     def parse_response(self, response):
         matches = re.finditer(WikiParser.REGEX, response)
 
+        resp = {}
+
         for matchNum, match in enumerate(matches):
 
             group = match.group()
 
             if group.startswith('{{Infobox Item'):
-                print WikiParser.parse_item_data(self, group)
+                resp['item'] = WikiParser.parse_item_data(self, group)
 
             elif group.startswith('{{Infobox Bonuses'):
-                print WikiParser.parse_item_bonuses(self, group)
+                resp['bonuses'] = WikiParser.parse_item_bonuses(self, group)
 
-
+        return resp
 
 if __name__ is '__main__':
 

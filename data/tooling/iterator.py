@@ -7,7 +7,7 @@ class FileManager(object):
 
     CURRENT_DIR = os.path.dirname(__file__) + '/'
     
-    ITEM_DATA_FILE = CURRENT_DIR + '../raw/item-ids_131.json'
+    ITEM_DATA_FILE = CURRENT_DIR + '../raw/items.json'
 
     def __init__(self):
         pass
@@ -44,7 +44,18 @@ class ItemIterator(object):
             if item_id not in item_list['item']:
                 continue
 
-            executing_function(item_list['item'][item_id])
+            resp = executing_function(item_list['item'][item_id])
+
+            for key in resp:
+                if 'item' in resp:
+                    for item_key in resp['item']:
+                        item_list['item'][item_id][item_key] = resp['item'][item_key]
+
+                if 'bonuses' in resp:
+                    for item_key in resp['bonuses']:
+                        pass
+
+            print item_list['item'][item_id]
 
 
 _ItemIterator = ItemIterator()
@@ -58,6 +69,6 @@ def load_from_wiki(item):
 
     response = _WikiParser.fetch_item(item['name'].replace(' ', '_'))
 
-    _WikiParser.parse_response(response)
+    return _WikiParser.parse_response(response)
 
 _ItemIterator.iterate(item_list, load_from_wiki)
