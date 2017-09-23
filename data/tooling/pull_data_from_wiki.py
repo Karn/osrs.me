@@ -115,7 +115,7 @@ class WikiParser(object):
             elif data_key == 'prayer':
                 item_bonuses_json['bonus']['prayer'] = data_value
             elif data_key == 'slot':
-                item_bonuses_json['item_slot'] = data_value.lower()
+                item_bonuses_json['slot'] = data_value.lower()
             elif data_key == 'aspeed':
                 item_bonuses_json['attack_speed'] = float(data_value)
 

@@ -53,10 +53,12 @@ class ItemIterator(object):
 
                 if 'bonuses' in resp:
                     for item_key in resp['bonuses']:
-                        pass
+                        if item_key == 'slot' or item_key == 'attack_speed':
+                            item_list['item'][item_id][item_key] = resp['bonuses'][item_key]
+                        else:
+                            item_list['item'][item_id]['stats'][item_key] = resp['bonuses'][item_key]
 
             print item_list['item'][item_id]
-
 
 _ItemIterator = ItemIterator()
 _FileManager = FileManager()
