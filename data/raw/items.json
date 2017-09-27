@@ -1,21 +1,39 @@
 {
     "item": {
         "0": {
+            "description": "The body of a Dwarf savaged by Goblins.", 
+            "equipable": false, 
             "id": 0, 
             "is_in_exchange": false, 
-            "name": "Dwarf remains"
+            "members": true, 
+            "name": "Dwarf remains", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store_value": 1, 
+            "tradeable": false, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "1": {
+            "description": "Good for repairing a broken cannon.", 
+            "equipable": false, 
             "id": 1, 
             "is_in_exchange": false, 
-            "name": "Toolkit"
+            "members": true, 
+            "name": "Toolkit", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "10": {
             "description": "The barrels of the multicannon.", 
             "id": 10, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Cannon barrels"
+            "name": "Cannon barrels", 
+            "wiki_mapped": true
         }, 
         "10000": {
             "description": "3 doses of Hunter potion.", 
@@ -425,10 +443,18 @@
         }, 
         "101": {
             "description": "I need another ingredient to finish this Irit potion.", 
+            "equipable": false, 
+            "high_alch": 24, 
             "id": 101, 
             "is_in_exchange": true, 
+            "low_alch": 16, 
             "members": true, 
-            "name": "Irit potion (unf)"
+            "name": "Irit potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "10101": {
             "description": "It's a shabby-looking kyatt fur.", 
@@ -1354,10 +1380,18 @@
         }, 
         "103": {
             "description": "I need another ingredient to finish this Avantoe potion.", 
+            "equipable": false, 
+            "high_alch": 28, 
             "id": 103, 
             "is_in_exchange": true, 
+            "low_alch": 19, 
             "members": true, 
-            "name": "Avantoe potion (unf)"
+            "name": "Avantoe potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "10300": {
             "description": "An adamant helmet with a heraldic design.", 
@@ -2128,10 +2162,18 @@
         }, 
         "105": {
             "description": "I need another ingredient to finish this Kwuarm potion.", 
+            "equipable": false, 
+            "high_alch": 32, 
             "id": 105, 
             "is_in_exchange": true, 
+            "low_alch": 21, 
             "members": true, 
-            "name": "Kwuarm potion (unf)"
+            "name": "Kwuarm potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "1050": {
             "description": "It's a Santa hat.", 
@@ -3109,10 +3151,18 @@
         }, 
         "107": {
             "description": "I need another ingredient to finish this Cadantine potion.", 
+            "equipable": false, 
+            "high_alch": 39, 
             "id": 107, 
             "is_in_exchange": true, 
+            "low_alch": 26, 
             "members": true, 
-            "name": "Cadantine potion (unf)"
+            "name": "Cadantine potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "10700": {
             "id": 10700, 
@@ -3945,10 +3995,18 @@
         }, 
         "109": {
             "description": "I need another ingredient to finish this Dwarf Weed potion.", 
+            "equipable": false, 
+            "high_alch": 42, 
             "id": 109, 
             "is_in_exchange": true, 
+            "low_alch": 28, 
             "members": true, 
-            "name": "Dwarf weed potion (unf)"
+            "name": "Dwarf weed potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "10904": {
             "id": 10904, 
@@ -4829,10 +4887,18 @@
         }, 
         "111": {
             "description": "I need another ingredient to finish this Torstol potion.", 
+            "equipable": false, 
+            "high_alch": 15, 
             "id": 111, 
             "is_in_exchange": true, 
+            "low_alch": 10, 
             "members": true, 
-            "name": "Torstol potion (unf)"
+            "name": "Torstol potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "11101": {
             "id": 11101, 
@@ -5559,7 +5625,8 @@
             "id": 113, 
             "is_in_exchange": true, 
             "members": false, 
-            "name": "Strength potion(4)"
+            "name": "Strength potion(4)", 
+            "wiki_mapped": true
         }, 
         "1131": {
             "description": "Harder than normal leather.", 
@@ -6300,7 +6367,8 @@
             "id": 115, 
             "is_in_exchange": true, 
             "members": false, 
-            "name": "Strength potion(3)"
+            "name": "Strength potion(3)", 
+            "wiki_mapped": true
         }, 
         "11501": {
             "description": "Two doses of fishy extra strength antidote potion.", 
@@ -6646,7 +6714,8 @@
             "id": 117, 
             "is_in_exchange": true, 
             "members": false, 
-            "name": "Strength potion(2)"
+            "name": "Strength potion(2)", 
+            "wiki_mapped": true
         }, 
         "11700": {
             "id": 11700, 
@@ -7591,7 +7660,8 @@
             "id": 119, 
             "is_in_exchange": true, 
             "members": false, 
-            "name": "Strength potion(1)"
+            "name": "Strength potion(1)", 
+            "wiki_mapped": true
         }, 
         "11900": {
             "id": 11900, 
@@ -7987,7 +8057,8 @@
             "id": 12, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Cannon furnace"
+            "name": "Cannon furnace", 
+            "wiki_mapped": true
         }, 
         "12000": {
             "description": "It gives a 10% accuracy and damage bonus for spells on the standard spellbook.", 
@@ -8517,7 +8588,8 @@
             "id": 121, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Attack potion(3)"
+            "name": "Attack potion(3)", 
+            "wiki_mapped": true
         }, 
         "12100": {
             "id": 12100, 
@@ -9437,7 +9509,8 @@
             "id": 123, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Attack potion(2)"
+            "name": "Attack potion(2)", 
+            "wiki_mapped": true
         }, 
         "12301": {
             "description": "A minimalist's hat.", 
@@ -10263,7 +10336,8 @@
             "id": 125, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Attack potion(1)"
+            "name": "Attack potion(1)", 
+            "wiki_mapped": true
         }, 
         "12500": {
             "description": "Bandos blessed dragonhide body armour.", 
@@ -11258,7 +11332,8 @@
             "id": 127, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Restore potion(3)"
+            "name": "Restore potion(3)", 
+            "wiki_mapped": true
         }, 
         "12701": {
             "description": "1 dose of super combat potion.", 
@@ -12174,7 +12249,8 @@
             "id": 129, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Restore potion(2)"
+            "name": "Restore potion(2)", 
+            "wiki_mapped": true
         }, 
         "12900": {
             "description": "It needs to be charged with death runes, chaos runes, fire runes and Zulrah's scales.", 
@@ -12980,7 +13056,8 @@
             "id": 131, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Restore potion(1)"
+            "name": "Restore potion(1)", 
+            "wiki_mapped": true
         }, 
         "13100": {
             "id": 13100, 
@@ -13832,7 +13909,8 @@
             "id": 133, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Defence potion(3)"
+            "name": "Defence potion(3)", 
+            "wiki_mapped": true
         }, 
         "13302": {
             "id": 13302, 
@@ -14778,7 +14856,8 @@
             "id": 135, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Defence potion(2)"
+            "name": "Defence potion(2)", 
+            "wiki_mapped": true
         }, 
         "13501": {
             "id": 13501, 
@@ -15721,7 +15800,8 @@
             "id": 137, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Defence potion(1)"
+            "name": "Defence potion(1)", 
+            "wiki_mapped": true
         }, 
         "1371": {
             "description": "A vicious looking axe.", 
@@ -15798,7 +15878,8 @@
             "id": 139, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Prayer potion(3)"
+            "name": "Prayer potion(3)", 
+            "wiki_mapped": true
         }, 
         "1391": {
             "description": "It's a slightly magical stick.", 
@@ -15836,9 +15917,19 @@
             "name": "Earth battlestaff"
         }, 
         "14": {
+            "description": "A metal railing replacement.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 14, 
             "is_in_exchange": false, 
-            "name": "Railing"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Railing", 
+            "quest_item": false, 
+            "stackable": true, 
+            "tradeable": false, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "1401": {
             "description": "It's a slightly magical stick.", 
@@ -15878,7 +15969,8 @@
             "id": 141, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Prayer potion(2)"
+            "name": "Prayer potion(2)", 
+            "wiki_mapped": true
         }, 
         "1410": {
             "id": 1410, 
@@ -15950,7 +16042,8 @@
             "id": 143, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Prayer potion(1)"
+            "name": "Prayer potion(1)", 
+            "wiki_mapped": true
         }, 
         "1430": {
             "description": "A spiky mace.", 
@@ -16027,7 +16120,8 @@
             "id": 145, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super attack(3)"
+            "name": "Super attack(3)", 
+            "wiki_mapped": true
         }, 
         "1452": {
             "description": "A mysterious power emanates from the talisman...", 
@@ -16099,7 +16193,8 @@
             "id": 147, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super attack(2)"
+            "name": "Super attack(2)", 
+            "wiki_mapped": true
         }, 
         "1470": {
             "description": "A small round red bead.", 
@@ -16191,7 +16286,8 @@
             "id": 149, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super attack(1)"
+            "name": "Super attack(1)", 
+            "wiki_mapped": true
         }, 
         "1490": {
             "id": 1490, 
@@ -16246,7 +16342,8 @@
         "15": {
             "id": 15, 
             "is_in_exchange": false, 
-            "name": "Holy table napkin"
+            "name": "Holy table napkin", 
+            "wiki_mapped": true
         }, 
         "1500": {
             "id": 1500, 
@@ -16303,7 +16400,8 @@
             "id": 151, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Fishing potion(3)"
+            "name": "Fishing potion(3)", 
+            "wiki_mapped": true
         }, 
         "1510": {
             "id": 1510, 
@@ -16389,7 +16487,8 @@
             "id": 153, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Fishing potion(2)"
+            "name": "Fishing potion(2)", 
+            "wiki_mapped": true
         }, 
         "1530": {
             "id": 1530, 
@@ -16495,7 +16594,8 @@
             "id": 155, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Fishing potion(1)"
+            "name": "Fishing potion(1)", 
+            "wiki_mapped": true
         }, 
         "1550": {
             "description": "A clove of garlic.", 
@@ -16596,7 +16696,8 @@
             "id": 157, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super strength(3)"
+            "name": "Super strength(3)", 
+            "wiki_mapped": true
         }, 
         "1570": {
             "id": 1570, 
@@ -16680,7 +16781,8 @@
             "id": 159, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super strength(2)"
+            "name": "Super strength(2)", 
+            "wiki_mapped": true
         }, 
         "1590": {
             "id": 1590, 
@@ -16728,7 +16830,8 @@
         "16": {
             "id": 16, 
             "is_in_exchange": false, 
-            "name": "Magic whistle"
+            "name": "Magic whistle", 
+            "wiki_mapped": true
         }, 
         "1601": {
             "description": "This looks valuable.", 
@@ -16770,7 +16873,8 @@
             "id": 161, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super strength(1)"
+            "name": "Super strength(1)", 
+            "wiki_mapped": true
         }, 
         "1611": {
             "description": "A semi precious stone.", 
@@ -16847,7 +16951,8 @@
             "id": 163, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super defence(3)"
+            "name": "Super defence(3)", 
+            "wiki_mapped": true
         }, 
         "1631": {
             "description": "This would be worth more cut.", 
@@ -16913,7 +17018,8 @@
             "id": 165, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super defence(2)"
+            "name": "Super defence(2)", 
+            "wiki_mapped": true
         }, 
         "1650": {
             "id": 1650, 
@@ -16992,7 +17098,8 @@
             "id": 167, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Super defence(1)"
+            "name": "Super defence(1)", 
+            "wiki_mapped": true
         }, 
         "1670": {
             "id": 1670, 
@@ -17076,7 +17183,8 @@
             "id": 169, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Ranging potion(3)"
+            "name": "Ranging potion(3)", 
+            "wiki_mapped": true
         }, 
         "1690": {
             "id": 1690, 
@@ -17119,7 +17227,8 @@
         "17": {
             "id": 17, 
             "is_in_exchange": false, 
-            "name": "Grail bell"
+            "name": "Grail bell", 
+            "wiki_mapped": true
         }, 
         "1700": {
             "description": "I wonder if I can get this enchanted.", 
@@ -17157,7 +17266,8 @@
             "id": 171, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Ranging potion(2)"
+            "name": "Ranging potion(2)", 
+            "wiki_mapped": true
         }, 
         "1710": {
             "id": 1710, 
@@ -17239,7 +17349,8 @@
             "id": 173, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Ranging potion(1)"
+            "name": "Ranging potion(1)", 
+            "wiki_mapped": true
         }, 
         "1731": {
             "description": "An enchanted diamond amulet of power.", 
@@ -17323,7 +17434,8 @@
             "id": 175, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Antipoison(3)"
+            "name": "Antipoison(3)", 
+            "wiki_mapped": true
         }, 
         "1751": {
             "description": "The scaly rough hide from a Blue Dragon.", 
@@ -17400,7 +17512,8 @@
             "id": 177, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Antipoison(2)"
+            "name": "Antipoison(2)", 
+            "wiki_mapped": true
         }, 
         "1771": {
             "description": "A little bottle of green dye.", 
@@ -17477,7 +17590,8 @@
             "id": 179, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Antipoison(1)"
+            "name": "Antipoison(1)", 
+            "wiki_mapped": true
         }, 
         "1791": {
             "description": "I need to put this in a pottery oven.", 
@@ -17523,7 +17637,8 @@
         "18": {
             "id": 18, 
             "is_in_exchange": false, 
-            "name": "Magic gold feather"
+            "name": "Magic gold feather", 
+            "wiki_mapped": true
         }, 
         "1800": {
             "id": 1800, 
@@ -17580,7 +17695,8 @@
             "id": 181, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Superantipoison(3)"
+            "name": "Superantipoison(3)", 
+            "wiki_mapped": true
         }, 
         "1810": {
             "id": 1810, 
@@ -17674,7 +17790,8 @@
             "id": 183, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Superantipoison(2)"
+            "name": "Superantipoison(2)", 
+            "wiki_mapped": true
         }, 
         "1831": {
             "description": "A completely empty waterskin - you'll need to fill it up.", 
@@ -17764,7 +17881,8 @@
             "id": 185, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Superantipoison(1)"
+            "name": "Superantipoison(1)", 
+            "wiki_mapped": true
         }, 
         "1850": {
             "id": 1850, 
@@ -17853,10 +17971,18 @@
         }, 
         "187": {
             "description": "For use on daggers and projectiles.", 
+            "equipable": false, 
+            "high_alch": 86, 
             "id": 187, 
             "is_in_exchange": true, 
+            "low_alch": 57, 
             "members": true, 
-            "name": "Weapon poison"
+            "name": "Weapon poison", 
+            "quest_item": false, 
+            "stackable": true, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "1871": {
             "description": "A mixture of onions in a bowl.", 
@@ -17929,7 +18055,8 @@
             "id": 189, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Zamorak brew(3)"
+            "name": "Zamorak brew(3)", 
+            "wiki_mapped": true
         }, 
         "1891": {
             "description": "A plain sponge cake.", 
@@ -17963,7 +18090,8 @@
         "19": {
             "id": 19, 
             "is_in_exchange": false, 
-            "name": "Holy grail"
+            "name": "Holy grail", 
+            "wiki_mapped": true
         }, 
         "1901": {
             "id": 1901, 
@@ -18001,7 +18129,8 @@
             "id": 191, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Zamorak brew(2)"
+            "name": "Zamorak brew(2)", 
+            "wiki_mapped": true
         }, 
         "1911": {
             "description": "A glass of bitter.", 
@@ -18078,7 +18207,8 @@
             "id": 193, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Zamorak brew(1)"
+            "name": "Zamorak brew(1)", 
+            "wiki_mapped": true
         }, 
         "1931": {
             "description": "This pot is empty.", 
@@ -18237,9 +18367,19 @@
             "name": "Zenyte ring"
         }, 
         "195": {
+            "description": "This is meant to be good for spots.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 195, 
             "is_in_exchange": false, 
-            "name": "Potion"
+            "low_alch": 0, 
+            "members": false, 
+            "name": "Potion", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "19500": {
             "id": 19500, 
@@ -18862,10 +19002,19 @@
         }, 
         "197": {
             "description": "A cup of a strange brew...", 
+            "equipable": false, 
+            "high_alch": 12, 
             "id": 197, 
             "is_in_exchange": true, 
+            "low_alch": 8, 
             "members": true, 
-            "name": "Poison chalice"
+            "name": "Poison chalice", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 39, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "19701": {
             "description": "It smells like it's been where the sun doesn't shine.", 
@@ -19850,10 +19999,18 @@
         }, 
         "199": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 7, 
             "id": 199, 
             "is_in_exchange": true, 
+            "low_alch": 5, 
             "members": true, 
-            "name": "Grimy guam leaf"
+            "name": "Grimy guam leaf", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "19900": {
             "id": 19900, 
@@ -20160,15 +20317,33 @@
         }, 
         "2": {
             "description": "Ammo for the Dwarf Cannon.", 
+            "equipable": false, 
+            "high_alch": 3, 
             "id": 2, 
             "is_in_exchange": true, 
+            "low_alch": 2, 
             "members": true, 
-            "name": "Cannonball"
+            "name": "Cannonball", 
+            "quest_item": false, 
+            "stackable": true, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "20": {
+            "description": "A cog from some machinery.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 20, 
             "is_in_exchange": false, 
-            "name": "White cog"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "White cog", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "20000": {
             "id": 20000, 
@@ -20437,10 +20612,18 @@
         }, 
         "201": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 8, 
             "id": 201, 
             "is_in_exchange": true, 
+            "low_alch": 5, 
             "members": true, 
-            "name": "Grimy marrentill"
+            "name": "Grimy marrentill", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "20101": {
             "description": "These gloves will make your flesh transparent.", 
@@ -21033,10 +21216,18 @@
         }, 
         "203": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 9, 
             "id": 203, 
             "is_in_exchange": true, 
+            "low_alch": 6, 
             "members": true, 
-            "name": "Grimy tarromin"
+            "name": "Grimy tarromin", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2030": {
             "description": "A premade Chocolate Saturday.", 
@@ -21770,10 +21961,18 @@
         }, 
         "205": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 9, 
             "id": 205, 
             "is_in_exchange": true, 
+            "low_alch": 6, 
             "members": true, 
-            "name": "Grimy harralander"
+            "name": "Grimy harralander", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2050": {
             "id": 2050, 
@@ -22559,10 +22758,18 @@
         }, 
         "207": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 18, 
             "id": 207, 
             "is_in_exchange": true, 
+            "low_alch": 12, 
             "members": true, 
-            "name": "Grimy ranarr weed"
+            "name": "Grimy ranarr weed", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2070": {
             "id": 2070, 
@@ -23189,10 +23396,18 @@
         }, 
         "209": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 10, 
             "id": 209, 
             "is_in_exchange": true, 
+            "low_alch": 6, 
             "members": true, 
-            "name": "Grimy irit leaf"
+            "name": "Grimy irit leaf", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2090": {
             "id": 2090, 
@@ -23709,9 +23924,20 @@
             "name": "Twisted bow"
         }, 
         "21": {
+            "description": "A cog from some machinery.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 21, 
             "is_in_exchange": false, 
-            "name": "Black cog"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Black cog", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 0, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2100": {
             "id": 2100, 
@@ -23898,10 +24124,18 @@
         }, 
         "211": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 10, 
             "id": 211, 
             "is_in_exchange": true, 
+            "low_alch": 7, 
             "members": true, 
-            "name": "Grimy avantoe"
+            "name": "Grimy avantoe", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2110": {
             "description": "Fresh chunks of orange.", 
@@ -23975,10 +24209,18 @@
         }, 
         "213": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 12, 
             "id": 213, 
             "is_in_exchange": true, 
+            "low_alch": 8, 
             "members": true, 
-            "name": "Grimy kwuarm"
+            "name": "Grimy kwuarm", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2130": {
             "description": "Fresh cream.", 
@@ -24051,10 +24293,18 @@
         }, 
         "215": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 13, 
             "id": 215, 
             "is_in_exchange": true, 
+            "low_alch": 8, 
             "members": true, 
-            "name": "Grimy cadantine"
+            "name": "Grimy cadantine", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2150": {
             "description": "A slippery little blighter.", 
@@ -24134,10 +24384,18 @@
         }, 
         "217": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 14, 
             "id": 217, 
             "is_in_exchange": true, 
+            "low_alch": 9, 
             "members": true, 
-            "name": "Grimy dwarf weed"
+            "name": "Grimy dwarf weed", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2171": {
             "description": "It's made from a secret recipe.", 
@@ -24202,10 +24460,18 @@
         }, 
         "219": {
             "description": "It needs cleaning.", 
+            "equipable": false, 
+            "high_alch": 15, 
             "id": 219, 
             "is_in_exchange": true, 
+            "low_alch": 10, 
             "members": true, 
-            "name": "Grimy torstol"
+            "name": "Grimy torstol", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2191": {
             "description": "It actually smells quite good.", 
@@ -24237,9 +24503,20 @@
             "name": "Burnt crunchies"
         }, 
         "22": {
+            "description": "A cog from some machinery.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 22, 
             "is_in_exchange": false, 
-            "name": "Blue cog"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Blue cog", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 0, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2201": {
             "id": 2201, 
@@ -24279,10 +24556,18 @@
         }, 
         "221": {
             "description": "It seems to be looking at me.", 
+            "equipable": false, 
+            "high_alch": 1, 
             "id": 221, 
             "is_in_exchange": true, 
+            "low_alch": 1, 
             "members": false, 
-            "name": "Eye of newt"
+            "name": "Eye of newt", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2211": {
             "id": 2211, 
@@ -24352,10 +24637,19 @@
         }, 
         "223": {
             "description": "Ewww!", 
+            "equipable": false, 
+            "high_alch": 4, 
             "id": 223, 
             "is_in_exchange": true, 
+            "low_alch": 2, 
             "members": false, 
-            "name": "Red spiders' eggs"
+            "name": "Red spiders' eggs", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 300, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2231": {
             "description": "A premade Tangled Toads Legs.", 
@@ -24423,10 +24717,18 @@
         }, 
         "225": {
             "description": "The root of a limpwurt plant.", 
+            "equipable": false, 
+            "high_alch": 4, 
             "id": 225, 
             "is_in_exchange": true, 
+            "low_alch": 2, 
             "members": false, 
-            "name": "Limpwurt root"
+            "name": "Limpwurt root", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2250": {
             "id": 2250, 
@@ -24491,10 +24793,19 @@
         }, 
         "227": {
             "description": "A glass vial containing water.", 
+            "equipable": false, 
+            "high_alch": 1, 
             "id": 227, 
             "is_in_exchange": true, 
+            "low_alch": 0, 
             "members": false, 
-            "name": "Vial of water"
+            "name": "Vial of water", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 10, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2271": {
             "id": 2271, 
@@ -24556,10 +24867,19 @@
         }, 
         "229": {
             "description": "An empty glass vial.", 
+            "equipable": false, 
+            "high_alch": 1, 
             "id": 229, 
             "is_in_exchange": true, 
+            "low_alch": 0, 
             "members": false, 
-            "name": "Vial"
+            "name": "Vial", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 2, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2291": {
             "id": 2291, 
@@ -24591,9 +24911,19 @@
             "name": "1/2 anchovy pizza"
         }, 
         "23": {
+            "description": "A cog from some machinery.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 23, 
             "is_in_exchange": false, 
-            "name": "Red cog"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Red cog", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2301": {
             "description": "A tropicana pizza.", 
@@ -24628,10 +24958,19 @@
         }, 
         "231": {
             "description": "Strange spiky grass.", 
+            "equipable": false, 
+            "high_alch": 6, 
             "id": 231, 
             "is_in_exchange": true, 
+            "low_alch": 4, 
             "members": true, 
-            "name": "Snape grass"
+            "name": "Snape grass", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 175, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2311": {
             "id": 2311, 
@@ -24701,10 +25040,19 @@
         }, 
         "233": {
             "description": "I can grind things for potions in this.", 
+            "equipable": false, 
+            "high_alch": 2, 
             "id": 233, 
             "is_in_exchange": true, 
+            "low_alch": 1, 
             "members": true, 
-            "name": "Pestle and mortar"
+            "name": "Pestle and mortar", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 4, 
+            "tradeable": true, 
+            "weight": 0.05, 
+            "wiki_mapped": true
         }, 
         "2331": {
             "id": 2331, 
@@ -24776,7 +25124,8 @@
             "id": 235, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Unicorn horn dust"
+            "name": "Unicorn horn dust", 
+            "wiki_mapped": true
         }, 
         "2351": {
             "description": "It's a bar of iron.", 
@@ -24848,10 +25197,18 @@
         }, 
         "237": {
             "description": "This horn has restorative properties.", 
+            "equipable": false, 
+            "high_alch": 12, 
             "id": 237, 
             "is_in_exchange": true, 
+            "low_alch": 8, 
             "members": true, 
-            "name": "Unicorn horn"
+            "name": "Unicorn horn", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2370": {
             "description": "A set of studs for leather armour.", 
@@ -24952,10 +25309,18 @@
         }, 
         "239": {
             "description": "Sour berries, used in potions.", 
+            "equipable": false, 
+            "high_alch": 6, 
             "id": 239, 
             "is_in_exchange": true, 
+            "low_alch": 4, 
             "members": true, 
-            "name": "White berries"
+            "name": "White berries", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2390": {
             "id": 2390, 
@@ -25005,7 +25370,8 @@
         "24": {
             "id": 24, 
             "is_in_exchange": false, 
-            "name": "Rat poison"
+            "name": "Rat poison", 
+            "wiki_mapped": true
         }, 
         "2400": {
             "id": 2400, 
@@ -25059,10 +25425,19 @@
         }, 
         "241": {
             "description": "Finely ground scale of Dragon.", 
+            "equipable": false, 
+            "high_alch": 31, 
             "id": 241, 
             "is_in_exchange": true, 
+            "low_alch": 20, 
             "members": true, 
-            "name": "Dragon scale dust"
+            "name": "Dragon scale dust", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 750, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2410": {
             "id": 2410, 
@@ -25148,10 +25523,18 @@
         }, 
         "243": {
             "description": "A large shiny scale.", 
+            "equipable": false, 
+            "high_alch": 30, 
             "id": 243, 
             "is_in_exchange": true, 
+            "low_alch": 20, 
             "members": true, 
-            "name": "Blue dragon scale"
+            "name": "Blue dragon scale", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.01, 
+            "wiki_mapped": true
         }, 
         "2430": {
             "description": "4 doses of restore potion.", 
@@ -25225,10 +25608,18 @@
         }, 
         "245": {
             "description": "An evil wine for an evil god.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 245, 
             "is_in_exchange": true, 
+            "low_alch": 0, 
             "members": false, 
-            "name": "Wine of zamorak"
+            "name": "Wine of zamorak", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2450": {
             "description": "4 doses of Zamorak brew.", 
@@ -25305,7 +25696,8 @@
             "id": 247, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Jangerberries"
+            "name": "Jangerberries", 
+            "wiki_mapped": true
         }, 
         "2470": {
             "description": "A posy of flowers.", 
@@ -25372,10 +25764,18 @@
         }, 
         "249": {
             "description": "A bitter green herb.", 
+            "equipable": false, 
+            "high_alch": 1, 
             "id": 249, 
             "is_in_exchange": true, 
+            "low_alch": 1, 
             "members": true, 
-            "name": "Guam leaf"
+            "name": "Guam leaf", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2491": {
             "description": "Vambraces made from 100% real dragonhide.", 
@@ -25413,9 +25813,19 @@
             "name": "Blue d'hide body"
         }, 
         "25": {
+            "description": "Wormy.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 25, 
             "is_in_exchange": false, 
-            "name": "Red vine worm"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Red vine worm", 
+            "quest_item": false, 
+            "stackable": true, 
+            "tradeable": false, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2501": {
             "description": "Made from 100% real dragonhide.", 
@@ -25454,10 +25864,18 @@
         }, 
         "251": {
             "description": "A herb used in poison cures.", 
+            "equipable": false, 
+            "high_alch": 3, 
             "id": 251, 
             "is_in_exchange": true, 
+            "low_alch": 2, 
             "members": true, 
-            "name": "Marrentill"
+            "name": "Marrentill", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2511": {
             "id": 2511, 
@@ -25523,11 +25941,19 @@
             "name": "Orb of light"
         }, 
         "253": {
-            "description": "A useful herb.", 
+            "description": "A fresh herb.", 
+            "equipable": false, 
+            "high_alch": 6, 
             "id": 253, 
             "is_in_exchange": true, 
+            "low_alch": 4, 
             "members": true, 
-            "name": "Tarromin"
+            "name": "Tarromin", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2530": {
             "id": 2530, 
@@ -25585,11 +26011,19 @@
             "name": "Rune fire arrows"
         }, 
         "255": {
-            "description": "A useful herb.", 
+            "description": "A fresh herb.", 
+            "equipable": false, 
+            "high_alch": 12, 
             "id": 255, 
             "is_in_exchange": true, 
+            "low_alch": 8, 
             "members": true, 
-            "name": "Harralander"
+            "name": "Harralander", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2550": {
             "description": "An enchanted ring.", 
@@ -25649,10 +26083,18 @@
         }, 
         "257": {
             "description": "A useful herb.", 
+            "equipable": false, 
+            "high_alch": 15, 
             "id": 257, 
             "is_in_exchange": true, 
+            "low_alch": 10, 
             "members": true, 
-            "name": "Ranarr weed"
+            "name": "Ranarr weed", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2570": {
             "description": "An enchanted ring.", 
@@ -25734,10 +26176,18 @@
         }, 
         "259": {
             "description": "A useful herb.", 
+            "equipable": false, 
+            "high_alch": 24, 
             "id": 259, 
             "is_in_exchange": true, 
+            "low_alch": 16, 
             "members": true, 
-            "name": "Irit leaf"
+            "name": "Irit leaf", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2591": {
             "description": "Black platebody with gold trim.", 
@@ -25775,9 +26225,19 @@
             "name": "Adamant platebody (t)"
         }, 
         "26": {
+            "description": "Hemenster fishing contest trophy.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 26, 
             "is_in_exchange": false, 
-            "name": "Fishing trophy"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Fishing trophy", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2601": {
             "description": "Adamant platelegs with trim.", 
@@ -25816,10 +26276,18 @@
         }, 
         "261": {
             "description": "A useful herb.", 
+            "equipable": false, 
+            "high_alch": 28, 
             "id": 261, 
             "is_in_exchange": true, 
+            "low_alch": 19, 
             "members": true, 
-            "name": "Avantoe"
+            "name": "Avantoe", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2611": {
             "description": "Adamant kiteshield with gold trim.", 
@@ -25893,10 +26361,18 @@
         }, 
         "263": {
             "description": "A powerful herb.", 
+            "equipable": false, 
+            "high_alch": 32, 
             "id": 263, 
             "is_in_exchange": true, 
+            "low_alch": 21, 
             "members": true, 
-            "name": "Kwuarm"
+            "name": "Kwuarm", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2631": {
             "description": "Your money or your life!", 
@@ -25969,11 +26445,19 @@
             "name": "Brown headband"
         }, 
         "265": {
-            "description": "A powerful herb.", 
+            "description": "A fresh herb.", 
+            "equipable": false, 
+            "high_alch": 39, 
             "id": 265, 
             "is_in_exchange": true, 
+            "low_alch": 26, 
             "members": true, 
-            "name": "Cadantine"
+            "name": "Cadantine", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2651": {
             "description": "Shiver me timbers!", 
@@ -26047,10 +26531,18 @@
         }, 
         "267": {
             "description": "A powerful herb.", 
+            "equipable": false, 
+            "high_alch": 42, 
             "id": 267, 
             "is_in_exchange": true, 
+            "low_alch": 28, 
             "members": true, 
-            "name": "Dwarf weed"
+            "name": "Dwarf weed", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2671": {
             "description": "Rune plate legs in the colours of Guthix.", 
@@ -26140,10 +26632,18 @@
         }, 
         "269": {
             "description": "A powerful herb.", 
+            "equipable": false, 
+            "high_alch": 45, 
             "id": 269, 
             "is_in_exchange": true, 
+            "low_alch": 30, 
             "members": true, 
-            "name": "Torstol"
+            "name": "Torstol", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "2690": {
             "id": 2690, 
@@ -26198,7 +26698,8 @@
         "27": {
             "id": 27, 
             "is_in_exchange": false, 
-            "name": "Fishing pass"
+            "name": "Fishing pass", 
+            "wiki_mapped": true
         }, 
         "2700": {
             "id": 2700, 
@@ -26253,7 +26754,8 @@
         "271": {
             "id": 271, 
             "is_in_exchange": false, 
-            "name": "Pressure gauge"
+            "name": "Pressure gauge", 
+            "wiki_mapped": true
         }, 
         "2710": {
             "id": 2710, 
@@ -26310,7 +26812,8 @@
             "id": 272, 
             "is_in_exchange": true, 
             "members": false, 
-            "name": "Fish food"
+            "name": "Fish food", 
+            "wiki_mapped": true
         }, 
         "2720": {
             "id": 2720, 
@@ -26367,7 +26870,8 @@
             "id": 273, 
             "is_in_exchange": true, 
             "members": false, 
-            "name": "Poison"
+            "name": "Poison", 
+            "wiki_mapped": true
         }, 
         "2730": {
             "id": 2730, 
@@ -26422,7 +26926,8 @@
         "274": {
             "id": 274, 
             "is_in_exchange": false, 
-            "name": "Poisoned fish food"
+            "name": "Poisoned fish food", 
+            "wiki_mapped": true
         }, 
         "2740": {
             "id": 2740, 
@@ -26477,7 +26982,8 @@
         "275": {
             "id": 275, 
             "is_in_exchange": false, 
-            "name": "Key"
+            "name": "Key", 
+            "wiki_mapped": true
         }, 
         "2750": {
             "id": 2750, 
@@ -26532,7 +27038,8 @@
         "276": {
             "id": 276, 
             "is_in_exchange": false, 
-            "name": "Rubber tube"
+            "name": "Rubber tube", 
+            "wiki_mapped": true
         }, 
         "2760": {
             "id": 2760, 
@@ -26587,7 +27094,8 @@
         "277": {
             "id": 277, 
             "is_in_exchange": false, 
-            "name": "Oil can"
+            "name": "Oil can", 
+            "wiki_mapped": true
         }, 
         "2770": {
             "id": 2770, 
@@ -26640,9 +27148,29 @@
             "name": "Casket (hard)"
         }, 
         "278": {
+            "attack_speed": 6.0, 
             "id": 278, 
             "is_in_exchange": false, 
-            "name": "Cattleprod"
+            "name": "Cattleprod", 
+            "slot": "weapon", 
+            "stats": {
+                "attack": {
+                    "crush": -4, 
+                    "magic": 1, 
+                    "range": 0, 
+                    "slash": 2, 
+                    "stab": 4
+                }, 
+                "bonus": {}, 
+                "defence": {
+                    "crush": 0, 
+                    "magic": 1, 
+                    "range": 0, 
+                    "slash": 0, 
+                    "stab": 0
+                }
+            }, 
+            "wiki_mapped": true
         }, 
         "2780": {
             "id": 2780, 
@@ -26695,9 +27223,19 @@
             "name": "Casket (hard)"
         }, 
         "279": {
+            "description": "Councillor Halgrive gave me this to kill some sheep.", 
+            "equipable": false, 
+            "high_alch": 1, 
             "id": 279, 
             "is_in_exchange": false, 
-            "name": "Sheep feed"
+            "low_alch": 1, 
+            "members": true, 
+            "name": "Sheep feed", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 2.2, 
+            "wiki_mapped": true
         }, 
         "2790": {
             "id": 2790, 
@@ -26754,12 +27292,23 @@
             "id": 28, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Insect repellent"
+            "name": "Insect repellent", 
+            "wiki_mapped": true
         }, 
         "280": {
+            "description": "The suspicious-looking remains of a suspicious-looking sheep.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 280, 
             "is_in_exchange": false, 
-            "name": "Sheep bones (1)"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Sheep bones (1)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2800": {
             "id": 2800, 
@@ -26812,9 +27361,19 @@
             "name": "Clue scroll (medium)"
         }, 
         "281": {
+            "description": "The suspicious-looking remains of a suspicious-looking sheep.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 281, 
             "is_in_exchange": false, 
-            "name": "Sheep bones (2)"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Sheep bones (2)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2810": {
             "id": 2810, 
@@ -26867,9 +27426,19 @@
             "name": "Clue scroll (medium)"
         }, 
         "282": {
+            "description": "The suspicious-looking remains of a suspicious-looking sheep.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 282, 
             "is_in_exchange": false, 
-            "name": "Sheep bones (3)"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Sheep bones (3)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2820": {
             "id": 2820, 
@@ -26922,9 +27491,19 @@
             "name": "Clue scroll (medium)"
         }, 
         "283": {
+            "description": "The suspicious-looking remains of a suspicious-looking sheep.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 283, 
             "is_in_exchange": false, 
-            "name": "Sheep bones (4)"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Sheep bones (4)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2830": {
             "id": 2830, 
@@ -26977,9 +27556,37 @@
             "name": "Clue scroll (medium)"
         }, 
         "284": {
+            "description": "This should protect me from the plague, I hope!", 
+            "equipable": true, 
+            "high_alch": 30, 
             "id": 284, 
             "is_in_exchange": false, 
-            "name": "Plague jacket"
+            "low_alch": 20, 
+            "members": true, 
+            "name": "Plague jacket", 
+            "quest_item": false, 
+            "slot": "body", 
+            "stackable": false, 
+            "stats": {
+                "attack": {
+                    "crush": 0, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 0, 
+                    "stab": 0
+                }, 
+                "bonus": {}, 
+                "defence": {
+                    "crush": 0, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 0, 
+                    "stab": 0
+                }
+            }, 
+            "tradeable": false, 
+            "weight": 2.2, 
+            "wiki_mapped": true
         }, 
         "2840": {
             "id": 2840, 
@@ -27034,7 +27641,26 @@
         "285": {
             "id": 285, 
             "is_in_exchange": false, 
-            "name": "Plague trousers"
+            "name": "Plague trousers", 
+            "slot": "legs", 
+            "stats": {
+                "attack": {
+                    "crush": 0, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 0, 
+                    "stab": 0
+                }, 
+                "bonus": {}, 
+                "defence": {
+                    "crush": 0, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 0, 
+                    "stab": 0
+                }
+            }, 
+            "wiki_mapped": true
         }, 
         "2850": {
             "id": 2850, 
@@ -27089,9 +27715,20 @@
             "name": "Wolf bones"
         }, 
         "286": {
+            "description": "Armour designed to fit goblins.", 
+            "equipable": false, 
+            "high_alch": 24, 
             "id": 286, 
             "is_in_exchange": false, 
-            "name": "Orange goblin mail"
+            "low_alch": 16, 
+            "members": false, 
+            "name": "Orange goblin mail", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store_value": 40, 
+            "tradeable": false, 
+            "weight": 3.0, 
+            "wiki_mapped": true
         }, 
         "2861": {
             "description": "I can make an ogre arrow with these.", 
@@ -27129,9 +27766,20 @@
             "name": "Ogre arrow"
         }, 
         "287": {
+            "description": "Armour designed to fit goblins.", 
+            "equipable": false, 
+            "high_alch": 24, 
             "id": 287, 
             "is_in_exchange": false, 
-            "name": "Blue goblin mail"
+            "low_alch": 16, 
+            "members": false, 
+            "name": "Blue goblin mail", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store_value": 40, 
+            "tradeable": false, 
+            "weight": 3.0, 
+            "wiki_mapped": true
         }, 
         "2871": {
             "id": 2871, 
@@ -27174,10 +27822,18 @@
         }, 
         "288": {
             "description": "Armour designed to fit goblins.", 
+            "equipable": false, 
+            "high_alch": 24, 
             "id": 288, 
             "is_in_exchange": true, 
+            "low_alch": 16, 
             "members": false, 
-            "name": "Goblin mail"
+            "name": "Goblin mail", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 3.6, 
+            "wiki_mapped": true
         }, 
         "2880": {
             "id": 2880, 
@@ -27253,9 +27909,19 @@
             "name": "Grey robe bottoms"
         }, 
         "290": {
+            "description": "This contains some vital research results.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 290, 
             "is_in_exchange": false, 
-            "name": "Research package"
+            "low_alch": 0, 
+            "members": false, 
+            "name": "Research package", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "2900": {
             "description": "A silly pointed hat.", 
@@ -27710,16 +28376,28 @@
             "name": "Toadflax"
         }, 
         "3": {
+            "description": "Construction notes for Dwarf cannon ammo.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 3, 
             "is_in_exchange": false, 
-            "name": "Nulodion's notes"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Nulodion's notes", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store_value": 1, 
+            "tradeable": false, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "30": {
             "description": "It's a bucket of wax.", 
             "id": 30, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Bucket of wax"
+            "name": "Bucket of wax", 
+            "wiki_mapped": true
         }, 
         "300": {
             "id": 300, 
@@ -28481,7 +29159,8 @@
         "32": {
             "id": 32, 
             "is_in_exchange": false, 
-            "name": "Lit black candle"
+            "name": "Lit black candle", 
+            "wiki_mapped": true
         }, 
         "3200": {
             "description": "An adamant halberd.", 
@@ -28778,9 +29457,20 @@
             "name": "Salmon"
         }, 
         "33": {
+            "description": "A lit candle.", 
+            "equipable": false, 
+            "high_alch": 1, 
             "id": 33, 
             "is_in_exchange": false, 
-            "name": "Lit candle"
+            "low_alch": 1, 
+            "members": true, 
+            "name": "Lit candle", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 3, 
+            "tradeable": false, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "331": {
             "description": "I should try cooking this.", 
@@ -29548,9 +30238,32 @@
             "name": "Clue scroll (easy)"
         }, 
         "35": {
+            "attack_speed": 5.0, 
             "id": 35, 
             "is_in_exchange": false, 
-            "name": "Excalibur"
+            "name": "Excalibur", 
+            "slot": "weapon", 
+            "stats": {
+                "attack": {
+                    "crush": -2, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 29, 
+                    "stab": 20
+                }, 
+                "bonus": {
+                    "prayer": "0", 
+                    "strength": "+25"
+                }, 
+                "defence": {
+                    "crush": 2, 
+                    "magic": 1, 
+                    "range": 0, 
+                    "slash": 3, 
+                    "stab": 0
+                }
+            }, 
+            "wiki_mapped": true
         }, 
         "3500": {
             "id": 3500, 
@@ -30087,10 +30800,19 @@
         }, 
         "36": {
             "description": "A candle.", 
+            "equipable": false, 
+            "high_alch": 1, 
             "id": 36, 
             "is_in_exchange": true, 
+            "low_alch": 1, 
             "members": true, 
-            "name": "Candle"
+            "name": "Candle", 
+            "quest_item": false, 
+            "stackable": false, 
+            "store": 3, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "3600": {
             "id": 3600, 
@@ -31016,7 +31738,8 @@
         "38": {
             "id": 38, 
             "is_in_exchange": false, 
-            "name": "Black candle"
+            "name": "Black candle", 
+            "wiki_mapped": true
         }, 
         "3801": {
             "description": "A lot of beer in a barrel.", 
@@ -31409,7 +32132,8 @@
             "id": 39, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Bronze arrowtips"
+            "name": "Bronze arrowtips", 
+            "wiki_mapped": true
         }, 
         "3901": {
             "id": 3901, 
@@ -31700,14 +32424,16 @@
         "4": {
             "id": 4, 
             "is_in_exchange": false, 
-            "name": "Ammo mould"
+            "name": "Ammo mould", 
+            "wiki_mapped": true
         }, 
         "40": {
             "description": "I can make some arrows with these.", 
             "id": 40, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Iron arrowtips"
+            "name": "Iron arrowtips", 
+            "wiki_mapped": true
         }, 
         "4001": {
             "id": 4001, 
@@ -32082,7 +32808,8 @@
             "id": 41, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Steel arrowtips"
+            "name": "Steel arrowtips", 
+            "wiki_mapped": true
         }, 
         "4101": {
             "description": "The upper half of a dark magical robe.", 
@@ -32306,11 +33033,40 @@
             "name": "Broad arrows"
         }, 
         "4151": {
+            "attack_speed": 6.0, 
             "description": "A weapon from the abyss.", 
+            "equipable": true, 
+            "high_alch": 72000, 
             "id": 4151, 
             "is_in_exchange": true, 
+            "low_alch": 48000, 
             "members": true, 
-            "name": "Abyssal whip"
+            "name": "Abyssal whip", 
+            "quest_item": false, 
+            "slot": "weapon", 
+            "stackable": false, 
+            "stats": {
+                "attack": {
+                    "crush": 0, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 82, 
+                    "stab": 0
+                }, 
+                "bonus": {
+                    "prayer": "0", 
+                    "strength": "+82"
+                }, 
+                "defence": {
+                    "crush": 0, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 0, 
+                    "stab": 0
+                }
+            }, 
+            "tradeable": true, 
+            "weight": 0.45
         }, 
         "4153": {
             "description": "Simplicity is the best weapon.", 
@@ -32523,7 +33279,8 @@
             "id": 42, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Mithril arrowtips"
+            "name": "Mithril arrowtips", 
+            "wiki_mapped": true
         }, 
         "420": {
             "id": 420, 
@@ -33012,7 +33769,8 @@
             "id": 43, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Adamant arrowtips"
+            "name": "Adamant arrowtips", 
+            "wiki_mapped": true
         }, 
         "430": {
             "id": 430, 
@@ -33408,7 +34166,8 @@
             "id": 44, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Rune arrowtips"
+            "name": "Rune arrowtips", 
+            "wiki_mapped": true
         }, 
         "440": {
             "description": "This needs refining.", 
@@ -33776,10 +34535,18 @@
         }, 
         "45": {
             "description": "Opal bolt tips.", 
+            "equipable": false, 
+            "high_alch": 4, 
             "id": 45, 
             "is_in_exchange": true, 
+            "low_alch": 2, 
             "members": true, 
-            "name": "Opal bolt tips"
+            "name": "Opal bolt tips", 
+            "quest_item": false, 
+            "stackable": true, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "4500": {
             "id": 4500, 
@@ -34232,7 +34999,8 @@
             "id": 46, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Pearl bolt tips"
+            "name": "Pearl bolt tips", 
+            "wiki_mapped": true
         }, 
         "460": {
             "id": 460, 
@@ -34639,7 +35407,8 @@
             "id": 47, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Barb bolttips"
+            "name": "Barb bolttips", 
+            "wiki_mapped": true
         }, 
         "470": {
             "id": 470, 
@@ -34918,7 +35687,8 @@
             "id": 48, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Longbow (u)"
+            "name": "Longbow (u)", 
+            "wiki_mapped": true
         }, 
         "480": {
             "id": 480, 
@@ -35842,14 +36612,23 @@
         "5": {
             "id": 5, 
             "is_in_exchange": false, 
-            "name": "Instruction manual"
+            "name": "Instruction manual", 
+            "wiki_mapped": true
         }, 
         "50": {
             "description": "I need to find a string for this.", 
+            "equipable": false, 
+            "high_alch": 13, 
             "id": 50, 
             "is_in_exchange": true, 
-            "members": true, 
-            "name": "Shortbow (u)"
+            "low_alch": 9, 
+            "members": false, 
+            "name": "Shortbow (u)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "500": {
             "id": 500, 
@@ -36325,7 +37104,8 @@
             "id": 52, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Arrow shaft"
+            "name": "Arrow shaft", 
+            "wiki_mapped": true
         }, 
         "520": {
             "id": 520, 
@@ -36508,10 +37288,18 @@
         }, 
         "53": {
             "description": "A wooden arrow shaft with flights attached.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 53, 
             "is_in_exchange": true, 
+            "low_alch": 0, 
             "members": true, 
-            "name": "Headless arrow"
+            "name": "Headless arrow", 
+            "quest_item": false, 
+            "stackable": true, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "530": {
             "description": "Ew it's a pile of bones.", 
@@ -37021,11 +37809,19 @@
             "name": "Strawberries(1)"
         }, 
         "54": {
-            "description": "An unstrung oak shortbow; I need a bowstring for this.", 
+            "description": "An unstrung oak bow; I need a bowstring for this.", 
+            "equipable": false, 
+            "high_alch": 30, 
             "id": 54, 
             "is_in_exchange": true, 
+            "low_alch": 20, 
             "members": true, 
-            "name": "Oak shortbow (u)"
+            "name": "Oak shortbow (u)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 1.0, 
+            "wiki_mapped": true
         }, 
         "540": {
             "description": "I feel closer to the gods when I am wearing this.", 
@@ -37884,11 +38680,19 @@
             "name": "Tin"
         }, 
         "56": {
-            "description": "An unstrung oak longbow; I need a bowstring for this.", 
+            "description": "An unstrung oak longbow, I need a bowstring for this.", 
+            "equipable": false, 
+            "high_alch": 48, 
             "id": 56, 
             "is_in_exchange": true, 
+            "low_alch": 32, 
             "members": true, 
-            "name": "Oak longbow (u)"
+            "name": "Oak longbow (u)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "560": {
             "description": "Used for medium level missile spells.", 
@@ -38864,7 +39668,8 @@
             "id": 58, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Willow longbow (u)"
+            "name": "Willow longbow (u)", 
+            "wiki_mapped": true
         }, 
         "5801": {
             "description": "This keg contains 4 pints of Wizards Mind Bomb.", 
@@ -39535,14 +40340,23 @@
             "id": 6, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Cannon base"
+            "name": "Cannon base", 
+            "wiki_mapped": true
         }, 
         "60": {
             "description": "An unstrung willow shortbow; I need a bowstring for this.", 
+            "equipable": false, 
+            "high_alch": 60, 
             "id": 60, 
             "is_in_exchange": true, 
+            "low_alch": 40, 
             "members": true, 
-            "name": "Willow shortbow (u)"
+            "name": "Willow shortbow (u)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "600": {
             "id": 600, 
@@ -40374,11 +41188,19 @@
             "name": "Mystery box"
         }, 
         "62": {
-            "description": "An unstrung maple longbow; I need a bowstring for this.", 
+            "description": "An unstrung maple longbow, I need a bowstring for this.", 
+            "equipable": false, 
+            "high_alch": 192, 
             "id": 62, 
             "is_in_exchange": true, 
+            "low_alch": 128, 
             "members": true, 
-            "name": "Maple longbow (u)"
+            "name": "Maple longbow (u)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "620": {
             "id": 620, 
@@ -41075,7 +41897,8 @@
             "id": 64, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Maple shortbow (u)"
+            "name": "Maple shortbow (u)", 
+            "wiki_mapped": true
         }, 
         "640": {
             "description": "The ultimate in gnome design, now in blue!", 
@@ -41757,7 +42580,8 @@
             "id": 66, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Yew longbow (u)"
+            "name": "Yew longbow (u)", 
+            "wiki_mapped": true
         }, 
         "660": {
             "description": "A silly blue pointed hat.", 
@@ -42682,7 +43506,8 @@
             "id": 68, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Yew shortbow (u)"
+            "name": "Yew shortbow (u)", 
+            "wiki_mapped": true
         }, 
         "680": {
             "id": 680, 
@@ -43620,7 +44445,8 @@
             "id": 70, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Magic longbow (u)"
+            "name": "Magic longbow (u)", 
+            "wiki_mapped": true
         }, 
         "700": {
             "id": 700, 
@@ -44288,7 +45114,8 @@
             "id": 72, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Magic shortbow (u)"
+            "name": "Magic shortbow (u)", 
+            "wiki_mapped": true
         }, 
         "720": {
             "id": 720, 
@@ -45208,7 +46035,13 @@
         "74": {
             "id": 74, 
             "is_in_exchange": false, 
-            "name": "Khazard helmet"
+            "name": "Khazard helmet", 
+            "stats": {
+                "attack": {}, 
+                "bonus": {}, 
+                "defence": {}
+            }, 
+            "wiki_mapped": true
         }, 
         "740": {
             "id": 740, 
@@ -45693,7 +46526,14 @@
         "75": {
             "id": 75, 
             "is_in_exchange": false, 
-            "name": "Khazard armour"
+            "members": true, 
+            "name": "Khazard armour", 
+            "stats": {
+                "attack": {}, 
+                "bonus": {}, 
+                "defence": {}
+            }, 
+            "wiki_mapped": true
         }, 
         "750": {
             "id": 750, 
@@ -46188,7 +47028,8 @@
         "76": {
             "id": 76, 
             "is_in_exchange": false, 
-            "name": "Khazard cell keys"
+            "name": "Khazard cell keys", 
+            "wiki_mapped": true
         }, 
         "7600": {
             "id": 7600, 
@@ -46605,7 +47446,8 @@
         "77": {
             "id": 77, 
             "is_in_exchange": false, 
-            "name": "Khali brew"
+            "name": "Khali brew", 
+            "wiki_mapped": true
         }, 
         "770": {
             "id": 770, 
@@ -47009,7 +47851,13 @@
         "78": {
             "id": 78, 
             "is_in_exchange": false, 
-            "name": "Ice arrows"
+            "name": "Ice arrows", 
+            "stats": {
+                "attack": {}, 
+                "bonus": {}, 
+                "defence": {}
+            }, 
+            "wiki_mapped": true
         }, 
         "780": {
             "id": 780, 
@@ -48033,7 +48881,8 @@
             "id": 8, 
             "is_in_exchange": true, 
             "members": true, 
-            "name": "Cannon stand"
+            "name": "Cannon stand", 
+            "wiki_mapped": true
         }, 
         "800": {
             "description": "A finely balanced throwing axe.", 
@@ -49766,7 +50615,8 @@
         "83": {
             "id": 83, 
             "is_in_exchange": false, 
-            "name": "Lever"
+            "name": "Lever", 
+            "wiki_mapped": true
         }, 
         "830": {
             "description": "A rune tipped javelin.", 
@@ -50332,9 +51182,19 @@
             "name": "Games room"
         }, 
         "84": {
+            "description": "The power in this staff causes it to vibrate gently.", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 84, 
             "is_in_exchange": false, 
-            "name": "Staff of armadyl"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Staff of armadyl", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 5.0, 
+            "wiki_mapped": true
         }, 
         "8400": {
             "id": 8400, 
@@ -50717,9 +51577,19 @@
             "name": "Wooden chair"
         }, 
         "85": {
+            "description": "It catches the light! (Quick access into the Temple of Ikov).", 
+            "equipable": false, 
+            "high_alch": 0, 
             "id": 85, 
             "is_in_exchange": false, 
-            "name": "Shiny key"
+            "low_alch": 0, 
+            "members": true, 
+            "name": "Shiny key", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "8500": {
             "description": "How does it all fit in there?", 
@@ -51095,7 +51965,13 @@
         "86": {
             "id": 86, 
             "is_in_exchange": false, 
-            "name": "Pendant of lucien"
+            "name": "Pendant of lucien", 
+            "stats": {
+                "attack": {}, 
+                "bonus": {}, 
+                "defence": {}
+            }, 
+            "wiki_mapped": true
         }, 
         "8600": {
             "description": "How does it all fit in there?", 
@@ -51436,7 +52312,13 @@
         "87": {
             "id": 87, 
             "is_in_exchange": false, 
-            "name": "Armadyl pendant"
+            "name": "Armadyl pendant", 
+            "stats": {
+                "attack": {}, 
+                "bonus": {}, 
+                "defence": {}
+            }, 
+            "wiki_mapped": true
         }, 
         "870": {
             "description": "A finely balanced throwing knife.", 
@@ -51769,7 +52651,29 @@
         "88": {
             "id": 88, 
             "is_in_exchange": false, 
-            "name": "Boots of lightness"
+            "name": "Boots of lightness", 
+            "slot": "feet", 
+            "stats": {
+                "attack": {
+                    "crush": 0, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 0, 
+                    "stab": 0
+                }, 
+                "bonus": {
+                    "prayer": "0", 
+                    "strength": "0"
+                }, 
+                "defence": {
+                    "crush": 1, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 1, 
+                    "stab": 1
+                }
+            }, 
+            "wiki_mapped": true
         }, 
         "880": {
             "description": "Pearl tipped Iron crossbow bolts.", 
@@ -52053,7 +52957,29 @@
         "89": {
             "id": 89, 
             "is_in_exchange": false, 
-            "name": "Boots of lightness"
+            "name": "Boots of lightness", 
+            "slot": "feet", 
+            "stats": {
+                "attack": {
+                    "crush": 0, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 0, 
+                    "stab": 0
+                }, 
+                "bonus": {
+                    "prayer": "0", 
+                    "strength": "0"
+                }, 
+                "defence": {
+                    "crush": 1, 
+                    "magic": 0, 
+                    "range": 0, 
+                    "slash": 1, 
+                    "stab": 1
+                }
+            }, 
+            "wiki_mapped": true
         }, 
         "890": {
             "description": "Arrows with adamant heads.", 
@@ -52468,9 +53394,19 @@
             "name": "Grey navy slacks"
         }, 
         "90": {
+            "description": "It's very soft!", 
+            "equipable": false, 
+            "high_alch": 3, 
             "id": 90, 
             "is_in_exchange": false, 
-            "name": "Child's blanket"
+            "low_alch": 2, 
+            "members": true, 
+            "name": "Child's blanket", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": false, 
+            "weight": 0.9, 
+            "wiki_mapped": true
         }, 
         "9003": {
             "description": "WARNING: Contains information which could make your account secure!", 
@@ -52889,10 +53825,18 @@
         }, 
         "91": {
             "description": "I need another ingredient to finish this Guam potion.", 
+            "equipable": false, 
+            "high_alch": 1, 
             "id": 91, 
             "is_in_exchange": true, 
-            "members": true, 
-            "name": "Guam potion (unf)"
+            "low_alch": 1, 
+            "members": false, 
+            "name": "Guam potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "9100": {
             "id": 9100, 
@@ -53243,10 +54187,18 @@
         }, 
         "93": {
             "description": "I need another ingredient to finish this Marrentill potion.", 
+            "equipable": false, 
+            "high_alch": 3, 
             "id": 93, 
             "is_in_exchange": true, 
+            "low_alch": 2, 
             "members": true, 
-            "name": "Marrentill potion (unf)"
+            "name": "Marrentill potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "9300": {
             "id": 9300, 
@@ -53732,10 +54684,18 @@
         }, 
         "95": {
             "description": "I need another ingredient to finish this Tarromin potion.", 
+            "equipable": false, 
+            "high_alch": 6, 
             "id": 95, 
             "is_in_exchange": true, 
+            "low_alch": 4, 
             "members": true, 
-            "name": "Tarromin potion (unf)"
+            "name": "Tarromin potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "950": {
             "description": "It's a sheet of silk.", 
@@ -54529,10 +55489,18 @@
         }, 
         "97": {
             "description": "I need another ingredient to finish this Harralander potion.", 
+            "equipable": false, 
+            "high_alch": 12, 
             "id": 97, 
             "is_in_exchange": true, 
+            "low_alch": 8, 
             "members": true, 
-            "name": "Harralander potion (unf)"
+            "name": "Harralander potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "970": {
             "description": "Used for making notes.", 
@@ -55415,10 +56383,18 @@
         }, 
         "99": {
             "description": "I need another ingredient to finish this Ranarr potion.", 
+            "equipable": false, 
+            "high_alch": 15, 
             "id": 99, 
             "is_in_exchange": true, 
+            "low_alch": 10, 
             "members": true, 
-            "name": "Ranarr potion (unf)"
+            "name": "Ranarr potion (unf)", 
+            "quest_item": false, 
+            "stackable": false, 
+            "tradeable": true, 
+            "weight": 0.0, 
+            "wiki_mapped": true
         }, 
         "9901": {
             "id": 9901, 

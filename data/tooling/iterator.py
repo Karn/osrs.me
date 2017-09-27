@@ -35,14 +35,19 @@ class ItemIterator(object):
     def iterate(self, item_list, executing_function):
 
         # Iterate for each possible item id in the list of items.
-        # for i in range(0, 21049):
-        for i in range(0, 2):
+        for i in range(0, 21049):
+        # for i in range(4151, 4152):
 
             item_id = str(i)
 
             # If i 
             if item_id not in item_list['item']:
                 continue
+
+            if 'wiki_mapped' in item_list['item'][item_id]:
+                continue
+
+            print 'Fetching data for item with id', item_id
 
             resp = executing_function(item_list['item'][item_id])
 
@@ -56,9 +61,11 @@ class ItemIterator(object):
                         if item_key == 'slot' or item_key == 'attack_speed':
                             item_list['item'][item_id][item_key] = resp['bonuses'][item_key]
                         else:
+                            if 'stats' not in item_list['item'][item_id]:
+                                item_list['item'][item_id]['stats'] = {}
                             item_list['item'][item_id]['stats'][item_key] = resp['bonuses'][item_key]
 
-            print item_list['item'][item_id]
+            item_list['item'][item_id]['wiki_mapped'] = True
 
 _ItemIterator = ItemIterator()
 _FileManager = FileManager()
@@ -73,4 +80,14 @@ def load_from_wiki(item):
 
     return _WikiParser.parse_response(response)
 
-_ItemIterator.iterate(item_list, load_from_wiki)
+
+try:
+    _ItemIterator.iterate(item_list, load_from_wiki)
+except (KeyboardInterrupt, SystemExit): 
+    print 'Exiting due to interrupt...'
+except Exception as e:
+    print 'Error in process. Writing current data to file.'
+    print e
+
+_FileManager.write_item_data(FileManager.ITEM_DATA_FILE, item_list)
+print 'Success..'
