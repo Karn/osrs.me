@@ -56,7 +56,7 @@ class WikiParser(object):
                 item_data_json['description'] = data_value
             elif data_key == 'store' and self.is_valid_numeric(data_value):
                 item_data_json['store'] = int(data_value)
-            elif data_key == 'weight':
+            elif data_key == 'weight' and self.is_valid_numeric(data_value):
                 item_data_json['weight'] = float(data_value)
             elif data_key == 'high' and self.is_valid_numeric(data_value):
                 item_data_json['high_alch'] = int(data_value)

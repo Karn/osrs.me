@@ -1,7 +1,10 @@
-import os
 import json
+import os
+import sys
+import traceback
 
 from pull_data_from_wiki import WikiParser
+
 
 class FileManager(object):
 
@@ -78,6 +81,9 @@ def load_from_wiki(item):
 
     response = _WikiParser.fetch_item(item['name'].replace(' ', '_'))
 
+    if response is None:
+        return {}
+
     return _WikiParser.parse_response(response)
 
 
@@ -88,6 +94,9 @@ except (KeyboardInterrupt, SystemExit):
 except Exception as e:
     print 'Error in process. Writing current data to file.'
     print e
+    print '-'*60
+    traceback.print_exc(file=sys.stdout)
+    print '-'*60
 
 _FileManager.write_item_data(FileManager.ITEM_DATA_FILE, item_list)
 print 'Success..'
