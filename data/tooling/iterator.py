@@ -65,6 +65,17 @@ def load_from_wiki(item):
     return _WikiParser.parse_response(response)
 
 
+item = {
+    'id': -1,
+    'description': '',
+    'equipable': False,
+    'members' False,
+    'quest_item': False,
+    'tradeable': False,
+    'stackable': False,
+    'weight': 0.0,
+}
+
 try:
     _ItemIterator.iterate(item_list, load_from_wiki)
 except (KeyboardInterrupt, SystemExit): 

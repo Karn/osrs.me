@@ -4,7 +4,7 @@
 A command-line tool that allows for data scraping for various datasets.
 
 Usage:
-    Scraper.py item <id> [ge|wiki|both]
+    Scraper.py item <id> [--wiki|--ge]
 
 Arguments:
     item
@@ -13,20 +13,20 @@ Arguments:
 """
 from docopt import docopt
 
-class Scraper(object):
+class ScraperCLI(object):
 
     def __init__(self):
         pass
 
     def parse_args(self, argv):
 
+        # Start by filtering for item specific operations.
         if 'item' in argv and argv['item']:
+
             print 'Scraping data for item with id', argv['<id>']
 
-            source = 'both' if argv['both'] else ('ge' if argv['ge'] else 'wiki')
 
-
-    def fetch_from_ge(self):
+    def fetch_from_ge(self, item_id):
         pass
 
     def fetch_from_wiki(self):
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     print argv
 
     # Create an instance of the Scraper object.
-    _Scraper = Scraper()
+    _Scraper = ScraperCLI()
 
     # Start the scraper.
     _Scraper.parse_args(argv)
