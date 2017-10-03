@@ -1,3 +1,5 @@
+![Logo](./docs/src/images/logo.png)
+
 ## OSRS.me
 An open dataset for OldSchool Runescape.
 

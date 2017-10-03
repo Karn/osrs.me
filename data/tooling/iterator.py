@@ -67,13 +67,39 @@ def load_from_wiki(item):
 
 item = {
     'id': -1,
+    'name': '',
     'description': '',
-    'equipable': False,
     'members' False,
+    'equipable': False,
     'quest_item': False,
     'tradeable': False,
     'stackable': False,
     'weight': 0.0,
+    'store_price': -1,
+    'low_alch': -1,
+    'high_alch': -1,
+    'stats': {
+        'attack': {
+            'crush': 0, 
+            'magic': 0, 
+            'range': 70, 
+            'slash': 0, 
+            'stab': 0
+        },
+        'defence': {
+            'crush': 0, 
+            'magic': 0, 
+            'range': 0, 
+            'slash': 0, 
+            'stab': 0
+        },
+        'bonus': {
+            'strength': '',
+            'magic': '',
+            'range': '',
+            'prayer': ''
+        } 
+    }
 }
 
 try:
